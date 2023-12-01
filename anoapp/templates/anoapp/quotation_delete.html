@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block navbar-content%}
+<div>
+  <a class="navbar-brand fw-bold text-dark ms-3 fs-3" style="text-align:left">その他製品見積システム 削除</a>
+</div>
+{% endblock navbar-content %}
+
+{% load widget_tweaks %}
+{% load custom_filters %}
+
+{% block main %}
+<div class="container mt-5 justify-content-center">
+  <div class="card p-4 mx-auto" style="width:50rem;">
+    <h2 class="text-center mb-4"><i class="fa-solid fa-circle-exclamation" style="color:#ffd801;"></i>&nbsp;以下の見積書No.を削除しますか？</h2>
+<!--
+    <ul class="list-group mb-4">
+      <li class="list-group-item text-center" style="font-size: 1.2rem;">{{ object.quotation_id }}</li>
+       # 他のフィールドも必要に応じて表示 
+    </ul>-->
+
+    <div class="deletenum mb-3">
+      <h2 class="text-center">【{{ object.quotation_id }}】</h2>
+    </div> 
+
+    <!--<div class="text-center mt-3">-->
+      <div class="row text-center justify-content-center">
+        <div class="col-2">
+        <form method="post">
+          {% csrf_token %}
+          <input type="submit" class="btn btn-danger btn-lg" value="削除">
+        </form>
+        </div>
+
+    <!--<div class="text-center mt-3">-->
+        <div class="col-2">
+        <a href="{% url 'list-page' %}" class="btn btn-secondary btn-lg">キャンセル</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

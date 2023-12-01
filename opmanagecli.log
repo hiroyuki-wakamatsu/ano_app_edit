@@ -1,0 +1,10 @@
+2023-10-17 15:23:40,130 Success converting dataframe to sql.
+2023-10-17 15:23:40,131 Process for dataframe to sql took 0.7326414585113525 seconds.
+2023-10-17 15:23:40,133 Success writing Update time : 2023-10-17 10時46分54秒 to LastUpdateTime.html .
+2023-10-17 16:02:27,019 Success converting dataframe to sql.
+2023-10-17 16:02:27,021 Process for dataframe to sql took 0.6868386268615723 seconds.
+2023-10-17 16:02:27,024 Success writing Update time : 2023-10-17 10時46分54秒 to LastUpdateTime.html .
+2023-10-17 16:27:45,974 Success converting dataframe to sql.
+2023-10-17 16:27:45,977 Process for dataframe to sql took 0.6569535732269287 seconds.
+2023-10-17 16:27:45,980 Success writing Update time : 2023-10-17 10時46分54秒 to LastUpdateTime.html .
+2023-10-19 14:40:25,157 <built-in method format of str object at 0x7fbbcffd18e0>

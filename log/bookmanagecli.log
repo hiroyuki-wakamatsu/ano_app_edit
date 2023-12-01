@@ -1,0 +1,6 @@
+2023-10-05 12:05:11,456 Success converting dataframe to sql.
+2023-10-05 12:05:11,457 Recoded update time:2023100512
+2023-10-05 12:05:11,457 Process for dataframe to sql took 0.22769451141357422 seconds.
+2023-10-05 12:06:58,797 Success converting dataframe to sql.
+2023-10-05 12:06:58,797 Recoded update time:2023100512
+2023-10-05 12:06:58,798 Process for dataframe to sql took 0.14490199089050293 seconds.

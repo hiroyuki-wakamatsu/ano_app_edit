@@ -1,0 +1,51 @@
+No,title,category,author,published_date,price,stock
+1,ハリー・ポッターと賢者の石,ファンタジー,J.K.ローリング,1997/6/26,1800,TRUE
+2,吾輩は猫である,文学,夏目漱石,1905/10/1,1200,TRUE
+3,銀河鉄道の夜,児童文学,宮沢賢治,1934/4/15,800,TRUE
+4,1984年,SF,ジョージ・オーウェル,1949/6/8,1500,TRUE
+5,百年の孤独,小説,ガブリエル・ガルシア・マルケス,1967/6/5,2000,TRUE
+6,カラマーゾフの兄弟,文学,フョードル・ドストエフスキー,1880/11/1,2500,FALSE
+7,指輪物語,ファンタジー,J.R.R.トールキン,1954/7/29,3000,TRUE
+8,三体,SF,劉慈欣,2008/1/1,1800,TRUE
+9,The Hitchhiker's Guide to the Galaxy,SF,Douglas Adams,1979/10/12,1600,TRUE
+10,The Catcher in the Rye,小説,J.D.サリンジャー,1951/7/16,1400,TRUE
+11,The Little Prince,児童文学,アントワーヌ・ド・サン＝テグジュペリ,1943/4/6,1200,TRUE
+12,The Da Vinci Code,ミステリー,ダン・ブラウン,2003/3/18,2000,TRUE
+13,The Hunger Games,ファンタジー,スーザン・コリンズ,2008/9/14,1800,TRUE
+14,The Girl with the Dragon Tattoo,ミステリー,スティーグ・ラーソン,2005/8/27,2200,TRUE
+15,The Kite Runner,小説,ハレド・ホセイニ,2003/5/29,1600,TRUE
+16,The Godfather,小説,マリオ・プーゾ,1969/3/10,2400,TRUE
+17,The Chronicles of Narnia,ファンタジー,C.S.ルイス,1950/10/16,2800,TRUE
+18,The Alchemist,小説,パウロ・コエーリョ,1988/5/1,1400,TRUE
+19,The Lord of the Flies,文学,ウィリアム・ゴールディング,1954/9/17,1200,TRUE
+20,The Catch-22,文学,ジョセフ・ヘラー,1961/11/10,1800,TRUE
+21,The Shining,ホラー,スティーブン・キング,1977/1/28,2000,TRUE
+22,The Handmaid's Tale,SF,マーガレット・アトウッド,1985/10/17,1600,TRUE
+23,The Fault in Our Stars,小説,ジョン・グリーン,2012/1/10,1400,TRUE
+24,The Diary of a Young Girl,文学,アンネ・フランク,1947/6/25,1200,TRUE
+25,The Great Gatsby,文学,F.スコット・フィッツジェラルド,1925/4/10,1500,TRUE
+26,To Kill a Mockingbird,文学,ハーパー・リー,1960/7/11,1800,TRUE
+27,Animal Farm,文学,ジョージ・オーウェル,1945/8/17,1200,TRUE
+28,Frankenstein,ホラー,メアリー・シェリー,1818/1/1,1500,FALSE
+29,Dracula,ホラー,ブラム・ストーカー,1897/5/26,1600,FALSE
+30,Alice's Adventures in Wonderland,児童文学,ルイス・キャロル,1865/11/26,1000,FALSE
+31,Harry Potter and the Chamber of Secrets,ファンタジー,J.K.ローリング,1998/7/2,1800,TRUE
+32,Sherlock Holmes: A Study in Scarlet,ミステリー,アーサー・コナン・ドイル,1887/11/1,1400,FALSE
+33,The Hobbit,ファンタジー,J.R.R.トールキン,1937/9/21,2000,TRUE
+34,"The Lion, the Witch and the Wardrobe",ファンタジー,C.S.ルイス,1950/10/16,1400,TRUE
+35,The Adventures of Tom Sawyer,児童文学,マーク・トウェイン,1876/12/1,1200,FALSE
+36,The Picture of Dorian Gray,文学,オスカー・ワイルド,1890/7/20,1500,FALSE
+37,Pride and Prejudice,文学,ジェーン・オースティン,1813/1/28,1800,FALSE
+38,The Count of Monte Cristo,小説,アレクサンドル・デュマ,1844/8/28,2500,FALSE
+39,The Maze Runner,SF,ジェームズ・ダシュナー,2009/10/6,1600,TRUE
+40,The Girl on the Train,ミステリー,ポーラ・ホーキンス,2015/1/13,1800,TRUE
+41,ゲーム・オブ・スローンズ,ファンタジー,ジョージ・R・R・マーティン,1996/8/6,2200,TRUE
+42,白夜行,ミステリー,東野圭吾,1999/1/25,1600,TRUE
+43,ノルウェイの森,小説,村上春樹,1987/9/4,1800,TRUE
+44,走れメロス,文学,太宰治,1940/12/15,800,TRUE
+45,魔女の宅急便,児童文学,角野栄子,1985/7/25,1200,FALSE
+46,天気の子,小説,新海誠,2019/7/18,1400,TRUE
+47,君の名は。,小説,新海誠,2016/8/26,1400,TRUE
+48,鬼滅の刃,漫画,吾峠呼世晴,2016/2/15,440,TRUE
+49,ONE PIECE,漫画,尾田栄一郎,1997/7/22,440,TRUE
+50,DEATH NOTE,漫画,大場つぐみ・小畑健,2003/12/1,440,TRUE

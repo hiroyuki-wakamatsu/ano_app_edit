@@ -1,0 +1,5 @@
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+#アプリ毎のmigration履歴を削除
+python3 manage.py migrate [app_name] zero

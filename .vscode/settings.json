@@ -1,0 +1,12 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "terminal.integrated.shellArgs.linux": ["-c", "source /home/dev1/proj/devenv/bin/activate && exec $SHELL"],
+    "python.formatting.provider": "none",
+    "python.defaultInterpreterPath": "/home/dev1/proj/devenv/bin/python",
+    "python.venvFolders": "/home/dev1/proj/devenv",
+    "python.envFile": "${workspaceFolder}/devenv",
+    "python.venvPath": "/home/dev1/proj/devenv/bin/python",
+    "python.pythonPath": "/home/dev1/proj/devenv/bin/python",
+}

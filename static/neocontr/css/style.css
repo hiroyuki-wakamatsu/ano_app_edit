@@ -1,0 +1,54 @@
+.container {
+    margin-left:3px;/*左に余白*/
+}
+.table-fixed {
+    width: 0; /*幅を最小にする*/
+    white-space: nowrap;/*テキストの折り返しをさせない*/   
+}
+.table-responsive {
+    margin-top: 10px;
+    width: auto;
+    height: 800px;
+    overflow: auto; /*scroll*/
+}
+
+.sticky_table thead th {
+    /* 縦スクロール時に固定する */
+    position: -webkit-sticky;
+    position: sticky;
+    /* 高さが変わらないよう改行させない */
+    white-space: nowrap;
+
+  }
+  .sticky_table thead tr:nth-child(1) th {
+    top: 0;
+  }
+  .sticky_table thead tr:nth-child(2) th {
+    top: 2rem; /* 2行目は1行目の高さの位置に固定する */
+  }
+  .sticky_table thead tr:nth-child(3) th {
+    top: 4rem; /* 3行目は1〜2行目の高さの位置に固定する */
+  }
+
+  .sticky_table_wrapper {
+    overflow: scroll;
+    width: calc(100vw - 1rem);
+    height: 75vh;
+  }
+  .separate {
+    border-collapse: separate;
+  }
+  
+
+  th:first-of-type {
+    left: 0;
+    z-index: 3;
+  }
+  
+  tbody tr td:first-of-type {
+    background-color: #eee;
+    position: sticky;
+    left: -1px;
+    text-align: left;
+  }
+

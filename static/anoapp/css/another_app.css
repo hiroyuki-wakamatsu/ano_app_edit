@@ -1,0 +1,50 @@
+<style>
+
+/* ここで行追加の制御をしている */
+/* 初回は行無し。追加ボタンで行追加 */
+/* 何をしているかは要確認!!!!!!! */
+.form-row {
+  overflow: hidden;
+  padding: 0px;
+
+  display: table-row;
+  margin: 0;
+}
+
+.empty-form {
+  display: none;
+}
+
+
+/* numberラベルを10pxに
+thead .field-number {
+  width: 5%;
+}
+*/
+
+/* numberフォームを10pxに
+tbody .field-number input {
+  width: 60px;
+}
+*/
+
+/*forms.pyの下記定義でオーバーライドされている？？
+forms.pyかcssのどちらかでスタイルは統一する必要あり!!!!
+# 社内確認欄内容のフォームを細かく設定
+    internal_confirm = forms.CharField(
+        label="社内確認欄内容",
+        widget=forms.Textarea(attrs={"rows": 3, "style": "width: 1200px;"}),
+    )
+*/
+
+/* internal_confirmを100pxに
+thead .field-internal_confirm {
+  width: 80%;
+}
+*/
+/* internal_confirmを1000pxに
+tbody .field-internal_confirm input {
+  width: 1500px;
+}
+*/
+</style>

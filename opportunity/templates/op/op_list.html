@@ -1,0 +1,71 @@
+{% extends 'op/base.html' %}
+
+{% block navbar-content%}
+    <div>
+        <a class="navbar-brand fw-bold text-dark ms-3 fs-3" style="text-align:left; ">登録案件一覧</a>
+    </div>
+{% endblock navbar-content %}
+
+{% block content %}
+
+<form method="get" action="{%url 'op-list' %}">
+        {% csrf_token %}
+        <div class="container-fluid form-group col-12  mt-2 fs-6">
+            <div class="d-flex justify-content-between ">
+                <input type="submit" value="Search" class="btn btn-primary">
+                {% include "op/LastUpdateTime.html" %}
+            </div>
+        </div>
+<div class="table-responsive mt-2 fs-6">
+        <table class="table table-sm table table-fixed table-striped table-bordered table-hover text-nowrap sticky_table">
+            <thead align="center">
+                    <tr class="table-primary">
+                        {% for field in form %}    
+                          <th> {{field.label}} </th>
+                        {% endfor %}
+                          <th>詳細</th>
+                    </tr>
+                    <tr class="table-primary">
+                        {% for field in form %}    
+                            <th> {{field}}</th>
+                        {% endfor %}
+                            <th>(NISFAサイト)</th>
+                    </tr>  
+
+            </thead>
+</form>            
+            
+
+            {% if oplist %}
+                <tbody align="center">
+                    {% for op in oplist %}
+                        <tr>
+                            <td class="table-success"><strong>{{ op.CaseID }}</strong></td>
+                            <td align="left">{{ op.CaseName }}</td>
+                            <td>{{ op.Representative }}</td>
+                            <td alighn="center">{{ op.Category}}</td>
+                            <td align="left">{{ op.CustomerName }}</td>
+                            <td>{{ op.Creator }}</td>
+                            <td align="right">{{ op.OccurDate|date:"Y-n-j"}}</td> 
+                            <td align="right">{{ op.ExpectedOrderDate|date:"Y-n-j" }}</td>
+                            <td align="right">{{ op.ExpectedRevenueDate|date:"Y-n-j" }}</td>
+                            <td align="right">{{ op.CreatedDate|date:"Y-n-j H:i" }}</td>
+                            <td align="right">{{ op.UpdatedDate |date:"Y-n-j H:i" }}</td>
+                            <td>{{ op.Updater | default_if_none:""}}</td>
+                            <td><a href="https://znw.nivms.com/ni/nisfa/main/index.php?p=formproject&com:open&key={{op.CaseID}}"class="btn btn-outline-primary">詳細</a> </td>
+                            {% comment %} <td><a href="{% url 'op-detail' pk=op.CaseID %}"class="btn btn-outline-primary">詳細</a> </td>  {% endcomment %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            {% else %}
+                <p><font><strong>該当するデータがありません。</strong></font></p>
+            {% endif %}
+    </table>
+</div>
+
+{% if is_paginated %} 
+    {% include 'op/pagination.html' %}
+{% endif %}
+    
+{% endblock content %}
+

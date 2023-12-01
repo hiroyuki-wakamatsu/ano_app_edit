@@ -1,0 +1,72 @@
+/*  ----------------------------------------------------------------
+# START CONFIGURATION
+---------------------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+}
+/* ----------------------------------------------------------------
+# FOOTER
+---------------------------------------------------------------- */
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+#footer,
+.push {
+    height: 50px;
+
+}
+
+/* ----------------------------------------------------------------
+# CUSTOM PAGINATION
+---------------------------------------------------------------- */
+.page-item.active .page-link {
+    columns: #fff;
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+}
+.pagination > li > a {
+    background-color: #fff;
+    color: #6c757d;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > span > a:focus,
+.pagination > span > a:hover {
+    color: #111;
+    background-color: #d3d3d3;
+    border: 1px solid #6c757d;
+    box-shadow: none;
+}
+/* ----------------
+#DATATABLES
+------------------------------------------------ */
+/* Pagination */
+.dataTables_paginate {
+    margin-top: -30px !important;
+}
+/* Input search */
+.dataTables_filter {
+    margin-bottom: 10px !important ;
+    display: none;
+}
+
+
+.dataTables_length {
+    float: right !important ;
+    margin-top: 10px !important ;
+}
+
+/* Group buttons */
+.dt-buttons {
+    margin-bottom: 10px !important;
+}
+
+thead input {
+    width: 100%;
+    text-align: center;
+}

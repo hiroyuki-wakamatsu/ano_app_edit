@@ -1,0 +1,558 @@
+{% extends 'ct/base.html' %}
+{% block navbar-content%}
+    <div>
+        <a class="navbar-brand fw-bold text-dark ms-3 fs-3" style="text-align:left">契約詳細情報：{{ctdetail.ExtID}}</a>
+    </div>
+{% endblock navbar-content %}
+
+{% block content %}
+
+<div class="container-fluid form-group col-12 mt-2 fs-6 ">
+	<div class="d-flex justify-content-end ">
+		{% include "ct/LastUpdateTime.html" %}
+	</div>
+</div>
+
+ <ul class="nav nav-tabs ms-3 mt-3 " id="navID" role="tablist">
+	<li class="nav-item" role="presentation"><button class="nav-link active" id="tabID1" data-bs-toggle="tab" data-bs-target="#tabpanelID1" type="button" role="tab" aria-controls="tabpanelID1" aria-selected="true">受注</button></li>
+	<li class="nav-item" role="presentation"><button class="nav-link" id="tabID2" data-bs-toggle="tab" data-bs-target="#tabpanelID2" type="button" role="tab" aria-controls="tabpanelID2" aria-selected="false">出荷</button></li>
+	<li class="nav-item" role="presentation"><button class="nav-link" id="tabID3" data-bs-toggle="tab" data-bs-target="#tabpanelID3" type="button" role="tab" aria-controls="tabpanelID3" aria-selected="false">契約</button></li>
+	<li class="nav-item" role="presentation"><button class="nav-link" id="tabID4" data-bs-toggle="tab" data-bs-target="#tabpanelID4" type="button" role="tab" aria-controls="tabpanelID4" aria-selected="false">発注元</button></li>
+	<li class="nav-item" role="presentation"><button class="nav-link" id="tabID5" data-bs-toggle="tab" data-bs-target="#tabpanelID5" type="button" role="tab" aria-controls="tabpanelID5" aria-selected="false">納入先</button></li>
+	<li class="nav-item" role="presentation"><button class="nav-link" id="tabID6" data-bs-toggle="tab" data-bs-target="#tabpanelID6" type="button" role="tab" aria-controls="tabpanelID6" aria-selected="false">請求先</button></li>
+	<li class="nav-item" role="presentation"><button class="nav-link" id="tabID7" data-bs-toggle="tab" data-bs-target="#tabpanelID7" type="button" role="tab" aria-controls="tabpanelID7" aria-selected="false">エンドユーザー</button></li>
+	<li class="nav-item" role="presentation"><button class="nav-link" id="tabID8" data-bs-toggle="tab" data-bs-target="#tabpanelID8" type="button" role="tab" aria-controls="tabpanelID8" aria-selected="false">リセラー</button></li>
+	<li class="nav-item" role="presentation"><button class="nav-link" id="tabID9" data-bs-toggle="tab" data-bs-target="#tabpanelID9" type="button" role="tab" aria-controls="tabpanelID9" aria-selected="false">設置先</button></li>
+    <li class="nav-item" role="presentation"><button class="nav-link" id="tabID10" data-bs-toggle="tab" data-bs-target="#tabpanelID10" type="button" role="tab" aria-controls="tabpanelID10" aria-selected="false">保守案内先</button></li>
+</ul>
+<div class="tab-content ms-3 mt-3" id="contentID">
+	<div class="tab-pane fade show active" id="tabpanelID1" role="tabpanel" aria-labelledby="tabID1" tabindex="0">
+		<div>
+        	<table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap ">
+				<!--###受注情報###-->
+				<tr>
+					<th class="col-1 table-success" style="text-align:center">項目</th>
+					<td class="col-5 table-success" style="text-align:center">内容</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">受注日付</th>
+					<td class="col-5">{{ ctdetail.OrdDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">受注番号</th>
+					<td class="col-5">{{ ctdetail.OrdNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">受注枝番</th>
+					<td class="col-5">{{ ctdetail.OrdBrNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">客先注文番号</th>
+					<td class="col-5">{{ ctdetail.CustPoNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">当社担当者</th>
+					<td class="col-5">{{ ctdetail.OurRep|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">受注品番</th>
+					<td class="col-5">{{ ctdetail.OrdProdNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">受注品名</th>
+					<td class="col-5">{{ ctdetail.OrdProdName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">受注単価</th>
+					<td class="col-5">{{ ctdetail.OrdUnitPrice|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">受注備考</th>
+					<td class="col-5">{{ ctdetail.OrdRemarks|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">仮受注</th>
+					<td class="col-5">{{ ctdetail.ProvisionalOrd|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">キャンセルフラグ</th>
+					<td class="col-5">{{ ctdetail.CancelFlag|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">売上月</th>
+					<td class="col-5">{{ ctdetail.SalesMonth|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">請求書作成日</th>
+					<td class="col-5">{{ ctdetail.InvoiceCreatDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">入金予定日</th>
+					<td class="col-5">{{ ctdetail.ExpectedPayDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">見積番号</th>
+					<td class="col-5">{{ ctdetail.EstimateNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">登録備考</th>
+					<td class="col-5">{{ ctdetail.RegRemarks|default_if_none:" "}}</td>
+				</tr>
+        	</table>
+		</div> 
+	</div>
+	<div class="tab-pane fade" id="tabpanelID2" role="tabpanel" aria-labelledby="tabID2" tabindex="0">
+		<div>
+			<table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap">
+				<!--###出荷情報###-->
+				<tr>
+					<th class="col-1 table-success" style="text-align:center">項目</th>
+					<td class="col-5 table-success" style="text-align:center">内容</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">SID</th>
+					<td class="col-5">{{ ctdetail.SIdn|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">本体グループＩＤ</th>
+					<td class="col-5">{{ ctdetail.MainUnitGrID|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">TELキー番号</th>
+					<td class="col-5">{{ ctdetail.TELKeyNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">サブキー番号</th>
+					<td class="col-5">{{ ctdetail.SubKeyNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">CID</th>
+					<td class="col-5">{{ ctdetail.CID|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">本体SN</th>
+					<td class="col-5">{{ ctdetail.MainUnitSN|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">本体出荷時Ver</th>
+					<td class="col-5">{{ ctdetail.MainUnitShipVer|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">本体出荷日</th>
+					<td class="col-5">{{ ctdetail.MainUnitShipDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">本体フラグ</th>
+					<td class="col-5">{{ ctdetail.MainUnitFlag|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">本体交換履歴</th>
+					<td class="col-5">{{ ctdetail.MainUnitExcHist|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">仕入番号</th>
+					<td class="col-5">{{ ctdetail.PoNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">仕入枝番</th>
+					<td class="col-5">{{ ctdetail.PoBranchNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">仕入品番</th>
+					<td class="col-5">{{ ctdetail.PoProdNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">ContractNo</th>
+					<td class="col-5">{{ ctdetail.ContNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">ExpDate</th>
+					<td class="col-5">{{ ctdetail.ExpDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">発注書作成日</th>
+					<td class="col-5">{{ ctdetail.PoCreatDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">入荷日</th>
+					<td class="col-5">{{ ctdetail.ArrivalDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">出荷日</th>
+					<td class="col-5">{{ ctdetail.ShipDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">納品日</th>
+					<td class="col-5">{{ ctdetail.DelivDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">ST(PartNo)</th>
+					<td class="col-5">{{ ctdetail.StPartNo|default_if_none:" "}}</td>
+				</tr>
+
+        	</table>
+		</div>
+	</div>	
+	<div class="tab-pane fade" id="tabpanelID3" role="tabpanel" aria-labelledby="tabID3" tabindex="0">
+		<div>
+			<table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap">
+				<!--###契約情報###-->
+				<tr>
+					<th class="col-1 table-success" style="text-align:center">項目</th>
+					<td class="col-5 table-success" style="text-align:center">内容</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守開始日</th>
+					<td class="col-5">{{ ctdetail.MaintStartDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守終了日</th>
+					<td class="col-5">{{ ctdetail.MaintEndDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">更新フラグ</th>
+					<td class="col-5">{{ ctdetail.UpdateFlag|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">販売状態</th>
+					<td class="col-5">{{ ctdetail.SalStatus|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">案内書作成日</th>
+					<td class="col-5">{{ ctdetail.GuidebookCreatDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">依頼書作成日</th>
+					<td class="col-5">{{ ctdetail.ReqFormCreatDe|date:"Y-n-j" }}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">機種名</th>
+					<td class="col-5">{{ ctdetail.ModelName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">商品区分コード</th>
+					<td class="col-5">{{ ctdetail.ProdClassCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">商品分類記号</th>
+					<td class="col-5">{{ ctdetail.ProdClassSymbol|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守種別</th>
+					<td class="col-5">{{ ctdetail.MaintType|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">ライセンス期間</th>
+					<td class="col-5">{{ ctdetail.LicensePeriod|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">ノーティス品番</th>
+					<td class="col-5">{{ ctdetail.NoticeProdNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">ノーティス品名</th>
+					<td class="col-5">{{ ctdetail.NoticeProdName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">直サポートフラグ</th>
+					<td class="col-5">{{ ctdetail.DirectSupportFlag|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">本体受注番号</th>
+					<td class="col-5">{{ ctdetail.MainUnitOrdNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">本体受注品番</th>
+					<td class="col-5">{{ ctdetail.MainUnitOrdProdNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">本体発注品番</th>
+					<td class="col-5">{{ ctdetail.MainUnitPoProdNo|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">IP Address</th>
+					<td class="col-5">{{ ctdetail.IPAdd|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守備考</th>
+					<td class="col-5">{{ ctdetail.MaintRemarks|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">FortiCare種別</th>
+					<td class="col-5">{{ ctdetail.FortiCareType|default_if_none:" "}}</td>
+				</tr>
+			
+        	</table>
+		</div>
+	</div>
+    <div class="tab-pane fade" id="tabpanelID4" role="tabpanel" aria-labelledby="tabID4" tabindex="0">
+		<div>
+			<table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap">
+				<!--###発注元情報###-->
+				<tr>
+					<th class="col-1 table-success" style="text-align:center">項目</th>
+					<td class="col-5 table-success" style="text-align:center">内容</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">発注元コード</th>
+					<td class="col-5">{{ ctdetail.OrdCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">発注元会社名</th>
+					<td class="col-5">{{ ctdetail.OrdCoName|default_if_none:" "}}</td>
+				</tr>
+			
+        	</table>
+		</div>
+	</div>
+    <div class="tab-pane fade" id="tabpanelID5" role="tabpanel" aria-labelledby="tabID5" tabindex="0">
+		<div>
+			<table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap">
+				<!--###納入先情報###-->
+				<tr>
+					<th class="col-1 table-success" style="text-align:center">項目</th>
+					<td class="col-5 table-success" style="text-align:center">内容</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">納品先コード</th>
+					<td class="col-5">{{ ctdetail.DelDestCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">納品先会社名</th>
+					<td class="col-5">{{ ctdetail.DelDestCoName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">納品先部署名</th>
+					<td class="col-5">{{ ctdetail.DelDestDtName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">納品先担当者</th>
+					<td class="col-5">{{ ctdetail.DelDestPic|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">納品先TEL</th>
+					<td class="col-5">{{ ctdetail.DelDestTEL|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">納品先〒</th>
+					<td class="col-5">{{ ctdetail.DelDestPostalCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">納品先住所</th>
+					<td class="col-5">{{ ctdetail.DelDestAdd|default_if_none:" "}}</td>
+				</tr>
+			
+        	</table>
+		</div>
+	</div>
+    <div class="tab-pane fade" id="tabpanelID6" role="tabpanel" aria-labelledby="tabID6" tabindex="0">
+		<div>
+			<table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap">
+				<!--###請求先情報###-->
+				<tr>
+					<th class="col-1 table-success" style="text-align:center">項目</th>
+					<td class="col-5 table-success" style="text-align:center">内容</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">請求先コード</th>
+					<td class="col-5">{{ ctdetail.BillDestCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">請求先会社名</th>
+					<td class="col-5">{{ ctdetail.BillDestCoName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">請求先部署名</th>
+					<td class="col-5">{{ ctdetail.BillDestDtName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">請求先担当者</th>
+					<td class="col-5">{{ ctdetail.BillDestPic|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">請求先TEL</th>
+					<td class="col-5">{{ ctdetail.BillDestTEL|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">請求先〒</th>
+					<td class="col-5">{{ ctdetail.BillDestPostalCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">請求先住所</th>
+					<td class="col-5">{{ ctdetail.BillDestAdd|default_if_none:" "}}</td>
+				</tr>
+			
+        	</table>
+		</div>
+	</div>
+    <div class="tab-pane fade" id="tabpanelID7" role="tabpanel" aria-labelledby="tabID7" tabindex="0">
+		<div>
+			<table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap">
+				<!--###エンドユーザー情報###-->
+				<tr>
+					<th class="col-1 table-success" style="text-align:center">項目</th>
+					<td class="col-5 table-success" style="text-align:center">内容</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">EUコード</th>
+					<td class="col-5">{{ ctdetail.EUCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">EU営業配信</th>
+					<td class="col-5">{{ ctdetail.EUSalesDist|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">EU技術配信</th>
+					<td class="col-5">{{ ctdetail.EUTechDist|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">EU会社名</th>
+					<td class="col-5">{{ ctdetail.EUCoName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">EU部署名</th>
+					<td class="col-5">{{ ctdetail.EUDtName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">EU担当者名</th>
+					<td class="col-5">{{ ctdetail.EUContName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">EUメールアドレス</th>
+					<td class="col-5">{{ ctdetail.EUEmailAdd|default_if_none:" "}}</td>
+				</tr>
+			
+        	</table>
+		</div>
+	</div>
+    <div class="tab-pane fade" id="tabpanelID8" role="tabpanel" aria-labelledby="tabID8" tabindex="0">
+		<div>
+			<table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap">
+				<!--###リセラー情報###-->
+				<tr>
+					<th class="col-1 table-success" style="text-align:center">項目</th>
+					<td class="col-5 table-success" style="text-align:center">内容</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">リセラーコード</th>
+					<td class="col-5">{{ ctdetail.ResellerCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">リセラー営業配信</th>
+					<td class="col-5">{{ ctdetail.ResellerSalesDist|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">リセラー技術配信</th>
+					<td class="col-5">{{ ctdetail.ResellerTechDist|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">リセラー会社名</th>
+					<td class="col-5">{{ ctdetail.ResellerCoName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">リセラー部署名</th>
+					<td class="col-5">{{ ctdetail.ResellerDtName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">リセラー担当者名</th>
+					<td class="col-5">{{ ctdetail.ResellerContName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">リセラーメールアドレス</th>
+					<td class="col-5">{{ ctdetail.ResellerEmailAdd|default_if_none:" "}}</td>
+				</tr>
+			
+        	</table>
+		</div>
+	</div>
+    <div class="tab-pane fade" id="tabpanelID9" role="tabpanel" aria-labelledby="tabID9" tabindex="0">
+		<div>
+			<table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap">
+				<!--###設置先情報###-->
+				<tr>
+					<th class="col-1 table-success" style="text-align:center">項目</th>
+					<td class="col-5 table-success" style="text-align:center">内容</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">設置先コード</th>
+					<td class="col-5">{{ ctdetail.InstCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">設置先会社名</th>
+					<td class="col-5">{{ ctdetail.InstCoName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">設置先部署名</th>
+					<td class="col-5">{{ ctdetail.InstDtName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">設置先担当者名</th>
+					<td class="col-5">{{ ctdetail.InstContName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">設置先メールアドレス</th>
+					<td class="col-5">{{ ctdetail.InstEmailAdd|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">設置先TEL</th>
+					<td class="col-5">{{ ctdetail.InstTEL|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">設置先〒</th>
+					<td class="col-5">{{ ctdetail.InstPostalCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">設置先住所</th>
+					<td class="col-5">{{ ctdetail.InstAdd|default_if_none:" "}}</td>
+				</tr>
+			
+        	</table>
+		</div>
+	</div>
+    <div class="tab-pane fade" id="tabpanelID10" role="tabpanel" aria-labelledby="tabID10" tabindex="0">
+		<div>
+			<table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap">
+				<!--###保守案内先情報###-->
+				<tr>
+					<th class="col-1 table-success" style="text-align:center">項目</th>
+					<td class="col-5 table-success" style="text-align:center">内容</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守案内先コード</th>
+					<td class="col-5">{{ ctdetail.MaintInfoCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守案内先会社名</th>
+					<td class="col-5">{{ ctdetail.MaintInfoCoName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守案内先部署名</th>
+					<td class="col-5">{{ ctdetail.MaintInfoDtName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守案内先担当者名</th>
+					<td class="col-5">{{ ctdetail.MaintInfoContName|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守案内先メールアドレス</th>
+					<td class="col-5">{{ ctdetail.MaintInfoEmailAdd|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守案内先TEL</th>
+					<td class="col-5">{{ ctdetail.MaintInfoTEL|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守案内先〒</th>
+					<td class="col-5">{{ ctdetail.MaintInfoPostalCode|default_if_none:" "}}</td>
+				</tr>
+				<tr>
+					<th class="col-1 table-primary">保守案内先住所</th>
+					<td class="col-5">{{ ctdetail.MaintInfoAdd|default_if_none:" "}}</td>
+				</tr>
+			
+        	</table>
+		</div>
+	</div>
+</div>
+
+    {% endblock content %}

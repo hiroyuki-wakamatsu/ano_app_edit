@@ -1,0 +1,73 @@
+{% extends 'book/base.html' %}
+{% block content %}
+<h1>登録案件リスト</h1>
+
+{% comment %} <div class="container">
+    <form method="get" action="{%url 'book-list' %}">
+        {% csrf_token %}
+        <table border="0">    
+            {{ form }}
+        </table>
+    <div class="form-group">
+        <input type="submit" value="Search" class="btn btn-primary">
+    </div>
+    </form>
+</div> {% endcomment %}
+{% if booklists %}
+
+
+    <form method="get" action="{%url 'book-list' %}">
+        {% csrf_token %}
+        <div class="form-group">
+            <input type="submit" value="Search" class="btn btn-primary">
+        </div>  
+<div class="table-responsive">
+    <table class="table table-sm table table-fixed table-striped table table-bordered table table-hover table text-nowrap headersticky">
+        <thead align="center">
+                <tr class="table-primary">
+                    {% for field in form %}    
+                      <th> {{field.label}} </th>
+                    {% endfor %}
+                </tr>
+                <tr>
+                    {% for field in form %}    
+                        <th> {{field}}</th>
+                    {% endfor %}
+                </tr>  
+
+        </form>
+                
+            
+            {% comment %} <tr class="table-primary">
+            
+                {% for hn in hnl %}
+                    <th>{{ hn }}</th>
+                {% endfor %}
+            </tr> {% endcomment %}
+        </thead>
+        <tbody align="center">
+            {% for bk in booklists %}
+                <tr>
+                    <td>{{ bk.No }}</td>
+                    <td align="left">{{ bk.title }}</td>
+                    <td>{{ bk.category }}</td>
+                    <td> {{ bk.author}}</td>
+                    <td align="right">{{ bk.published_date |date:"Y-n-j"}}</td>
+                    <td align="right">{{ bk.price}}</td>
+                    <td>{{ bk.stock}}</td>
+                    <td><a href="{% url 'book-detail' bk.No %}"class="btn btn-outline-primary">詳細</a> </td>
+                </tr>
+            {% endfor %}
+    </table>
+</div>
+
+    {% if is_paginated %}
+        {% include 'book/pagination.html' %}
+    {% endif %}
+    
+{% else %}
+    <p><font><strong>該当するデータがありません。</strong></font></p>
+{% endif %}
+
+{% endblock content %}
+

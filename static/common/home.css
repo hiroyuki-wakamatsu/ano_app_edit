@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.hometitle {
+    text-align: center;
+    padding:70px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    height:200px;
+}

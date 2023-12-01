@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+html {
+    font-size:120%;
+}
+
+body {
+    height:1000px;
+    /*padding-top: 100px;*/
+}
+
+.navbar {
+    position: relative;
+    /*height: 60px;*/
+    height: 3rem;
+    /*background-color: #98AFC7;*/
+    /*border-bottom: solid 2px #f5f5f5;*/
+}
+
+.nav-item {
+    margin-left:30px;
+    width:7rem;
+    /*width: 140px; */
+}
+
+.nav-item a {
+    color:#FFFFFF;
+ /*   font-size: 18px; */
+    font-size:0.9rem;
+    text-shadow: 1px 1px 1px #000000;
+    white-space: nowrap;
+}
+
+/*
+.nav-item a:visited { クリック後
+    color:#FFFFFF;
+}*/
+
+.dropdown-menu li a {
+    color:#000000;
+/*    font-size: 16px; */
+    font-size:0.8rem;
+    font-weight: bolder;
+    text-shadow: none;
+}
+
+.dropdown-menu li a:visited {
+    color:#000000;
+}
+
+.navbar-nav li{ /*必要*/
+   display: inline-block; /* 横並びに配置する */
+   position: relative;    /* サブメニュー表示の基準位置にする */
+   vertical-align: bottom;
+}
+
+.navbar-nav a {
+   /*line-height: 40px;         /* メニュー項目のリンクの高さ */
+   line-height: 2rem;
+   text-align: center;        /* メインメニューの文字列の配置(中央寄せ) */
+   text-decoration: none;     /* メニュー項目の装飾(下線を消す) */
+   display: block;
+}
+
+.navbar-nav a:hover {
+   background-color: #6d7b8d; /* メニュー項目にマウスが載ったときの背景色 */
+   color: #ffffff;            /* メニュー項目にマウスが載ったときの文字色 */
+}
+
+.navbar-nav ul {
+   margin: 0px;        /* ★サブメニュー外側の余白(ゼロ) */
+   padding: 0px;       /* ★サブメニュー内側の余白(ゼロ) */
+   display: none; /* ★標準では非表示にする */
+   position: absolute;
+}
+
+.navbar-nav ul li {
+   width: 10rem;               /* 1階層目の横幅 200px*/
+   border-top: 1px solid #6d7b8d; /* 項目上側の枠線 */
+}
+
+.dropdown-menu li a{
+   background-color: aliceblue;
+   text-align: left;    /* 文字列の配置(左寄せ) */
+}
+
+.dropdown-menu ul li {
+   width: 15rem;/* 2階層目より下の横幅 300px*/
+   line-height: 1.5;
+}
+
+.dropdown-menu ul li a {
+    padding-left: 1rem; 
+}
+
+.navbar-nav ul li a:hover{
+    background-color: #66ffff; /* サブメニュー項目にマウスが載ったときの背景色 */
+    color: #000000;            /* サブメニュー項目にマウスが載ったときの文字色 */
+}
+
+.navbar-nav ul ul{
+    margin:0px;
+    padding:0px;
+    display:none;
+    position:absolute;
+    top:-1px;
+    left:100%;
+}
+
+.btnsize {
+    list-style-type: none;
+}
+
+.fontSize{
+    color:#ffffff;
+    font-size:0.9rem;
+    text-shadow: 1px 1px 1px #000000;
+    white-space: nowrap;
+}
+
+.yokonarabi ul{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center; /*下のラインを揃えてる*/
+    vertical-align: middle;
+}
+
+.yokonarabi li {
+    margin-right: 0.1rem;
+    /*vertical-align: middle;*/
+}
+
+.lgbtn button {
+    font-size: 130%;
+}
+
+.mdbtn button {
+    font-size: 110%;
+}
+
+.smbtn button {
+    font-size: 90%;
+}
+
+/*業務一覧*/
+
+
+.col-md-5 {
+    margin:auto;
+}
+
+.col-md-5 p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.productmenu {
+    margin:auto;
+    width:100%;
+    /*font-size: 25px; */
+    font-size:1.2rem;
+    /*margin-top:30px; */
+    margin-top:3rem;
+    border-bottom: solid 1px #8EEBEC;
+}
+
+.productmenu2 {
+    margin: auto;
+    width:100%;
+    font-size:1.1rem;
+    margin-top:4rem;
+    border-bottom: solid 1px #00bfff;
+}
+
+.products {
+    display: flex;
+    justify-content: center; 
+    text-align: start;
+    align-items: center;
+    font-size: 0.9em;
+/*font-size: 20px; */
+    margin-top: 300px;
+}
+
+.products a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.products a:hover {
+    color: #000000;
+}
+
+

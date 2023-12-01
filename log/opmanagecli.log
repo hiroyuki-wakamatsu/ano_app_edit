@@ -1,0 +1,1421 @@
+2023-10-19 20:34:12,885 Success converting dataframe to sql.
+2023-10-19 20:34:12,886 Process for dataframe to sql took 0.6937050819396973 seconds.
+2023-10-19 20:34:12,890 Success writing Update time : 2023-10-19 20:11:37 to LastUpdateTime.html.
+2023-10-19 21:46:50,439 Success converting dataframe to sql.
+2023-10-19 21:46:50,441 Process for dataframe to sql took 0.6409797668457031 seconds.
+2023-10-19 21:46:50,446 Success writing Update time : 2023-10-19 20:11:37 to LastUpdateTime.html.
+2023-10-19 21:49:56,876 Success converting dataframe to sql.
+2023-10-19 21:49:56,877 Process for dataframe to sql took 0.5741596221923828 seconds.
+2023-10-19 21:49:56,879 Success writing Update time : 2023-10-19 20:11:37 to LastUpdateTime.html.
+2023-10-20 07:51:25,871 Success converting dataframe to sql.
+2023-10-20 07:51:25,872 Process for dataframe to sql took 0.7392172813415527 seconds.
+2023-10-20 07:51:25,875 Success writing Update time : 2023-10-20 07:11:33 to LastUpdateTime.html.
+2023-10-20 08:30:02,798 Success converting dataframe to sql.
+2023-10-20 08:30:02,800 Process for dataframe to sql took 0.6838889122009277 seconds.
+2023-10-20 08:30:02,805 Success writing Update time : 2023-10-20 08:11:26 to LastUpdateTime.html.
+2023-10-20 09:30:02,710 Success converting dataframe to sql.
+2023-10-20 09:30:02,713 Process for dataframe to sql took 0.7025947570800781 seconds.
+2023-10-20 09:30:02,713 Success writing Update time : 2023-10-20 09:11:25 to LastUpdateTime.html.
+2023-10-20 10:30:02,565 Success converting dataframe to sql.
+2023-10-20 10:30:02,567 Process for dataframe to sql took 0.6127910614013672 seconds.
+2023-10-20 10:30:02,569 Success writing Update time : 2023-10-20 10:11:25 to LastUpdateTime.html.
+2023-10-20 11:30:03,620 Success converting dataframe to sql.
+2023-10-20 11:30:03,620 Process for dataframe to sql took 0.5670697689056396 seconds.
+2023-10-20 11:30:03,622 Success writing Update time : 2023-10-20 11:11:29 to LastUpdateTime.html.
+2023-10-20 12:30:02,597 Success converting dataframe to sql.
+2023-10-20 12:30:02,599 Process for dataframe to sql took 0.710690975189209 seconds.
+2023-10-20 12:30:02,600 Success writing Update time : 2023-10-20 12:11:27 to LastUpdateTime.html.
+2023-10-20 13:30:02,502 Success converting dataframe to sql.
+2023-10-20 13:30:02,506 Process for dataframe to sql took 0.6764333248138428 seconds.
+2023-10-20 13:30:02,507 Success writing Update time : 2023-10-20 13:11:29 to LastUpdateTime.html.
+2023-10-20 14:30:03,328 Success converting dataframe to sql.
+2023-10-20 14:30:03,332 Process for dataframe to sql took 0.6361827850341797 seconds.
+2023-10-20 14:30:03,334 Success writing Update time : 2023-10-20 14:11:28 to LastUpdateTime.html.
+2023-10-20 15:30:03,284 Success converting dataframe to sql.
+2023-10-20 15:30:03,285 Process for dataframe to sql took 0.724083662033081 seconds.
+2023-10-20 15:30:03,290 Success writing Update time : 2023-10-20 15:11:28 to LastUpdateTime.html.
+2023-10-20 16:30:03,228 Success converting dataframe to sql.
+2023-10-20 16:30:03,229 Process for dataframe to sql took 0.6939773559570312 seconds.
+2023-10-20 16:30:03,232 Success writing Update time : 2023-10-20 16:11:28 to LastUpdateTime.html.
+2023-10-20 17:30:02,461 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-20 17:30:02,461 Please check file updating : /home/tank/export_anken.csv.
+2023-10-20 18:30:02,576 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-20 18:30:02,577 Please check file updating : /home/tank/export_anken.csv.
+2023-10-20 19:30:02,649 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-20 19:30:02,650 Please check file updating : /home/tank/export_anken.csv.
+2023-10-20 20:30:01,753 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-20 20:30:01,754 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 07:30:01,968 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 07:30:01,969 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 08:30:02,201 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 08:30:02,201 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 09:30:02,333 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 09:30:02,333 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 10:30:02,421 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 10:30:02,422 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 11:30:02,491 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 11:30:02,492 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 12:30:02,571 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 12:30:02,572 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 13:30:02,618 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 13:30:02,618 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 14:30:02,733 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 14:30:02,734 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 15:30:01,945 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 15:30:01,946 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 16:30:02,120 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 16:30:02,121 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 17:30:02,238 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 17:30:02,239 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 18:30:02,328 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 18:30:02,329 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 19:30:02,378 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 19:30:02,378 Please check file updating : /home/tank/export_anken.csv.
+2023-10-21 20:30:02,481 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-21 20:30:02,481 Please check file updating : /home/tank/export_anken.csv.
+2023-10-23 07:30:02,480 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-23 07:30:02,481 Please check file updating : /home/tank/export_anken.csv.
+2023-10-23 08:30:02,592 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-23 08:30:02,592 Please check file updating : /home/tank/export_anken.csv.
+2023-10-23 09:30:02,724 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-23 09:30:02,725 Please check file updating : /home/tank/export_anken.csv.
+2023-10-23 10:30:01,945 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-23 10:30:01,946 Please check file updating : /home/tank/export_anken.csv.
+2023-10-23 11:30:02,385 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-23 11:30:02,387 Please check file updating : /home/tank/export_anken.csv.
+2023-10-23 12:30:26,644 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-23 12:30:26,646 Please check file updating : /home/tank/export_anken.csv.
+2023-10-23 13:30:01,960 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-20 16:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-20 16:11:28
+2023-10-23 13:30:01,961 Please check file updating : /home/tank/export_anken.csv.
+2023-10-23 14:30:03,316 Success converting dataframe to sql.
+2023-10-23 14:30:03,317 Process for dataframe to sql took 0.8206131458282471 seconds.
+2023-10-23 14:30:03,320 Success writing Update time : 2023-10-23 14:11:33 to LastUpdateTime.html.
+2023-10-23 15:30:02,914 Success converting dataframe to sql.
+2023-10-23 15:30:02,923 Process for dataframe to sql took 0.6278989315032959 seconds.
+2023-10-23 15:30:02,924 Success writing Update time : 2023-10-23 15:11:39 to LastUpdateTime.html.
+2023-10-23 16:30:02,843 Success converting dataframe to sql.
+2023-10-23 16:30:02,845 Process for dataframe to sql took 0.7032709121704102 seconds.
+2023-10-23 16:30:02,851 Success writing Update time : 2023-10-23 16:11:37 to LastUpdateTime.html.
+2023-10-23 17:30:03,270 Success converting dataframe to sql.
+2023-10-23 17:30:03,278 Process for dataframe to sql took 0.7578747272491455 seconds.
+2023-10-23 17:30:03,280 Success writing Update time : 2023-10-23 17:11:41 to LastUpdateTime.html.
+2023-10-23 18:30:03,377 Success converting dataframe to sql.
+2023-10-23 18:30:03,378 Process for dataframe to sql took 0.7324995994567871 seconds.
+2023-10-23 18:30:03,380 Success writing Update time : 2023-10-23 18:11:38 to LastUpdateTime.html.
+2023-10-23 19:30:03,398 Success converting dataframe to sql.
+2023-10-23 19:30:03,400 Process for dataframe to sql took 0.7658860683441162 seconds.
+2023-10-23 19:30:03,400 Success writing Update time : 2023-10-23 19:11:27 to LastUpdateTime.html.
+2023-10-23 20:30:03,269 Success converting dataframe to sql.
+2023-10-23 20:30:03,269 Process for dataframe to sql took 0.7026443481445312 seconds.
+2023-10-23 20:30:03,271 Success writing Update time : 2023-10-23 20:11:38 to LastUpdateTime.html.
+2023-10-24 07:30:03,380 Success converting dataframe to sql.
+2023-10-24 07:30:03,383 Process for dataframe to sql took 0.6855213642120361 seconds.
+2023-10-24 07:30:03,387 Success writing Update time : 2023-10-24 07:11:39 to LastUpdateTime.html.
+2023-10-24 08:30:02,732 Success converting dataframe to sql.
+2023-10-24 08:30:02,732 Process for dataframe to sql took 0.7370727062225342 seconds.
+2023-10-24 08:30:02,733 Success writing Update time : 2023-10-24 08:11:25 to LastUpdateTime.html.
+2023-10-24 09:30:02,663 Success converting dataframe to sql.
+2023-10-24 09:30:02,665 Process for dataframe to sql took 0.6337282657623291 seconds.
+2023-10-24 09:30:02,670 Success writing Update time : 2023-10-24 09:11:27 to LastUpdateTime.html.
+2023-10-24 10:30:02,601 Success converting dataframe to sql.
+2023-10-24 10:30:02,602 Process for dataframe to sql took 0.7235870361328125 seconds.
+2023-10-24 10:30:02,603 Success writing Update time : 2023-10-24 10:11:22 to LastUpdateTime.html.
+2023-10-24 11:30:03,461 Success converting dataframe to sql.
+2023-10-24 11:30:03,462 Process for dataframe to sql took 0.6696369647979736 seconds.
+2023-10-24 11:30:03,464 Success writing Update time : 2023-10-24 11:11:22 to LastUpdateTime.html.
+2023-10-24 12:30:03,451 Success converting dataframe to sql.
+2023-10-24 12:30:03,453 Process for dataframe to sql took 0.7544496059417725 seconds.
+2023-10-24 12:30:03,456 Success writing Update time : 2023-10-24 12:11:25 to LastUpdateTime.html.
+2023-10-24 13:30:03,310 Success converting dataframe to sql.
+2023-10-24 13:30:03,312 Process for dataframe to sql took 0.6456215381622314 seconds.
+2023-10-24 13:30:03,315 Success writing Update time : 2023-10-24 13:11:31 to LastUpdateTime.html.
+2023-10-24 14:30:03,122 Success converting dataframe to sql.
+2023-10-24 14:30:03,124 Process for dataframe to sql took 0.6265013217926025 seconds.
+2023-10-24 14:30:03,128 Success writing Update time : 2023-10-24 14:11:31 to LastUpdateTime.html.
+2023-10-24 15:30:02,956 Success converting dataframe to sql.
+2023-10-24 15:30:02,956 Process for dataframe to sql took 0.6581814289093018 seconds.
+2023-10-24 15:30:02,959 Success writing Update time : 2023-10-24 15:11:31 to LastUpdateTime.html.
+2023-10-24 16:30:02,819 Success converting dataframe to sql.
+2023-10-24 16:30:02,823 Process for dataframe to sql took 0.6661107540130615 seconds.
+2023-10-24 16:30:02,827 Success writing Update time : 2023-10-24 16:11:30 to LastUpdateTime.html.
+2023-10-24 17:30:02,030 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-24 16:11:30 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-24 16:11:30
+2023-10-24 17:30:02,031 Please check file updating : /home/tank/export_anken.csv.
+2023-10-24 18:30:02,954 Success converting dataframe to sql.
+2023-10-24 18:30:02,956 Process for dataframe to sql took 0.7291252613067627 seconds.
+2023-10-24 18:30:02,956 Success writing Update time : 2023-10-24 18:11:36 to LastUpdateTime.html.
+2023-10-24 19:30:02,812 Success converting dataframe to sql.
+2023-10-24 19:30:02,814 Process for dataframe to sql took 0.6446483135223389 seconds.
+2023-10-24 19:30:02,818 Success writing Update time : 2023-10-24 19:11:42 to LastUpdateTime.html.
+2023-10-24 20:30:02,546 Success converting dataframe to sql.
+2023-10-24 20:30:02,548 Process for dataframe to sql took 0.45486879348754883 seconds.
+2023-10-24 20:30:02,550 Success writing Update time : 2023-10-24 20:11:39 to LastUpdateTime.html.
+2023-10-25 07:30:03,452 Success converting dataframe to sql.
+2023-10-25 07:30:03,454 Process for dataframe to sql took 0.6425740718841553 seconds.
+2023-10-25 07:30:03,459 Success writing Update time : 2023-10-25 07:11:39 to LastUpdateTime.html.
+2023-10-25 08:30:03,388 Success converting dataframe to sql.
+2023-10-25 08:30:03,390 Process for dataframe to sql took 0.7227849960327148 seconds.
+2023-10-25 08:30:03,393 Success writing Update time : 2023-10-25 08:11:40 to LastUpdateTime.html.
+2023-10-25 09:30:03,148 Success converting dataframe to sql.
+2023-10-25 09:30:03,149 Process for dataframe to sql took 0.5166964530944824 seconds.
+2023-10-25 09:30:03,153 Success writing Update time : 2023-10-25 09:11:39 to LastUpdateTime.html.
+2023-10-25 10:30:03,078 Success converting dataframe to sql.
+2023-10-25 10:30:03,079 Process for dataframe to sql took 0.7020444869995117 seconds.
+2023-10-25 10:30:03,082 Success writing Update time : 2023-10-25 10:11:38 to LastUpdateTime.html.
+2023-10-25 11:30:03,039 Success converting dataframe to sql.
+2023-10-25 11:30:03,041 Process for dataframe to sql took 0.7026245594024658 seconds.
+2023-10-25 11:30:03,044 Success writing Update time : 2023-10-25 11:11:40 to LastUpdateTime.html.
+2023-10-25 12:30:02,922 Success converting dataframe to sql.
+2023-10-25 12:30:02,924 Process for dataframe to sql took 0.6951291561126709 seconds.
+2023-10-25 12:30:02,928 Success writing Update time : 2023-10-25 12:11:39 to LastUpdateTime.html.
+2023-10-25 13:30:02,959 Success converting dataframe to sql.
+2023-10-25 13:30:02,960 Process for dataframe to sql took 0.7673366069793701 seconds.
+2023-10-25 13:30:02,963 Success writing Update time : 2023-10-25 13:11:40 to LastUpdateTime.html.
+2023-10-25 14:30:02,998 Success converting dataframe to sql.
+2023-10-25 14:30:03,000 Process for dataframe to sql took 0.7460894584655762 seconds.
+2023-10-25 14:30:03,004 Success writing Update time : 2023-10-25 14:11:39 to LastUpdateTime.html.
+2023-10-25 15:30:02,990 Success converting dataframe to sql.
+2023-10-25 15:30:02,992 Process for dataframe to sql took 0.7317709922790527 seconds.
+2023-10-25 15:30:02,993 Success writing Update time : 2023-10-25 15:11:34 to LastUpdateTime.html.
+2023-10-25 16:30:02,877 Success converting dataframe to sql.
+2023-10-25 16:30:02,879 Process for dataframe to sql took 0.6113693714141846 seconds.
+2023-10-25 16:30:02,880 Success writing Update time : 2023-10-25 16:11:39 to LastUpdateTime.html.
+2023-10-25 17:30:02,045 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-25 16:11:39 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-25 16:11:39
+2023-10-25 17:30:02,046 Please check file updating : /home/tank/export_anken.csv.
+2023-10-25 18:30:02,162 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-25 16:11:39 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-25 16:11:39
+2023-10-25 18:30:02,163 Please check file updating : /home/tank/export_anken.csv.
+2023-10-25 19:30:02,295 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-25 16:11:39 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-25 16:11:39
+2023-10-25 19:30:02,296 Please check file updating : /home/tank/export_anken.csv.
+2023-10-25 20:30:02,411 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-25 16:11:39 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-25 16:11:39
+2023-10-25 20:30:02,411 Please check file updating : /home/tank/export_anken.csv.
+2023-10-26 07:30:02,606 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-25 16:11:39 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-25 16:11:39
+2023-10-26 07:30:02,609 Please check file updating : /home/tank/export_anken.csv.
+2023-10-26 08:30:01,757 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-25 16:11:39 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-25 16:11:39
+2023-10-26 08:30:01,757 Please check file updating : /home/tank/export_anken.csv.
+2023-10-26 09:30:02,651 Success converting dataframe to sql.
+2023-10-26 09:30:02,652 Process for dataframe to sql took 0.5865252017974854 seconds.
+2023-10-26 09:30:02,655 Success writing Update time : 2023-10-26 09:18:03 to LastUpdateTime.html.
+2023-10-26 10:30:02,687 Success converting dataframe to sql.
+2023-10-26 10:30:02,689 Process for dataframe to sql took 0.6920292377471924 seconds.
+2023-10-26 10:30:02,694 Success writing Update time : 2023-10-26 10:11:24 to LastUpdateTime.html.
+2023-10-26 11:30:02,522 Success converting dataframe to sql.
+2023-10-26 11:30:02,523 Process for dataframe to sql took 0.5098154544830322 seconds.
+2023-10-26 11:30:02,526 Success writing Update time : 2023-10-26 11:11:28 to LastUpdateTime.html.
+2023-10-26 12:30:03,406 Success converting dataframe to sql.
+2023-10-26 12:30:03,407 Process for dataframe to sql took 0.654881477355957 seconds.
+2023-10-26 12:30:03,409 Success writing Update time : 2023-10-26 12:11:25 to LastUpdateTime.html.
+2023-10-26 13:30:03,377 Success converting dataframe to sql.
+2023-10-26 13:30:03,379 Process for dataframe to sql took 0.7340755462646484 seconds.
+2023-10-26 13:30:03,384 Success writing Update time : 2023-10-26 13:11:26 to LastUpdateTime.html.
+2023-10-26 14:30:03,730 Success converting dataframe to sql.
+2023-10-26 14:30:03,733 Process for dataframe to sql took 0.8577291965484619 seconds.
+2023-10-26 14:30:03,737 Success writing Update time : 2023-10-26 14:11:21 to LastUpdateTime.html.
+2023-10-26 15:30:02,858 Success converting dataframe to sql.
+2023-10-26 15:30:02,859 Process for dataframe to sql took 0.605689287185669 seconds.
+2023-10-26 15:30:02,862 Success writing Update time : 2023-10-26 15:11:20 to LastUpdateTime.html.
+2023-10-26 16:30:03,011 Success converting dataframe to sql.
+2023-10-26 16:30:03,013 Process for dataframe to sql took 0.662482500076294 seconds.
+2023-10-26 16:30:03,018 Success writing Update time : 2023-10-26 16:11:27 to LastUpdateTime.html.
+2023-10-26 17:30:03,132 Success converting dataframe to sql.
+2023-10-26 17:30:03,134 Process for dataframe to sql took 0.7356922626495361 seconds.
+2023-10-26 17:30:03,137 Success writing Update time : 2023-10-26 17:11:26 to LastUpdateTime.html.
+2023-10-26 18:30:03,282 Success converting dataframe to sql.
+2023-10-26 18:30:03,285 Process for dataframe to sql took 0.749274492263794 seconds.
+2023-10-26 18:30:03,287 Success writing Update time : 2023-10-26 18:11:26 to LastUpdateTime.html.
+2023-10-26 19:30:03,224 Success converting dataframe to sql.
+2023-10-26 19:30:03,226 Process for dataframe to sql took 0.6740145683288574 seconds.
+2023-10-26 19:30:03,229 Success writing Update time : 2023-10-26 19:11:28 to LastUpdateTime.html.
+2023-10-26 20:30:03,052 Success converting dataframe to sql.
+2023-10-26 20:30:03,053 Process for dataframe to sql took 0.6381175518035889 seconds.
+2023-10-26 20:30:03,056 Success writing Update time : 2023-10-26 20:11:36 to LastUpdateTime.html.
+2023-10-27 07:30:03,173 Success converting dataframe to sql.
+2023-10-27 07:30:03,178 Process for dataframe to sql took 0.8039383888244629 seconds.
+2023-10-27 07:30:03,180 Success writing Update time : 2023-10-27 07:11:41 to LastUpdateTime.html.
+2023-10-27 08:30:03,118 Success converting dataframe to sql.
+2023-10-27 08:30:03,118 Process for dataframe to sql took 0.755864143371582 seconds.
+2023-10-27 08:30:03,120 Success writing Update time : 2023-10-27 08:11:30 to LastUpdateTime.html.
+2023-10-27 09:30:02,967 Success converting dataframe to sql.
+2023-10-27 09:30:02,969 Process for dataframe to sql took 0.6905999183654785 seconds.
+2023-10-27 09:30:02,973 Success writing Update time : 2023-10-27 09:11:24 to LastUpdateTime.html.
+2023-10-27 10:30:02,779 Success converting dataframe to sql.
+2023-10-27 10:30:02,780 Process for dataframe to sql took 0.6204948425292969 seconds.
+2023-10-27 10:30:02,784 Success writing Update time : 2023-10-27 10:11:31 to LastUpdateTime.html.
+2023-10-27 11:30:02,584 Success converting dataframe to sql.
+2023-10-27 11:30:02,586 Process for dataframe to sql took 0.6233711242675781 seconds.
+2023-10-27 11:30:02,591 Success writing Update time : 2023-10-27 11:11:31 to LastUpdateTime.html.
+2023-10-27 12:30:02,499 Success converting dataframe to sql.
+2023-10-27 12:30:02,500 Process for dataframe to sql took 0.6424610614776611 seconds.
+2023-10-27 12:30:02,503 Success writing Update time : 2023-10-27 12:11:25 to LastUpdateTime.html.
+2023-10-27 13:30:03,459 Success converting dataframe to sql.
+2023-10-27 13:30:03,463 Process for dataframe to sql took 0.659945011138916 seconds.
+2023-10-27 13:30:03,464 Success writing Update time : 2023-10-27 13:11:27 to LastUpdateTime.html.
+2023-10-27 14:30:03,296 Success converting dataframe to sql.
+2023-10-27 14:30:03,299 Process for dataframe to sql took 0.6433346271514893 seconds.
+2023-10-27 14:30:03,303 Success writing Update time : 2023-10-27 14:11:31 to LastUpdateTime.html.
+2023-10-27 15:30:03,158 Success converting dataframe to sql.
+2023-10-27 15:30:03,160 Process for dataframe to sql took 0.6903903484344482 seconds.
+2023-10-27 15:30:03,163 Success writing Update time : 2023-10-27 15:11:24 to LastUpdateTime.html.
+2023-10-27 16:30:03,041 Success converting dataframe to sql.
+2023-10-27 16:30:03,042 Process for dataframe to sql took 0.6941537857055664 seconds.
+2023-10-27 16:30:03,045 Success writing Update time : 2023-10-27 16:11:29 to LastUpdateTime.html.
+2023-10-27 17:30:02,781 Success converting dataframe to sql.
+2023-10-27 17:30:02,783 Process for dataframe to sql took 0.5699996948242188 seconds.
+2023-10-27 17:30:02,784 Success writing Update time : 2023-10-27 17:11:34 to LastUpdateTime.html.
+2023-10-27 18:30:02,616 Success converting dataframe to sql.
+2023-10-27 18:30:02,618 Process for dataframe to sql took 0.6354138851165771 seconds.
+2023-10-27 18:30:02,621 Success writing Update time : 2023-10-27 18:11:29 to LastUpdateTime.html.
+2023-10-27 19:30:02,461 Success converting dataframe to sql.
+2023-10-27 19:30:02,462 Process for dataframe to sql took 0.662285327911377 seconds.
+2023-10-27 19:30:02,463 Success writing Update time : 2023-10-27 19:11:30 to LastUpdateTime.html.
+2023-10-27 20:30:03,310 Success converting dataframe to sql.
+2023-10-27 20:30:03,311 Process for dataframe to sql took 0.658144474029541 seconds.
+2023-10-27 20:30:03,313 Success writing Update time : 2023-10-27 20:11:42 to LastUpdateTime.html.
+2023-10-28 07:30:03,358 Success converting dataframe to sql.
+2023-10-28 07:30:03,365 Process for dataframe to sql took 0.7362408638000488 seconds.
+2023-10-28 07:30:03,366 Success writing Update time : 2023-10-28 07:11:34 to LastUpdateTime.html.
+2023-10-28 08:30:02,770 Success converting dataframe to sql.
+2023-10-28 08:30:02,772 Process for dataframe to sql took 0.6850905418395996 seconds.
+2023-10-28 08:30:02,776 Success writing Update time : 2023-10-28 08:11:39 to LastUpdateTime.html.
+2023-10-28 09:30:02,696 Success converting dataframe to sql.
+2023-10-28 09:30:02,696 Process for dataframe to sql took 0.6811375617980957 seconds.
+2023-10-28 09:30:02,698 Success writing Update time : 2023-10-28 09:11:37 to LastUpdateTime.html.
+2023-10-28 10:30:02,456 Success converting dataframe to sql.
+2023-10-28 10:30:02,457 Process for dataframe to sql took 0.5393252372741699 seconds.
+2023-10-28 10:30:02,458 Success writing Update time : 2023-10-28 10:11:49 to LastUpdateTime.html.
+2023-10-28 11:30:03,312 Success converting dataframe to sql.
+2023-10-28 11:30:03,314 Process for dataframe to sql took 0.6570937633514404 seconds.
+2023-10-28 11:30:03,318 Success writing Update time : 2023-10-28 11:11:38 to LastUpdateTime.html.
+2023-10-28 12:30:03,319 Success converting dataframe to sql.
+2023-10-28 12:30:03,320 Process for dataframe to sql took 0.7066094875335693 seconds.
+2023-10-28 12:30:03,321 Success writing Update time : 2023-10-28 12:11:37 to LastUpdateTime.html.
+2023-10-28 13:30:03,148 Success converting dataframe to sql.
+2023-10-28 13:30:03,149 Process for dataframe to sql took 0.6538691520690918 seconds.
+2023-10-28 13:30:03,152 Success writing Update time : 2023-10-28 13:11:41 to LastUpdateTime.html.
+2023-10-28 14:30:02,964 Success converting dataframe to sql.
+2023-10-28 14:30:02,966 Process for dataframe to sql took 0.6464455127716064 seconds.
+2023-10-28 14:30:02,971 Success writing Update time : 2023-10-28 14:11:57 to LastUpdateTime.html.
+2023-10-28 15:30:02,817 Success converting dataframe to sql.
+2023-10-28 15:30:02,818 Process for dataframe to sql took 0.6729302406311035 seconds.
+2023-10-28 15:30:02,819 Success writing Update time : 2023-10-28 15:11:38 to LastUpdateTime.html.
+2023-10-28 16:30:02,661 Success converting dataframe to sql.
+2023-10-28 16:30:02,663 Process for dataframe to sql took 0.6360411643981934 seconds.
+2023-10-28 16:30:02,667 Success writing Update time : 2023-10-28 16:11:39 to LastUpdateTime.html.
+2023-10-28 17:30:02,515 Success converting dataframe to sql.
+2023-10-28 17:30:02,516 Process for dataframe to sql took 0.6171116828918457 seconds.
+2023-10-28 17:30:02,520 Success writing Update time : 2023-10-28 17:11:39 to LastUpdateTime.html.
+2023-10-28 18:30:03,318 Success converting dataframe to sql.
+2023-10-28 18:30:03,319 Process for dataframe to sql took 0.6504249572753906 seconds.
+2023-10-28 18:30:03,320 Success writing Update time : 2023-10-28 18:11:38 to LastUpdateTime.html.
+2023-10-28 19:30:03,203 Success converting dataframe to sql.
+2023-10-28 19:30:03,208 Process for dataframe to sql took 0.6768343448638916 seconds.
+2023-10-28 19:30:03,209 Success writing Update time : 2023-10-28 19:11:44 to LastUpdateTime.html.
+2023-10-28 20:30:03,049 Success converting dataframe to sql.
+2023-10-28 20:30:03,050 Process for dataframe to sql took 0.6123745441436768 seconds.
+2023-10-28 20:30:03,051 Success writing Update time : 2023-10-28 20:11:43 to LastUpdateTime.html.
+2023-10-30 07:30:03,041 Success converting dataframe to sql.
+2023-10-30 07:30:03,043 Process for dataframe to sql took 0.6884763240814209 seconds.
+2023-10-30 07:30:03,046 Success writing Update time : 2023-10-30 07:11:40 to LastUpdateTime.html.
+2023-10-30 08:30:03,166 Success converting dataframe to sql.
+2023-10-30 08:30:03,167 Process for dataframe to sql took 0.6739563941955566 seconds.
+2023-10-30 08:30:03,168 Success writing Update time : 2023-10-30 08:11:27 to LastUpdateTime.html.
+2023-10-30 09:30:03,217 Success converting dataframe to sql.
+2023-10-30 09:30:03,219 Process for dataframe to sql took 0.7060601711273193 seconds.
+2023-10-30 09:30:03,219 Success writing Update time : 2023-10-30 09:11:27 to LastUpdateTime.html.
+2023-10-30 10:30:03,269 Success converting dataframe to sql.
+2023-10-30 10:30:03,270 Process for dataframe to sql took 0.7010300159454346 seconds.
+2023-10-30 10:30:03,273 Success writing Update time : 2023-10-30 10:11:28 to LastUpdateTime.html.
+2023-10-30 11:30:02,948 Success converting dataframe to sql.
+2023-10-30 11:30:02,951 Process for dataframe to sql took 0.49810361862182617 seconds.
+2023-10-30 11:30:02,956 Success writing Update time : 2023-10-30 11:11:22 to LastUpdateTime.html.
+2023-10-30 12:30:02,807 Success converting dataframe to sql.
+2023-10-30 12:30:02,809 Process for dataframe to sql took 0.6402907371520996 seconds.
+2023-10-30 12:30:02,812 Success writing Update time : 2023-10-30 12:11:28 to LastUpdateTime.html.
+2023-10-30 13:30:02,781 Success converting dataframe to sql.
+2023-10-30 13:30:02,783 Process for dataframe to sql took 0.7205502986907959 seconds.
+2023-10-30 13:30:02,787 Success writing Update time : 2023-10-30 13:11:15 to LastUpdateTime.html.
+2023-10-30 14:30:02,748 Success converting dataframe to sql.
+2023-10-30 14:30:02,750 Process for dataframe to sql took 0.6779069900512695 seconds.
+2023-10-30 14:30:02,755 Success writing Update time : 2023-10-30 14:11:23 to LastUpdateTime.html.
+2023-10-30 15:30:02,776 Success converting dataframe to sql.
+2023-10-30 15:30:02,777 Process for dataframe to sql took 0.6931886672973633 seconds.
+2023-10-30 15:30:02,778 Success writing Update time : 2023-10-30 15:11:23 to LastUpdateTime.html.
+2023-10-30 16:30:02,814 Success converting dataframe to sql.
+2023-10-30 16:30:02,817 Process for dataframe to sql took 0.793095588684082 seconds.
+2023-10-30 16:30:02,818 Success writing Update time : 2023-10-30 16:11:34 to LastUpdateTime.html.
+2023-10-30 17:30:02,700 Success converting dataframe to sql.
+2023-10-30 17:30:02,702 Process for dataframe to sql took 0.6496212482452393 seconds.
+2023-10-30 17:30:02,708 Success writing Update time : 2023-10-30 17:11:33 to LastUpdateTime.html.
+2023-10-30 18:30:02,568 Success converting dataframe to sql.
+2023-10-30 18:30:02,569 Process for dataframe to sql took 0.6854162216186523 seconds.
+2023-10-30 18:30:02,572 Success writing Update time : 2023-10-30 18:11:29 to LastUpdateTime.html.
+2023-10-30 19:30:03,429 Success converting dataframe to sql.
+2023-10-30 19:30:03,430 Process for dataframe to sql took 0.6100485324859619 seconds.
+2023-10-30 19:30:03,431 Success writing Update time : 2023-10-30 19:11:33 to LastUpdateTime.html.
+2023-10-30 20:30:03,404 Success converting dataframe to sql.
+2023-10-30 20:30:03,404 Process for dataframe to sql took 0.696704626083374 seconds.
+2023-10-30 20:30:03,405 Success writing Update time : 2023-10-30 20:11:43 to LastUpdateTime.html.
+2023-10-31 07:30:03,564 Success converting dataframe to sql.
+2023-10-31 07:30:03,568 Process for dataframe to sql took 0.7673497200012207 seconds.
+2023-10-31 07:30:03,571 Success writing Update time : 2023-10-31 07:11:52 to LastUpdateTime.html.
+2023-10-31 08:30:02,706 Success converting dataframe to sql.
+2023-10-31 08:30:02,707 Process for dataframe to sql took 0.7075347900390625 seconds.
+2023-10-31 08:30:02,708 Success writing Update time : 2023-10-31 08:11:32 to LastUpdateTime.html.
+2023-10-31 09:30:02,546 Success converting dataframe to sql.
+2023-10-31 09:30:02,547 Process for dataframe to sql took 0.6732065677642822 seconds.
+2023-10-31 09:30:02,550 Success writing Update time : 2023-10-31 09:11:26 to LastUpdateTime.html.
+2023-10-31 10:30:03,433 Success converting dataframe to sql.
+2023-10-31 10:30:03,435 Process for dataframe to sql took 0.6861956119537354 seconds.
+2023-10-31 10:30:03,439 Success writing Update time : 2023-10-31 10:11:35 to LastUpdateTime.html.
+2023-10-31 11:30:03,251 Success converting dataframe to sql.
+2023-10-31 11:30:03,252 Process for dataframe to sql took 0.6484785079956055 seconds.
+2023-10-31 11:30:03,253 Success writing Update time : 2023-10-31 11:11:25 to LastUpdateTime.html.
+2023-10-31 12:30:03,023 Success converting dataframe to sql.
+2023-10-31 12:30:03,024 Process for dataframe to sql took 0.5982499122619629 seconds.
+2023-10-31 12:30:03,024 Success writing Update time : 2023-10-31 12:11:26 to LastUpdateTime.html.
+2023-10-31 13:30:02,893 Success converting dataframe to sql.
+2023-10-31 13:30:02,894 Process for dataframe to sql took 0.6804728507995605 seconds.
+2023-10-31 13:30:02,896 Success writing Update time : 2023-10-31 13:11:29 to LastUpdateTime.html.
+2023-10-31 14:30:02,789 Success converting dataframe to sql.
+2023-10-31 14:30:02,790 Process for dataframe to sql took 0.6387872695922852 seconds.
+2023-10-31 14:30:02,791 Success writing Update time : 2023-10-31 14:11:32 to LastUpdateTime.html.
+2023-10-31 15:30:02,780 Success converting dataframe to sql.
+2023-10-31 15:30:02,780 Process for dataframe to sql took 0.6933183670043945 seconds.
+2023-10-31 15:30:02,781 Success writing Update time : 2023-10-31 15:11:29 to LastUpdateTime.html.
+2023-10-31 16:30:02,646 Success converting dataframe to sql.
+2023-10-31 16:30:02,646 Process for dataframe to sql took 0.6734495162963867 seconds.
+2023-10-31 16:30:02,646 Success writing Update time : 2023-10-31 16:11:25 to LastUpdateTime.html.
+2023-10-31 17:30:02,512 Success converting dataframe to sql.
+2023-10-31 17:30:02,512 Process for dataframe to sql took 0.6797759532928467 seconds.
+2023-10-31 17:30:02,513 Success writing Update time : 2023-10-31 17:11:27 to LastUpdateTime.html.
+2023-10-31 18:30:03,369 Success converting dataframe to sql.
+2023-10-31 18:30:03,369 Process for dataframe to sql took 0.6740221977233887 seconds.
+2023-10-31 18:30:03,370 Success writing Update time : 2023-10-31 18:11:27 to LastUpdateTime.html.
+2023-10-31 19:30:03,200 Success converting dataframe to sql.
+2023-10-31 19:30:03,200 Process for dataframe to sql took 0.6555314064025879 seconds.
+2023-10-31 19:30:03,200 Success writing Update time : 2023-10-31 19:11:28 to LastUpdateTime.html.
+2023-10-31 20:30:03,077 Success converting dataframe to sql.
+2023-10-31 20:30:03,078 Process for dataframe to sql took 0.6615335941314697 seconds.
+2023-10-31 20:30:03,078 Success writing Update time : 2023-10-31 20:11:34 to LastUpdateTime.html.
+2023-11-01 07:30:02,353 File is not Updated : /home/tank/export_anken.csv mtime=2023-10-31 20:11:34 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-10-31 20:11:34
+2023-11-01 07:30:02,353 Please check file updating : /home/tank/export_anken.csv.
+2023-11-01 08:30:03,265 Success converting dataframe to sql.
+2023-11-01 08:30:03,266 Process for dataframe to sql took 0.7041189670562744 seconds.
+2023-11-01 08:30:03,266 Success writing Update time : 2023-11-01 08:11:27 to LastUpdateTime.html.
+2023-11-01 09:30:03,143 Success converting dataframe to sql.
+2023-11-01 09:30:03,143 Process for dataframe to sql took 0.6690311431884766 seconds.
+2023-11-01 09:30:03,144 Success writing Update time : 2023-11-01 09:11:30 to LastUpdateTime.html.
+2023-11-01 10:30:03,052 Success converting dataframe to sql.
+2023-11-01 10:30:03,053 Process for dataframe to sql took 0.7072579860687256 seconds.
+2023-11-01 10:30:03,053 Success writing Update time : 2023-11-01 10:11:29 to LastUpdateTime.html.
+2023-11-01 11:30:02,932 Success converting dataframe to sql.
+2023-11-01 11:30:02,932 Process for dataframe to sql took 0.6875181198120117 seconds.
+2023-11-01 11:30:02,933 Success writing Update time : 2023-11-01 11:11:27 to LastUpdateTime.html.
+2023-11-01 12:30:02,843 Success converting dataframe to sql.
+2023-11-01 12:30:02,843 Process for dataframe to sql took 0.690554141998291 seconds.
+2023-11-01 12:30:02,844 Success writing Update time : 2023-11-01 12:11:29 to LastUpdateTime.html.
+2023-11-01 13:30:02,811 Success converting dataframe to sql.
+2023-11-01 13:30:02,811 Process for dataframe to sql took 0.705904483795166 seconds.
+2023-11-01 13:30:02,812 Success writing Update time : 2023-11-01 13:11:29 to LastUpdateTime.html.
+2023-11-01 14:30:02,713 Success converting dataframe to sql.
+2023-11-01 14:30:02,714 Process for dataframe to sql took 0.6863906383514404 seconds.
+2023-11-01 14:30:02,714 Success writing Update time : 2023-11-01 14:11:30 to LastUpdateTime.html.
+2023-11-01 15:30:02,618 Success converting dataframe to sql.
+2023-11-01 15:30:02,618 Process for dataframe to sql took 0.6882543563842773 seconds.
+2023-11-01 15:30:02,618 Success writing Update time : 2023-11-01 15:11:28 to LastUpdateTime.html.
+2023-11-01 16:30:02,462 Success converting dataframe to sql.
+2023-11-01 16:30:02,463 Process for dataframe to sql took 0.6567821502685547 seconds.
+2023-11-01 16:30:02,463 Success writing Update time : 2023-11-01 16:11:30 to LastUpdateTime.html.
+2023-11-01 17:30:03,316 Success converting dataframe to sql.
+2023-11-01 17:30:03,317 Process for dataframe to sql took 0.6814277172088623 seconds.
+2023-11-01 17:30:03,317 Success writing Update time : 2023-11-01 17:11:25 to LastUpdateTime.html.
+2023-11-01 18:30:03,144 Success converting dataframe to sql.
+2023-11-01 18:30:03,145 Process for dataframe to sql took 0.660365104675293 seconds.
+2023-11-01 18:30:03,148 Success writing Update time : 2023-11-01 18:11:27 to LastUpdateTime.html.
+2023-11-01 19:30:02,969 Success converting dataframe to sql.
+2023-11-01 19:30:02,969 Process for dataframe to sql took 0.6096160411834717 seconds.
+2023-11-01 19:30:02,970 Success writing Update time : 2023-11-01 19:11:26 to LastUpdateTime.html.
+2023-11-01 20:30:02,749 Success converting dataframe to sql.
+2023-11-01 20:30:02,749 Process for dataframe to sql took 0.48621630668640137 seconds.
+2023-11-01 20:30:02,750 Success writing Update time : 2023-11-01 20:11:40 to LastUpdateTime.html.
+2023-11-02 07:30:02,802 Success converting dataframe to sql.
+2023-11-02 07:30:02,803 Process for dataframe to sql took 0.6867859363555908 seconds.
+2023-11-02 07:30:02,803 Success writing Update time : 2023-11-02 07:11:43 to LastUpdateTime.html.
+2023-11-02 08:30:03,063 Success converting dataframe to sql.
+2023-11-02 08:30:03,064 Process for dataframe to sql took 0.6589455604553223 seconds.
+2023-11-02 08:30:03,064 Success writing Update time : 2023-11-02 08:11:29 to LastUpdateTime.html.
+2023-11-02 10:30:02,833 Success converting dataframe to sql.
+2023-11-02 10:30:02,834 Process for dataframe to sql took 0.5899734497070312 seconds.
+2023-11-02 10:30:02,834 Success writing Update time : 2023-11-02 10:11:28 to LastUpdateTime.html.
+2023-11-02 11:30:02,806 Success converting dataframe to sql.
+2023-11-02 11:30:02,807 Process for dataframe to sql took 0.7109503746032715 seconds.
+2023-11-02 11:30:02,808 Success writing Update time : 2023-11-02 11:11:29 to LastUpdateTime.html.
+2023-11-02 12:30:02,718 Success converting dataframe to sql.
+2023-11-02 12:30:02,718 Process for dataframe to sql took 0.6516129970550537 seconds.
+2023-11-02 12:30:02,719 Success writing Update time : 2023-11-02 12:11:28 to LastUpdateTime.html.
+2023-11-02 13:30:02,581 Success converting dataframe to sql.
+2023-11-02 13:30:02,581 Process for dataframe to sql took 0.690284252166748 seconds.
+2023-11-02 13:30:02,584 Success writing Update time : 2023-11-02 13:11:28 to LastUpdateTime.html.
+2023-11-02 14:30:03,414 Success converting dataframe to sql.
+2023-11-02 14:30:03,414 Process for dataframe to sql took 0.6367542743682861 seconds.
+2023-11-02 14:30:03,417 Success writing Update time : 2023-11-02 14:11:24 to LastUpdateTime.html.
+2023-11-02 15:30:03,429 Success converting dataframe to sql.
+2023-11-02 15:30:03,430 Process for dataframe to sql took 0.7013726234436035 seconds.
+2023-11-02 15:30:03,436 Success writing Update time : 2023-11-02 15:11:32 to LastUpdateTime.html.
+2023-11-02 16:30:03,538 Success converting dataframe to sql.
+2023-11-02 16:30:03,538 Process for dataframe to sql took 0.745328426361084 seconds.
+2023-11-02 16:30:03,539 Success writing Update time : 2023-11-02 16:11:37 to LastUpdateTime.html.
+2023-11-02 17:30:03,432 Success converting dataframe to sql.
+2023-11-02 17:30:03,432 Process for dataframe to sql took 0.6641800403594971 seconds.
+2023-11-02 17:30:03,434 Success writing Update time : 2023-11-02 17:11:40 to LastUpdateTime.html.
+2023-11-02 18:30:03,306 Success converting dataframe to sql.
+2023-11-02 18:30:03,307 Process for dataframe to sql took 0.679295539855957 seconds.
+2023-11-02 18:30:03,308 Success writing Update time : 2023-11-02 18:11:42 to LastUpdateTime.html.
+2023-11-02 19:30:03,196 Success converting dataframe to sql.
+2023-11-02 19:30:03,196 Process for dataframe to sql took 0.6893796920776367 seconds.
+2023-11-02 19:30:03,196 Success writing Update time : 2023-11-02 19:11:39 to LastUpdateTime.html.
+2023-11-02 20:30:02,956 Success converting dataframe to sql.
+2023-11-02 20:30:02,956 Process for dataframe to sql took 0.5529229640960693 seconds.
+2023-11-02 20:30:02,957 Success writing Update time : 2023-11-02 20:12:00 to LastUpdateTime.html.
+2023-11-03 07:30:03,080 Success converting dataframe to sql.
+2023-11-03 07:30:03,081 Process for dataframe to sql took 0.7911536693572998 seconds.
+2023-11-03 07:30:03,081 Success writing Update time : 2023-11-03 07:12:02 to LastUpdateTime.html.
+2023-11-03 08:30:02,683 Success converting dataframe to sql.
+2023-11-03 08:30:02,684 Process for dataframe to sql took 0.6985869407653809 seconds.
+2023-11-03 08:30:02,684 Success writing Update time : 2023-11-03 08:11:35 to LastUpdateTime.html.
+2023-11-03 09:30:02,641 Success converting dataframe to sql.
+2023-11-03 09:30:02,641 Process for dataframe to sql took 0.6669912338256836 seconds.
+2023-11-03 09:30:02,642 Success writing Update time : 2023-11-03 09:11:31 to LastUpdateTime.html.
+2023-11-03 10:30:02,535 Success converting dataframe to sql.
+2023-11-03 10:30:02,535 Process for dataframe to sql took 0.6832256317138672 seconds.
+2023-11-03 10:30:02,536 Success writing Update time : 2023-11-03 10:11:34 to LastUpdateTime.html.
+2023-11-03 11:30:03,412 Success converting dataframe to sql.
+2023-11-03 11:30:03,413 Process for dataframe to sql took 0.7005455493927002 seconds.
+2023-11-03 11:30:03,413 Success writing Update time : 2023-11-03 11:11:35 to LastUpdateTime.html.
+2023-11-03 12:30:03,268 Success converting dataframe to sql.
+2023-11-03 12:30:03,268 Process for dataframe to sql took 0.6701703071594238 seconds.
+2023-11-03 12:30:03,269 Success writing Update time : 2023-11-03 12:11:35 to LastUpdateTime.html.
+2023-11-03 13:30:03,094 Success converting dataframe to sql.
+2023-11-03 13:30:03,095 Process for dataframe to sql took 0.6534218788146973 seconds.
+2023-11-03 13:30:03,095 Success writing Update time : 2023-11-03 13:11:35 to LastUpdateTime.html.
+2023-11-03 14:30:02,985 Success converting dataframe to sql.
+2023-11-03 14:30:02,985 Process for dataframe to sql took 0.6993808746337891 seconds.
+2023-11-03 14:30:02,986 Success writing Update time : 2023-11-03 14:11:35 to LastUpdateTime.html.
+2023-11-03 15:30:02,856 Success converting dataframe to sql.
+2023-11-03 15:30:02,856 Process for dataframe to sql took 0.6774337291717529 seconds.
+2023-11-03 15:30:02,856 Success writing Update time : 2023-11-03 15:11:36 to LastUpdateTime.html.
+2023-11-03 16:30:02,782 Success converting dataframe to sql.
+2023-11-03 16:30:02,782 Process for dataframe to sql took 0.6715857982635498 seconds.
+2023-11-03 16:30:02,783 Success writing Update time : 2023-11-03 16:11:35 to LastUpdateTime.html.
+2023-11-03 17:30:02,578 Success converting dataframe to sql.
+2023-11-03 17:30:02,579 Process for dataframe to sql took 0.5024697780609131 seconds.
+2023-11-03 17:30:02,579 Success writing Update time : 2023-11-03 17:11:33 to LastUpdateTime.html.
+2023-11-03 18:30:03,476 Success converting dataframe to sql.
+2023-11-03 18:30:03,476 Process for dataframe to sql took 0.6839206218719482 seconds.
+2023-11-03 18:30:03,476 Success writing Update time : 2023-11-03 18:11:36 to LastUpdateTime.html.
+2023-11-03 19:30:03,377 Success converting dataframe to sql.
+2023-11-03 19:30:03,378 Process for dataframe to sql took 0.7129080295562744 seconds.
+2023-11-03 19:30:03,378 Success writing Update time : 2023-11-03 19:11:37 to LastUpdateTime.html.
+2023-11-03 20:30:03,277 Success converting dataframe to sql.
+2023-11-03 20:30:03,278 Process for dataframe to sql took 0.6653640270233154 seconds.
+2023-11-03 20:30:03,278 Success writing Update time : 2023-11-03 20:11:50 to LastUpdateTime.html.
+2023-11-04 07:30:03,273 Success converting dataframe to sql.
+2023-11-04 07:30:03,273 Process for dataframe to sql took 0.775179386138916 seconds.
+2023-11-04 07:30:03,274 Success writing Update time : 2023-11-04 07:11:51 to LastUpdateTime.html.
+2023-11-04 08:30:03,409 Success converting dataframe to sql.
+2023-11-04 08:30:03,410 Process for dataframe to sql took 0.7070474624633789 seconds.
+2023-11-04 08:30:03,410 Success writing Update time : 2023-11-04 08:11:50 to LastUpdateTime.html.
+2023-11-04 09:30:03,288 Success converting dataframe to sql.
+2023-11-04 09:30:03,288 Process for dataframe to sql took 0.7103641033172607 seconds.
+2023-11-04 09:30:03,288 Success writing Update time : 2023-11-04 09:11:49 to LastUpdateTime.html.
+2023-11-04 10:30:02,922 Success converting dataframe to sql.
+2023-11-04 10:30:02,923 Process for dataframe to sql took 0.45247650146484375 seconds.
+2023-11-04 10:30:02,923 Success writing Update time : 2023-11-04 10:11:50 to LastUpdateTime.html.
+2023-11-04 11:30:02,831 Success converting dataframe to sql.
+2023-11-04 11:30:02,831 Process for dataframe to sql took 0.650275707244873 seconds.
+2023-11-04 11:30:02,831 Success writing Update time : 2023-11-04 11:11:41 to LastUpdateTime.html.
+2023-11-04 12:30:02,717 Success converting dataframe to sql.
+2023-11-04 12:30:02,717 Process for dataframe to sql took 0.6791684627532959 seconds.
+2023-11-04 12:30:02,718 Success writing Update time : 2023-11-04 12:11:46 to LastUpdateTime.html.
+2023-11-04 13:30:02,595 Success converting dataframe to sql.
+2023-11-04 13:30:02,595 Process for dataframe to sql took 0.6970200538635254 seconds.
+2023-11-04 13:30:02,596 Success writing Update time : 2023-11-04 13:11:51 to LastUpdateTime.html.
+2023-11-04 14:30:03,449 Success converting dataframe to sql.
+2023-11-04 14:30:03,449 Process for dataframe to sql took 0.7020270824432373 seconds.
+2023-11-04 14:30:03,450 Success writing Update time : 2023-11-04 14:11:45 to LastUpdateTime.html.
+2023-11-04 15:30:03,284 Success converting dataframe to sql.
+2023-11-04 15:30:03,285 Process for dataframe to sql took 0.6764829158782959 seconds.
+2023-11-04 15:30:03,285 Success writing Update time : 2023-11-04 15:12:43 to LastUpdateTime.html.
+2023-11-04 16:30:03,133 Success converting dataframe to sql.
+2023-11-04 16:30:03,133 Process for dataframe to sql took 0.6810958385467529 seconds.
+2023-11-04 16:30:03,134 Success writing Update time : 2023-11-04 16:11:47 to LastUpdateTime.html.
+2023-11-04 17:30:02,972 Success converting dataframe to sql.
+2023-11-04 17:30:02,972 Process for dataframe to sql took 0.6317250728607178 seconds.
+2023-11-04 17:30:02,973 Success writing Update time : 2023-11-04 17:11:42 to LastUpdateTime.html.
+2023-11-04 18:30:02,824 Success converting dataframe to sql.
+2023-11-04 18:30:02,825 Process for dataframe to sql took 0.6757285594940186 seconds.
+2023-11-04 18:30:02,825 Success writing Update time : 2023-11-04 18:11:48 to LastUpdateTime.html.
+2023-11-04 19:30:02,758 Success converting dataframe to sql.
+2023-11-04 19:30:02,758 Process for dataframe to sql took 0.7106804847717285 seconds.
+2023-11-04 19:30:02,758 Success writing Update time : 2023-11-04 19:11:41 to LastUpdateTime.html.
+2023-11-04 20:30:02,749 Success converting dataframe to sql.
+2023-11-04 20:30:02,749 Process for dataframe to sql took 0.6966233253479004 seconds.
+2023-11-04 20:30:02,750 Success writing Update time : 2023-11-04 20:10:53 to LastUpdateTime.html.
+2023-11-06 07:30:02,790 Success converting dataframe to sql.
+2023-11-06 07:30:02,790 Process for dataframe to sql took 0.6940045356750488 seconds.
+2023-11-06 07:30:02,791 Success writing Update time : 2023-11-05 08:11:40 to LastUpdateTime.html.
+2023-11-06 08:30:02,440 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-05 08:11:40 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-05 08:11:40
+2023-11-06 08:30:02,440 Please check file updating : /home/tank/export_anken.csv.
+2023-11-06 09:30:02,546 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-05 08:11:40 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-05 08:11:40
+2023-11-06 09:30:02,547 Please check file updating : /home/tank/export_anken.csv.
+2023-11-06 10:30:03,460 Success converting dataframe to sql.
+2023-11-06 10:30:03,460 Process for dataframe to sql took 0.6689143180847168 seconds.
+2023-11-06 10:30:03,461 Success writing Update time : 2023-11-06 10:11:25 to LastUpdateTime.html.
+2023-11-06 11:30:03,148 Success converting dataframe to sql.
+2023-11-06 11:30:03,149 Process for dataframe to sql took 0.46371912956237793 seconds.
+2023-11-06 11:30:03,151 Success writing Update time : 2023-11-06 11:11:26 to LastUpdateTime.html.
+2023-11-06 12:30:02,916 Success converting dataframe to sql.
+2023-11-06 12:30:02,917 Process for dataframe to sql took 0.4981069564819336 seconds.
+2023-11-06 12:30:02,918 Success writing Update time : 2023-11-06 12:11:36 to LastUpdateTime.html.
+2023-11-06 13:30:02,745 Success converting dataframe to sql.
+2023-11-06 13:30:02,745 Process for dataframe to sql took 0.6204073429107666 seconds.
+2023-11-06 13:30:02,746 Success writing Update time : 2023-11-06 13:11:26 to LastUpdateTime.html.
+2023-11-06 14:30:02,610 Success converting dataframe to sql.
+2023-11-06 14:30:02,611 Process for dataframe to sql took 0.6583461761474609 seconds.
+2023-11-06 14:30:02,611 Success writing Update time : 2023-11-06 14:11:25 to LastUpdateTime.html.
+2023-11-06 15:30:03,435 Success converting dataframe to sql.
+2023-11-06 15:30:03,435 Process for dataframe to sql took 0.6459667682647705 seconds.
+2023-11-06 15:30:03,437 Success writing Update time : 2023-11-06 15:11:25 to LastUpdateTime.html.
+2023-11-06 16:30:03,312 Success converting dataframe to sql.
+2023-11-06 16:30:03,312 Process for dataframe to sql took 0.6861624717712402 seconds.
+2023-11-06 16:30:03,314 Success writing Update time : 2023-11-06 16:11:26 to LastUpdateTime.html.
+2023-11-06 17:30:03,200 Success converting dataframe to sql.
+2023-11-06 17:30:03,201 Process for dataframe to sql took 0.675426721572876 seconds.
+2023-11-06 17:30:03,205 Success writing Update time : 2023-11-06 17:11:22 to LastUpdateTime.html.
+2023-11-06 18:30:03,223 Success converting dataframe to sql.
+2023-11-06 18:30:03,224 Process for dataframe to sql took 0.7529258728027344 seconds.
+2023-11-06 18:30:03,226 Success writing Update time : 2023-11-06 18:11:25 to LastUpdateTime.html.
+2023-11-06 19:30:03,160 Success converting dataframe to sql.
+2023-11-06 19:30:03,161 Process for dataframe to sql took 0.6998200416564941 seconds.
+2023-11-06 19:30:03,164 Success writing Update time : 2023-11-06 19:11:30 to LastUpdateTime.html.
+2023-11-06 20:30:03,055 Success converting dataframe to sql.
+2023-11-06 20:30:03,055 Process for dataframe to sql took 0.681952953338623 seconds.
+2023-11-06 20:30:03,056 Success writing Update time : 2023-11-06 20:11:33 to LastUpdateTime.html.
+2023-11-07 07:30:03,237 Success converting dataframe to sql.
+2023-11-07 07:30:03,237 Process for dataframe to sql took 0.7819609642028809 seconds.
+2023-11-07 07:30:03,238 Success writing Update time : 2023-11-07 07:11:44 to LastUpdateTime.html.
+2023-11-07 08:30:02,939 Success converting dataframe to sql.
+2023-11-07 08:30:02,939 Process for dataframe to sql took 0.6633498668670654 seconds.
+2023-11-07 08:30:02,940 Success writing Update time : 2023-11-07 08:11:22 to LastUpdateTime.html.
+2023-11-07 09:30:02,828 Success converting dataframe to sql.
+2023-11-07 09:30:02,829 Process for dataframe to sql took 0.6937456130981445 seconds.
+2023-11-07 09:30:02,829 Success writing Update time : 2023-11-07 09:11:39 to LastUpdateTime.html.
+2023-11-07 10:30:02,716 Success converting dataframe to sql.
+2023-11-07 10:30:02,716 Process for dataframe to sql took 0.6844563484191895 seconds.
+2023-11-07 10:30:02,716 Success writing Update time : 2023-11-07 10:11:20 to LastUpdateTime.html.
+2023-11-07 11:30:02,634 Success converting dataframe to sql.
+2023-11-07 11:30:02,635 Process for dataframe to sql took 0.7050840854644775 seconds.
+2023-11-07 11:30:02,635 Success writing Update time : 2023-11-07 11:11:21 to LastUpdateTime.html.
+2023-11-07 12:30:02,661 Success converting dataframe to sql.
+2023-11-07 12:30:02,661 Process for dataframe to sql took 0.750741720199585 seconds.
+2023-11-07 12:30:02,662 Success writing Update time : 2023-11-07 12:11:23 to LastUpdateTime.html.
+2023-11-07 13:30:02,734 Success converting dataframe to sql.
+2023-11-07 13:30:02,734 Process for dataframe to sql took 0.7494730949401855 seconds.
+2023-11-07 13:30:02,735 Success writing Update time : 2023-11-07 13:11:23 to LastUpdateTime.html.
+2023-11-07 14:30:02,631 Success converting dataframe to sql.
+2023-11-07 14:30:02,631 Process for dataframe to sql took 0.6697065830230713 seconds.
+2023-11-07 14:30:02,631 Success writing Update time : 2023-11-07 14:11:28 to LastUpdateTime.html.
+2023-11-07 15:30:01,809 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-07 14:11:28 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-07 14:11:28
+2023-11-07 15:30:01,809 Please check file updating : /home/tank/export_anken.csv.
+2023-11-07 16:30:02,712 Success converting dataframe to sql.
+2023-11-07 16:30:02,712 Process for dataframe to sql took 0.6721658706665039 seconds.
+2023-11-07 16:30:02,714 Success writing Update time : 2023-11-07 16:11:31 to LastUpdateTime.html.
+2023-11-07 17:30:02,594 Success converting dataframe to sql.
+2023-11-07 17:30:02,594 Process for dataframe to sql took 0.7079460620880127 seconds.
+2023-11-07 17:30:02,595 Success writing Update time : 2023-11-07 17:11:24 to LastUpdateTime.html.
+2023-11-07 18:30:03,472 Success converting dataframe to sql.
+2023-11-07 18:30:03,472 Process for dataframe to sql took 0.6701936721801758 seconds.
+2023-11-07 18:30:03,473 Success writing Update time : 2023-11-07 18:11:28 to LastUpdateTime.html.
+2023-11-07 19:30:03,387 Success converting dataframe to sql.
+2023-11-07 19:30:03,387 Process for dataframe to sql took 0.6834366321563721 seconds.
+2023-11-07 19:30:03,388 Success writing Update time : 2023-11-07 19:11:27 to LastUpdateTime.html.
+2023-11-07 20:30:03,295 Success converting dataframe to sql.
+2023-11-07 20:30:03,295 Process for dataframe to sql took 0.6958966255187988 seconds.
+2023-11-07 20:30:03,296 Success writing Update time : 2023-11-07 20:11:34 to LastUpdateTime.html.
+2023-11-08 07:30:03,436 Success converting dataframe to sql.
+2023-11-08 07:30:03,436 Process for dataframe to sql took 0.7972517013549805 seconds.
+2023-11-08 07:30:03,437 Success writing Update time : 2023-11-08 07:11:39 to LastUpdateTime.html.
+2023-11-08 08:30:03,373 Success converting dataframe to sql.
+2023-11-08 08:30:03,373 Process for dataframe to sql took 0.6910228729248047 seconds.
+2023-11-08 08:30:03,374 Success writing Update time : 2023-11-08 08:11:27 to LastUpdateTime.html.
+2023-11-08 09:30:03,308 Success converting dataframe to sql.
+2023-11-08 09:30:03,308 Process for dataframe to sql took 0.6873822212219238 seconds.
+2023-11-08 09:30:03,309 Success writing Update time : 2023-11-08 09:10:40 to LastUpdateTime.html.
+2023-11-08 10:30:03,160 Success converting dataframe to sql.
+2023-11-08 10:30:03,160 Process for dataframe to sql took 0.6361565589904785 seconds.
+2023-11-08 10:30:03,161 Success writing Update time : 2023-11-08 10:11:24 to LastUpdateTime.html.
+2023-11-08 11:30:03,030 Success converting dataframe to sql.
+2023-11-08 11:30:03,030 Process for dataframe to sql took 0.67942214012146 seconds.
+2023-11-08 11:30:03,030 Success writing Update time : 2023-11-08 11:11:24 to LastUpdateTime.html.
+2023-11-08 12:30:02,926 Success converting dataframe to sql.
+2023-11-08 12:30:02,926 Process for dataframe to sql took 0.7128937244415283 seconds.
+2023-11-08 12:30:02,928 Success writing Update time : 2023-11-08 12:11:22 to LastUpdateTime.html.
+2023-11-08 13:30:02,900 Success converting dataframe to sql.
+2023-11-08 13:30:02,900 Process for dataframe to sql took 0.729233980178833 seconds.
+2023-11-08 13:30:02,904 Success writing Update time : 2023-11-08 13:11:28 to LastUpdateTime.html.
+2023-11-08 14:30:02,795 Success converting dataframe to sql.
+2023-11-08 14:30:02,795 Process for dataframe to sql took 0.6263630390167236 seconds.
+2023-11-08 14:30:02,797 Success writing Update time : 2023-11-08 14:11:28 to LastUpdateTime.html.
+2023-11-08 15:30:02,798 Success converting dataframe to sql.
+2023-11-08 15:30:02,799 Process for dataframe to sql took 0.7466816902160645 seconds.
+2023-11-08 15:30:02,802 Success writing Update time : 2023-11-08 15:11:27 to LastUpdateTime.html.
+2023-11-08 16:30:02,684 Success converting dataframe to sql.
+2023-11-08 16:30:02,685 Process for dataframe to sql took 0.7121405601501465 seconds.
+2023-11-08 16:30:02,685 Success writing Update time : 2023-11-08 16:11:28 to LastUpdateTime.html.
+2023-11-08 17:30:02,603 Success converting dataframe to sql.
+2023-11-08 17:30:02,604 Process for dataframe to sql took 0.6758482456207275 seconds.
+2023-11-08 17:30:02,608 Success writing Update time : 2023-11-08 17:11:27 to LastUpdateTime.html.
+2023-11-08 18:30:02,544 Success converting dataframe to sql.
+2023-11-08 18:30:02,544 Process for dataframe to sql took 0.7184386253356934 seconds.
+2023-11-08 18:30:02,545 Success writing Update time : 2023-11-08 18:11:28 to LastUpdateTime.html.
+2023-11-08 19:30:03,373 Success converting dataframe to sql.
+2023-11-08 19:30:03,373 Process for dataframe to sql took 0.658339262008667 seconds.
+2023-11-08 19:30:03,375 Success writing Update time : 2023-11-08 19:11:26 to LastUpdateTime.html.
+2023-11-08 20:30:03,289 Success converting dataframe to sql.
+2023-11-08 20:30:03,290 Process for dataframe to sql took 0.6710095405578613 seconds.
+2023-11-08 20:30:03,291 Success writing Update time : 2023-11-08 20:11:33 to LastUpdateTime.html.
+2023-11-09 07:30:03,265 Success converting dataframe to sql.
+2023-11-09 07:30:03,265 Process for dataframe to sql took 0.7213180065155029 seconds.
+2023-11-09 07:30:03,265 Success writing Update time : 2023-11-09 07:11:36 to LastUpdateTime.html.
+2023-11-09 08:30:02,677 Success converting dataframe to sql.
+2023-11-09 08:30:02,677 Process for dataframe to sql took 0.7127995491027832 seconds.
+2023-11-09 08:30:02,678 Success writing Update time : 2023-11-09 08:11:23 to LastUpdateTime.html.
+2023-11-09 09:30:02,586 Success converting dataframe to sql.
+2023-11-09 09:30:02,587 Process for dataframe to sql took 0.6985514163970947 seconds.
+2023-11-09 09:30:02,587 Success writing Update time : 2023-11-09 09:11:30 to LastUpdateTime.html.
+2023-11-09 10:30:03,475 Success converting dataframe to sql.
+2023-11-09 10:30:03,476 Process for dataframe to sql took 0.6679670810699463 seconds.
+2023-11-09 10:30:03,478 Success writing Update time : 2023-11-09 10:11:27 to LastUpdateTime.html.
+2023-11-09 11:30:03,464 Success converting dataframe to sql.
+2023-11-09 11:30:03,464 Process for dataframe to sql took 0.7569944858551025 seconds.
+2023-11-09 11:30:03,465 Success writing Update time : 2023-11-09 11:11:25 to LastUpdateTime.html.
+2023-11-09 12:30:03,452 Success converting dataframe to sql.
+2023-11-09 12:30:03,452 Process for dataframe to sql took 0.7442779541015625 seconds.
+2023-11-09 12:30:03,454 Success writing Update time : 2023-11-09 12:11:29 to LastUpdateTime.html.
+2023-11-09 13:30:03,388 Success converting dataframe to sql.
+2023-11-09 13:30:03,389 Process for dataframe to sql took 0.7056221961975098 seconds.
+2023-11-09 13:30:03,390 Success writing Update time : 2023-11-09 13:11:28 to LastUpdateTime.html.
+2023-11-09 15:30:03,442 Success converting dataframe to sql.
+2023-11-09 15:30:03,443 Process for dataframe to sql took 0.7295403480529785 seconds.
+2023-11-09 15:30:03,443 Success writing Update time : 2023-11-09 15:11:28 to LastUpdateTime.html.
+2023-11-09 16:30:03,297 Success converting dataframe to sql.
+2023-11-09 16:30:03,297 Process for dataframe to sql took 0.6706249713897705 seconds.
+2023-11-09 16:30:03,299 Success writing Update time : 2023-11-09 16:11:28 to LastUpdateTime.html.
+2023-11-09 17:30:03,160 Success converting dataframe to sql.
+2023-11-09 17:30:03,160 Process for dataframe to sql took 0.6636278629302979 seconds.
+2023-11-09 17:30:03,163 Success writing Update time : 2023-11-09 17:10:59 to LastUpdateTime.html.
+2023-11-09 18:30:03,019 Success converting dataframe to sql.
+2023-11-09 18:30:03,020 Process for dataframe to sql took 0.6755001544952393 seconds.
+2023-11-09 18:30:03,020 Success writing Update time : 2023-11-09 18:11:30 to LastUpdateTime.html.
+2023-11-09 19:30:02,939 Success converting dataframe to sql.
+2023-11-09 19:30:02,939 Process for dataframe to sql took 0.7560639381408691 seconds.
+2023-11-09 19:30:02,941 Success writing Update time : 2023-11-09 19:11:28 to LastUpdateTime.html.
+2023-11-09 20:30:02,892 Success converting dataframe to sql.
+2023-11-09 20:30:02,892 Process for dataframe to sql took 0.6857690811157227 seconds.
+2023-11-09 20:30:02,893 Success writing Update time : 2023-11-09 20:11:33 to LastUpdateTime.html.
+2023-11-10 07:30:02,943 Success converting dataframe to sql.
+2023-11-10 07:30:02,943 Process for dataframe to sql took 0.7551355361938477 seconds.
+2023-11-10 07:30:02,944 Success writing Update time : 2023-11-10 07:11:42 to LastUpdateTime.html.
+2023-11-10 08:30:03,307 Success converting dataframe to sql.
+2023-11-10 08:30:03,307 Process for dataframe to sql took 0.7315361499786377 seconds.
+2023-11-10 08:30:03,308 Success writing Update time : 2023-11-10 08:11:22 to LastUpdateTime.html.
+2023-11-10 09:30:03,220 Success converting dataframe to sql.
+2023-11-10 09:30:03,221 Process for dataframe to sql took 0.6922821998596191 seconds.
+2023-11-10 09:30:03,221 Success writing Update time : 2023-11-10 09:11:28 to LastUpdateTime.html.
+2023-11-10 10:30:03,090 Success converting dataframe to sql.
+2023-11-10 10:30:03,090 Process for dataframe to sql took 0.7040896415710449 seconds.
+2023-11-10 10:30:03,091 Success writing Update time : 2023-11-10 10:11:25 to LastUpdateTime.html.
+2023-11-10 11:30:03,020 Success converting dataframe to sql.
+2023-11-10 11:30:03,020 Process for dataframe to sql took 0.6933395862579346 seconds.
+2023-11-10 11:30:03,020 Success writing Update time : 2023-11-10 11:11:25 to LastUpdateTime.html.
+2023-11-10 12:30:02,940 Success converting dataframe to sql.
+2023-11-10 12:30:02,940 Process for dataframe to sql took 0.7031400203704834 seconds.
+2023-11-10 12:30:02,940 Success writing Update time : 2023-11-10 12:11:23 to LastUpdateTime.html.
+2023-11-10 13:30:02,874 Success converting dataframe to sql.
+2023-11-10 13:30:02,874 Process for dataframe to sql took 0.7193922996520996 seconds.
+2023-11-10 13:30:02,874 Success writing Update time : 2023-11-10 13:11:29 to LastUpdateTime.html.
+2023-11-10 14:30:02,724 Success converting dataframe to sql.
+2023-11-10 14:30:02,725 Process for dataframe to sql took 0.6298303604125977 seconds.
+2023-11-10 14:30:02,725 Success writing Update time : 2023-11-10 14:11:23 to LastUpdateTime.html.
+2023-11-10 15:30:02,599 Success converting dataframe to sql.
+2023-11-10 15:30:02,599 Process for dataframe to sql took 0.6517255306243896 seconds.
+2023-11-10 15:30:02,600 Success writing Update time : 2023-11-10 15:11:26 to LastUpdateTime.html.
+2023-11-10 16:30:02,532 Success converting dataframe to sql.
+2023-11-10 16:30:02,533 Process for dataframe to sql took 0.7181930541992188 seconds.
+2023-11-10 16:30:02,533 Success writing Update time : 2023-11-10 16:11:25 to LastUpdateTime.html.
+2023-11-13 08:30:03,587 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-10 16:11:25 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-10 16:11:25
+2023-11-13 08:30:03,588 Please check file updating : /home/tank/export_anken.csv.
+2023-11-13 09:30:02,629 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-10 16:11:25 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-10 16:11:25
+2023-11-13 09:30:02,629 Please check file updating : /home/tank/export_anken.csv.
+2023-11-13 10:30:03,445 Success converting dataframe to sql.
+2023-11-13 10:30:03,445 Process for dataframe to sql took 0.6577537059783936 seconds.
+2023-11-13 10:30:03,446 Success writing Update time : 2023-11-13 10:11:31 to LastUpdateTime.html.
+2023-11-13 11:30:03,258 Success converting dataframe to sql.
+2023-11-13 11:30:03,258 Process for dataframe to sql took 0.6623263359069824 seconds.
+2023-11-13 11:30:03,259 Success writing Update time : 2023-11-13 11:11:28 to LastUpdateTime.html.
+2023-11-13 12:30:02,894 Success converting dataframe to sql.
+2023-11-13 12:30:02,894 Process for dataframe to sql took 0.4466400146484375 seconds.
+2023-11-13 12:30:02,894 Success writing Update time : 2023-11-13 12:11:25 to LastUpdateTime.html.
+2023-11-13 13:30:02,693 Success converting dataframe to sql.
+2023-11-13 13:30:02,693 Process for dataframe to sql took 0.656541109085083 seconds.
+2023-11-13 13:30:02,694 Success writing Update time : 2023-11-13 13:11:28 to LastUpdateTime.html.
+2023-11-13 14:30:02,640 Success converting dataframe to sql.
+2023-11-13 14:30:02,640 Process for dataframe to sql took 0.7024297714233398 seconds.
+2023-11-13 14:30:02,640 Success writing Update time : 2023-11-13 14:11:25 to LastUpdateTime.html.
+2023-11-13 15:30:02,527 Success converting dataframe to sql.
+2023-11-13 15:30:02,527 Process for dataframe to sql took 0.7157166004180908 seconds.
+2023-11-13 15:30:02,528 Success writing Update time : 2023-11-13 15:11:26 to LastUpdateTime.html.
+2023-11-13 16:30:03,284 Success converting dataframe to sql.
+2023-11-13 16:30:03,284 Process for dataframe to sql took 0.648209810256958 seconds.
+2023-11-13 16:30:03,284 Success writing Update time : 2023-11-13 16:11:24 to LastUpdateTime.html.
+2023-11-13 17:30:03,088 Success converting dataframe to sql.
+2023-11-13 17:30:03,089 Process for dataframe to sql took 0.6506955623626709 seconds.
+2023-11-13 17:30:03,089 Success writing Update time : 2023-11-13 17:11:26 to LastUpdateTime.html.
+2023-11-13 18:30:02,913 Success converting dataframe to sql.
+2023-11-13 18:30:02,914 Process for dataframe to sql took 0.665522575378418 seconds.
+2023-11-13 18:30:02,914 Success writing Update time : 2023-11-13 18:11:25 to LastUpdateTime.html.
+2023-11-13 19:30:02,720 Success converting dataframe to sql.
+2023-11-13 19:30:02,720 Process for dataframe to sql took 0.6670176982879639 seconds.
+2023-11-13 19:30:02,721 Success writing Update time : 2023-11-13 19:11:29 to LastUpdateTime.html.
+2023-11-13 20:30:02,514 Success converting dataframe to sql.
+2023-11-13 20:30:02,514 Process for dataframe to sql took 0.659822940826416 seconds.
+2023-11-13 20:30:02,514 Success writing Update time : 2023-11-13 20:11:38 to LastUpdateTime.html.
+2023-11-14 07:30:02,528 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-13 20:11:38 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-13 20:11:38
+2023-11-14 07:30:02,528 Please check file updating : /home/tank/export_anken.csv.
+2023-11-14 08:30:03,422 Success converting dataframe to sql.
+2023-11-14 08:30:03,422 Process for dataframe to sql took 0.7017443180084229 seconds.
+2023-11-14 08:30:03,423 Success writing Update time : 2023-11-14 08:11:24 to LastUpdateTime.html.
+2023-11-14 09:30:03,346 Success converting dataframe to sql.
+2023-11-14 09:30:03,346 Process for dataframe to sql took 0.6760234832763672 seconds.
+2023-11-14 09:30:03,347 Success writing Update time : 2023-11-14 09:11:24 to LastUpdateTime.html.
+2023-11-14 10:30:03,132 Success converting dataframe to sql.
+2023-11-14 10:30:03,132 Process for dataframe to sql took 0.652949333190918 seconds.
+2023-11-14 10:30:03,133 Success writing Update time : 2023-11-14 09:35:50 to LastUpdateTime.html.
+2023-11-14 11:30:02,262 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-14 09:35:50 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-14 09:35:50
+2023-11-14 11:30:02,263 Please check file updating : /home/tank/export_anken.csv.
+2023-11-14 12:30:03,076 Success converting dataframe to sql.
+2023-11-14 12:30:03,077 Process for dataframe to sql took 0.6810858249664307 seconds.
+2023-11-14 12:30:03,077 Success writing Update time : 2023-11-14 12:11:28 to LastUpdateTime.html.
+2023-11-14 13:30:03,051 Success converting dataframe to sql.
+2023-11-14 13:30:03,051 Process for dataframe to sql took 0.7229151725769043 seconds.
+2023-11-14 13:30:03,052 Success writing Update time : 2023-11-14 13:11:29 to LastUpdateTime.html.
+2023-11-14 14:30:02,947 Success converting dataframe to sql.
+2023-11-14 14:30:02,948 Process for dataframe to sql took 0.6724224090576172 seconds.
+2023-11-14 14:30:02,950 Success writing Update time : 2023-11-14 14:11:22 to LastUpdateTime.html.
+2023-11-14 15:30:02,740 Success converting dataframe to sql.
+2023-11-14 15:30:02,741 Process for dataframe to sql took 0.6539657115936279 seconds.
+2023-11-14 15:30:02,742 Success writing Update time : 2023-11-14 15:11:24 to LastUpdateTime.html.
+2023-11-14 16:30:02,559 Success converting dataframe to sql.
+2023-11-14 16:30:02,560 Process for dataframe to sql took 0.6571955680847168 seconds.
+2023-11-14 16:30:02,562 Success writing Update time : 2023-11-14 16:11:27 to LastUpdateTime.html.
+2023-11-14 17:30:03,358 Success converting dataframe to sql.
+2023-11-14 17:30:03,358 Process for dataframe to sql took 0.6329319477081299 seconds.
+2023-11-14 17:30:03,359 Success writing Update time : 2023-11-14 17:11:27 to LastUpdateTime.html.
+2023-11-14 18:30:03,204 Success converting dataframe to sql.
+2023-11-14 18:30:03,205 Process for dataframe to sql took 0.6676666736602783 seconds.
+2023-11-14 18:30:03,206 Success writing Update time : 2023-11-14 18:11:28 to LastUpdateTime.html.
+2023-11-14 19:30:03,073 Success converting dataframe to sql.
+2023-11-14 19:30:03,074 Process for dataframe to sql took 0.672229528427124 seconds.
+2023-11-14 19:30:03,075 Success writing Update time : 2023-11-14 19:11:27 to LastUpdateTime.html.
+2023-11-14 20:30:02,859 Success converting dataframe to sql.
+2023-11-14 20:30:02,859 Process for dataframe to sql took 0.6464152336120605 seconds.
+2023-11-14 20:30:02,861 Success writing Update time : 2023-11-14 20:11:38 to LastUpdateTime.html.
+2023-11-15 07:30:02,552 Success converting dataframe to sql.
+2023-11-15 07:30:02,552 Process for dataframe to sql took 0.6626842021942139 seconds.
+2023-11-15 07:30:02,553 Success writing Update time : 2023-11-15 07:11:39 to LastUpdateTime.html.
+2023-11-15 08:30:03,216 Success converting dataframe to sql.
+2023-11-15 08:30:03,217 Process for dataframe to sql took 0.6599111557006836 seconds.
+2023-11-15 08:30:03,217 Success writing Update time : 2023-11-15 08:11:27 to LastUpdateTime.html.
+2023-11-15 09:30:03,037 Success converting dataframe to sql.
+2023-11-15 09:30:03,037 Process for dataframe to sql took 0.6501502990722656 seconds.
+2023-11-15 09:30:03,037 Success writing Update time : 2023-11-15 09:11:30 to LastUpdateTime.html.
+2023-11-15 10:30:02,885 Success converting dataframe to sql.
+2023-11-15 10:30:02,886 Process for dataframe to sql took 0.6741762161254883 seconds.
+2023-11-15 10:30:02,886 Success writing Update time : 2023-11-15 10:11:28 to LastUpdateTime.html.
+2023-11-15 11:30:02,774 Success converting dataframe to sql.
+2023-11-15 11:30:02,774 Process for dataframe to sql took 0.6636879444122314 seconds.
+2023-11-15 11:30:02,775 Success writing Update time : 2023-11-15 11:11:29 to LastUpdateTime.html.
+2023-11-15 12:30:02,609 Success converting dataframe to sql.
+2023-11-15 12:30:02,609 Process for dataframe to sql took 0.6725594997406006 seconds.
+2023-11-15 12:30:02,610 Success writing Update time : 2023-11-15 12:11:29 to LastUpdateTime.html.
+2023-11-15 13:30:03,431 Success converting dataframe to sql.
+2023-11-15 13:30:03,432 Process for dataframe to sql took 0.6363480091094971 seconds.
+2023-11-15 13:30:03,438 Success writing Update time : 2023-11-15 13:11:28 to LastUpdateTime.html.
+2023-11-15 14:30:03,125 Success converting dataframe to sql.
+2023-11-15 14:30:03,125 Process for dataframe to sql took 0.4980509281158447 seconds.
+2023-11-15 14:30:03,126 Success writing Update time : 2023-11-15 14:11:24 to LastUpdateTime.html.
+2023-11-15 15:30:02,818 Success converting dataframe to sql.
+2023-11-15 15:30:02,820 Process for dataframe to sql took 0.46683192253112793 seconds.
+2023-11-15 15:30:02,822 Success writing Update time : 2023-11-15 15:11:30 to LastUpdateTime.html.
+2023-11-15 16:30:02,713 Success converting dataframe to sql.
+2023-11-15 16:30:02,713 Process for dataframe to sql took 0.7027907371520996 seconds.
+2023-11-15 16:30:02,714 Success writing Update time : 2023-11-15 16:11:22 to LastUpdateTime.html.
+2023-11-15 17:30:02,592 Success converting dataframe to sql.
+2023-11-15 17:30:02,592 Process for dataframe to sql took 0.6861517429351807 seconds.
+2023-11-15 17:30:02,593 Success writing Update time : 2023-11-15 17:11:32 to LastUpdateTime.html.
+2023-11-15 18:30:03,419 Success converting dataframe to sql.
+2023-11-15 18:30:03,419 Process for dataframe to sql took 0.662405252456665 seconds.
+2023-11-15 18:30:03,419 Success writing Update time : 2023-11-15 18:11:28 to LastUpdateTime.html.
+2023-11-15 19:30:03,283 Success converting dataframe to sql.
+2023-11-15 19:30:03,283 Process for dataframe to sql took 0.6697959899902344 seconds.
+2023-11-15 19:30:03,284 Success writing Update time : 2023-11-15 19:11:28 to LastUpdateTime.html.
+2023-11-15 20:30:03,128 Success converting dataframe to sql.
+2023-11-15 20:30:03,128 Process for dataframe to sql took 0.6716773509979248 seconds.
+2023-11-15 20:30:03,128 Success writing Update time : 2023-11-15 20:11:38 to LastUpdateTime.html.
+2023-11-16 07:30:02,929 Success converting dataframe to sql.
+2023-11-16 07:30:02,930 Process for dataframe to sql took 0.6431393623352051 seconds.
+2023-11-16 07:30:02,930 Success writing Update time : 2023-11-16 07:11:41 to LastUpdateTime.html.
+2023-11-16 08:30:03,195 Success converting dataframe to sql.
+2023-11-16 08:30:03,195 Process for dataframe to sql took 0.6700778007507324 seconds.
+2023-11-16 08:30:03,196 Success writing Update time : 2023-11-16 08:11:23 to LastUpdateTime.html.
+2023-11-16 09:30:02,979 Success converting dataframe to sql.
+2023-11-16 09:30:02,979 Process for dataframe to sql took 0.6412835121154785 seconds.
+2023-11-16 09:30:02,980 Success writing Update time : 2023-11-16 09:11:28 to LastUpdateTime.html.
+2023-11-16 10:30:02,827 Success converting dataframe to sql.
+2023-11-16 10:30:02,827 Process for dataframe to sql took 0.6493058204650879 seconds.
+2023-11-16 10:30:02,827 Success writing Update time : 2023-11-16 10:11:27 to LastUpdateTime.html.
+2023-11-16 11:30:02,633 Success converting dataframe to sql.
+2023-11-16 11:30:02,633 Process for dataframe to sql took 0.6343855857849121 seconds.
+2023-11-16 11:30:02,634 Success writing Update time : 2023-11-16 11:11:28 to LastUpdateTime.html.
+2023-11-16 12:30:02,497 Success converting dataframe to sql.
+2023-11-16 12:30:02,498 Process for dataframe to sql took 0.7051301002502441 seconds.
+2023-11-16 12:30:02,498 Success writing Update time : 2023-11-16 12:11:24 to LastUpdateTime.html.
+2023-11-16 13:30:03,358 Success converting dataframe to sql.
+2023-11-16 13:30:03,358 Process for dataframe to sql took 0.705085039138794 seconds.
+2023-11-16 13:30:03,359 Success writing Update time : 2023-11-16 13:11:28 to LastUpdateTime.html.
+2023-11-16 14:30:03,262 Success converting dataframe to sql.
+2023-11-16 14:30:03,262 Process for dataframe to sql took 0.7260169982910156 seconds.
+2023-11-16 14:30:03,262 Success writing Update time : 2023-11-16 14:11:29 to LastUpdateTime.html.
+2023-11-16 15:30:03,135 Success converting dataframe to sql.
+2023-11-16 15:30:03,135 Process for dataframe to sql took 0.6725924015045166 seconds.
+2023-11-16 15:30:03,135 Success writing Update time : 2023-11-16 15:11:27 to LastUpdateTime.html.
+2023-11-16 16:30:02,278 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-16 15:11:27 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-16 15:11:27
+2023-11-16 16:30:02,278 Please check file updating : /home/tank/export_anken.csv.
+2023-11-16 17:30:02,328 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-16 15:11:27 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-16 15:11:27
+2023-11-16 17:30:02,328 Please check file updating : /home/tank/export_anken.csv.
+2023-11-16 18:30:02,433 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-16 15:11:27 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-16 15:11:27
+2023-11-16 18:30:02,433 Please check file updating : /home/tank/export_anken.csv.
+2023-11-16 19:30:02,517 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-16 15:11:27 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-16 15:11:27
+2023-11-16 19:30:02,517 Please check file updating : /home/tank/export_anken.csv.
+2023-11-16 20:30:02,596 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-16 15:11:27 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-16 15:11:27
+2023-11-16 20:30:02,596 Please check file updating : /home/tank/export_anken.csv.
+2023-11-17 07:30:03,353 Success converting dataframe to sql.
+2023-11-17 07:30:03,354 Process for dataframe to sql took 0.6470997333526611 seconds.
+2023-11-17 07:30:03,354 Success writing Update time : 2023-11-17 07:11:38 to LastUpdateTime.html.
+2023-11-17 08:30:02,723 Success converting dataframe to sql.
+2023-11-17 08:30:02,724 Process for dataframe to sql took 0.7071661949157715 seconds.
+2023-11-17 08:30:02,724 Success writing Update time : 2023-11-17 08:11:28 to LastUpdateTime.html.
+2023-11-17 09:30:02,588 Success converting dataframe to sql.
+2023-11-17 09:30:02,588 Process for dataframe to sql took 0.6774029731750488 seconds.
+2023-11-17 09:30:02,589 Success writing Update time : 2023-11-17 09:11:30 to LastUpdateTime.html.
+2023-11-17 10:30:03,500 Success converting dataframe to sql.
+2023-11-17 10:30:03,500 Process for dataframe to sql took 0.7259423732757568 seconds.
+2023-11-17 10:30:03,501 Success writing Update time : 2023-11-17 10:11:30 to LastUpdateTime.html.
+2023-11-17 11:30:03,354 Success converting dataframe to sql.
+2023-11-17 11:30:03,354 Process for dataframe to sql took 0.6840500831604004 seconds.
+2023-11-17 11:30:03,354 Success writing Update time : 2023-11-17 11:11:30 to LastUpdateTime.html.
+2023-11-17 12:30:03,158 Success converting dataframe to sql.
+2023-11-17 12:30:03,158 Process for dataframe to sql took 0.635279655456543 seconds.
+2023-11-17 12:30:03,159 Success writing Update time : 2023-11-17 12:11:31 to LastUpdateTime.html.
+2023-11-17 13:30:03,033 Success converting dataframe to sql.
+2023-11-17 13:30:03,033 Process for dataframe to sql took 0.6571307182312012 seconds.
+2023-11-17 13:30:03,033 Success writing Update time : 2023-11-17 13:11:30 to LastUpdateTime.html.
+2023-11-17 14:30:02,853 Success converting dataframe to sql.
+2023-11-17 14:30:02,853 Process for dataframe to sql took 0.6540782451629639 seconds.
+2023-11-17 14:30:02,854 Success writing Update time : 2023-11-17 14:11:30 to LastUpdateTime.html.
+2023-11-17 15:30:02,771 Success converting dataframe to sql.
+2023-11-17 15:30:02,771 Process for dataframe to sql took 0.6936488151550293 seconds.
+2023-11-17 15:30:02,771 Success writing Update time : 2023-11-17 15:11:30 to LastUpdateTime.html.
+2023-11-17 16:30:01,916 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-17 15:11:30 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-17 15:11:30
+2023-11-17 16:30:01,916 Please check file updating : /home/tank/export_anken.csv.
+2023-11-17 17:30:02,005 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-17 15:11:30 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-17 15:11:30
+2023-11-17 17:30:02,005 Please check file updating : /home/tank/export_anken.csv.
+2023-11-17 18:30:02,853 Success converting dataframe to sql.
+2023-11-17 18:30:02,853 Process for dataframe to sql took 0.7076930999755859 seconds.
+2023-11-17 18:30:02,853 Success writing Update time : 2023-11-17 18:11:22 to LastUpdateTime.html.
+2023-11-17 19:30:02,696 Success converting dataframe to sql.
+2023-11-17 19:30:02,696 Process for dataframe to sql took 0.6697289943695068 seconds.
+2023-11-17 19:30:02,697 Success writing Update time : 2023-11-17 19:11:30 to LastUpdateTime.html.
+2023-11-17 20:30:01,819 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-17 19:11:30 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-17 19:11:30
+2023-11-17 20:30:01,819 Please check file updating : /home/tank/export_anken.csv.
+2023-11-18 07:30:02,746 Success converting dataframe to sql.
+2023-11-18 07:30:02,747 Process for dataframe to sql took 0.7097713947296143 seconds.
+2023-11-18 07:30:02,747 Success writing Update time : 2023-11-18 07:11:36 to LastUpdateTime.html.
+2023-11-18 08:30:03,190 Success converting dataframe to sql.
+2023-11-18 08:30:03,190 Process for dataframe to sql took 0.6974201202392578 seconds.
+2023-11-18 08:30:03,190 Success writing Update time : 2023-11-18 08:11:39 to LastUpdateTime.html.
+2023-11-18 09:30:03,034 Success converting dataframe to sql.
+2023-11-18 09:30:03,034 Process for dataframe to sql took 0.6724920272827148 seconds.
+2023-11-18 09:30:03,034 Success writing Update time : 2023-11-18 09:11:36 to LastUpdateTime.html.
+2023-11-18 10:30:02,887 Success converting dataframe to sql.
+2023-11-18 10:30:02,887 Process for dataframe to sql took 0.6741578578948975 seconds.
+2023-11-18 10:30:02,888 Success writing Update time : 2023-11-18 10:11:35 to LastUpdateTime.html.
+2023-11-18 11:30:02,770 Success converting dataframe to sql.
+2023-11-18 11:30:02,771 Process for dataframe to sql took 0.712468147277832 seconds.
+2023-11-18 11:30:02,771 Success writing Update time : 2023-11-18 11:11:40 to LastUpdateTime.html.
+2023-11-18 12:30:02,604 Success converting dataframe to sql.
+2023-11-18 12:30:02,605 Process for dataframe to sql took 0.6837320327758789 seconds.
+2023-11-18 12:30:02,605 Success writing Update time : 2023-11-18 12:11:36 to LastUpdateTime.html.
+2023-11-18 13:30:03,440 Success converting dataframe to sql.
+2023-11-18 13:30:03,440 Process for dataframe to sql took 0.6612343788146973 seconds.
+2023-11-18 13:30:03,440 Success writing Update time : 2023-11-18 13:11:40 to LastUpdateTime.html.
+2023-11-18 14:30:03,251 Success converting dataframe to sql.
+2023-11-18 14:30:03,251 Process for dataframe to sql took 0.667802095413208 seconds.
+2023-11-18 14:30:03,252 Success writing Update time : 2023-11-18 14:11:38 to LastUpdateTime.html.
+2023-11-18 15:30:03,084 Success converting dataframe to sql.
+2023-11-18 15:30:03,084 Process for dataframe to sql took 0.6539156436920166 seconds.
+2023-11-18 15:30:03,084 Success writing Update time : 2023-11-18 15:11:39 to LastUpdateTime.html.
+2023-11-18 16:30:02,964 Success converting dataframe to sql.
+2023-11-18 16:30:02,964 Process for dataframe to sql took 0.6677765846252441 seconds.
+2023-11-18 16:30:02,965 Success writing Update time : 2023-11-18 16:11:42 to LastUpdateTime.html.
+2023-11-18 17:30:02,606 Success converting dataframe to sql.
+2023-11-18 17:30:02,606 Process for dataframe to sql took 0.4819035530090332 seconds.
+2023-11-18 17:30:02,607 Success writing Update time : 2023-11-18 17:11:44 to LastUpdateTime.html.
+2023-11-18 18:30:03,434 Success converting dataframe to sql.
+2023-11-18 18:30:03,434 Process for dataframe to sql took 0.6936600208282471 seconds.
+2023-11-18 18:30:03,435 Success writing Update time : 2023-11-18 18:11:36 to LastUpdateTime.html.
+2023-11-18 19:30:03,236 Success converting dataframe to sql.
+2023-11-18 19:30:03,236 Process for dataframe to sql took 0.6513831615447998 seconds.
+2023-11-18 19:30:03,237 Success writing Update time : 2023-11-18 19:11:37 to LastUpdateTime.html.
+2023-11-18 20:30:03,121 Success converting dataframe to sql.
+2023-11-18 20:30:03,121 Process for dataframe to sql took 0.6540100574493408 seconds.
+2023-11-18 20:30:03,121 Success writing Update time : 2023-11-18 20:11:37 to LastUpdateTime.html.
+2023-11-20 07:30:03,074 Success converting dataframe to sql.
+2023-11-20 07:30:03,074 Process for dataframe to sql took 0.8314416408538818 seconds.
+2023-11-20 07:30:03,075 Success writing Update time : 2023-11-20 07:11:39 to LastUpdateTime.html.
+2023-11-20 08:30:03,245 Success converting dataframe to sql.
+2023-11-20 08:30:03,246 Process for dataframe to sql took 0.6875889301300049 seconds.
+2023-11-20 08:30:03,246 Success writing Update time : 2023-11-20 08:11:21 to LastUpdateTime.html.
+2023-11-20 09:30:03,145 Success converting dataframe to sql.
+2023-11-20 09:30:03,145 Process for dataframe to sql took 0.6790792942047119 seconds.
+2023-11-20 09:30:03,146 Success writing Update time : 2023-11-20 09:11:28 to LastUpdateTime.html.
+2023-11-20 10:30:03,171 Success converting dataframe to sql.
+2023-11-20 10:30:03,171 Process for dataframe to sql took 0.7905588150024414 seconds.
+2023-11-20 10:30:03,172 Success writing Update time : 2023-11-20 10:11:27 to LastUpdateTime.html.
+2023-11-20 11:30:03,008 Success converting dataframe to sql.
+2023-11-20 11:30:03,008 Process for dataframe to sql took 0.6656186580657959 seconds.
+2023-11-20 11:30:03,009 Success writing Update time : 2023-11-20 11:11:23 to LastUpdateTime.html.
+2023-11-20 12:30:02,883 Success converting dataframe to sql.
+2023-11-20 12:30:02,883 Process for dataframe to sql took 0.6990466117858887 seconds.
+2023-11-20 12:30:02,884 Success writing Update time : 2023-11-20 12:11:27 to LastUpdateTime.html.
+2023-11-20 13:30:02,702 Success converting dataframe to sql.
+2023-11-20 13:30:02,703 Process for dataframe to sql took 0.6645488739013672 seconds.
+2023-11-20 13:30:02,703 Success writing Update time : 2023-11-20 13:11:27 to LastUpdateTime.html.
+2023-11-20 14:30:02,660 Success converting dataframe to sql.
+2023-11-20 14:30:02,661 Process for dataframe to sql took 0.7331302165985107 seconds.
+2023-11-20 14:30:02,661 Success writing Update time : 2023-11-20 14:11:26 to LastUpdateTime.html.
+2023-11-20 15:30:02,550 Success converting dataframe to sql.
+2023-11-20 15:30:02,550 Process for dataframe to sql took 0.6896002292633057 seconds.
+2023-11-20 15:30:02,550 Success writing Update time : 2023-11-20 15:11:06 to LastUpdateTime.html.
+2023-11-20 16:30:03,463 Success converting dataframe to sql.
+2023-11-20 16:30:03,463 Process for dataframe to sql took 0.730318546295166 seconds.
+2023-11-20 16:30:03,463 Success writing Update time : 2023-11-20 16:11:27 to LastUpdateTime.html.
+2023-11-20 17:30:03,352 Success converting dataframe to sql.
+2023-11-20 17:30:03,352 Process for dataframe to sql took 0.6794908046722412 seconds.
+2023-11-20 17:30:03,353 Success writing Update time : 2023-11-20 17:11:27 to LastUpdateTime.html.
+2023-11-20 18:30:03,174 Success converting dataframe to sql.
+2023-11-20 18:30:03,174 Process for dataframe to sql took 0.6633157730102539 seconds.
+2023-11-20 18:30:03,174 Success writing Update time : 2023-11-20 18:11:26 to LastUpdateTime.html.
+2023-11-20 19:30:03,080 Success converting dataframe to sql.
+2023-11-20 19:30:03,080 Process for dataframe to sql took 0.7005603313446045 seconds.
+2023-11-20 19:30:03,081 Success writing Update time : 2023-11-20 19:11:35 to LastUpdateTime.html.
+2023-11-20 20:30:02,200 File is not Updated : /home/tank/export_anken.csv mtime=2023-11-20 19:11:35 , /home/dev1/proj/znwproject/opportunity/templates/op/LastUpdateTime.html timestamp=2023-11-20 19:11:35
+2023-11-20 20:30:02,200 Please check file updating : /home/tank/export_anken.csv.
+2023-11-21 07:30:03,139 Success converting dataframe to sql.
+2023-11-21 07:30:03,139 Process for dataframe to sql took 0.7199630737304688 seconds.
+2023-11-21 07:30:03,139 Success writing Update time : 2023-11-21 07:11:36 to LastUpdateTime.html.
+2023-11-21 08:30:02,449 Success converting dataframe to sql.
+2023-11-21 08:30:02,449 Process for dataframe to sql took 0.6753513813018799 seconds.
+2023-11-21 08:30:02,449 Success writing Update time : 2023-11-21 08:11:21 to LastUpdateTime.html.
+2023-11-21 09:30:03,298 Success converting dataframe to sql.
+2023-11-21 09:30:03,298 Process for dataframe to sql took 0.6945850849151611 seconds.
+2023-11-21 09:30:03,298 Success writing Update time : 2023-11-21 09:11:31 to LastUpdateTime.html.
+2023-11-21 10:30:03,132 Success converting dataframe to sql.
+2023-11-21 10:30:03,132 Process for dataframe to sql took 0.640019416809082 seconds.
+2023-11-21 10:30:03,132 Success writing Update time : 2023-11-21 10:11:30 to LastUpdateTime.html.
+2023-11-21 11:30:03,051 Success converting dataframe to sql.
+2023-11-21 11:30:03,051 Process for dataframe to sql took 0.7080533504486084 seconds.
+2023-11-21 11:30:03,052 Success writing Update time : 2023-11-21 11:11:26 to LastUpdateTime.html.
+2023-11-21 12:30:02,899 Success converting dataframe to sql.
+2023-11-21 12:30:02,900 Process for dataframe to sql took 0.6909394264221191 seconds.
+2023-11-21 12:30:02,900 Success writing Update time : 2023-11-21 12:11:25 to LastUpdateTime.html.
+2023-11-21 13:30:02,743 Success converting dataframe to sql.
+2023-11-21 13:30:02,744 Process for dataframe to sql took 0.6921646595001221 seconds.
+2023-11-21 13:30:02,744 Success writing Update time : 2023-11-21 13:11:25 to LastUpdateTime.html.
+2023-11-21 14:30:02,531 Success converting dataframe to sql.
+2023-11-21 14:30:02,531 Process for dataframe to sql took 0.6301531791687012 seconds.
+2023-11-21 14:30:02,535 Success writing Update time : 2023-11-21 14:11:38 to LastUpdateTime.html.
+2023-11-21 15:30:03,400 Success converting dataframe to sql.
+2023-11-21 15:30:03,400 Process for dataframe to sql took 0.6918597221374512 seconds.
+2023-11-21 15:30:03,405 Success writing Update time : 2023-11-21 15:11:28 to LastUpdateTime.html.
+2023-11-21 16:30:03,344 Success converting dataframe to sql.
+2023-11-21 16:30:03,346 Process for dataframe to sql took 0.6695184707641602 seconds.
+2023-11-21 16:30:03,347 Success writing Update time : 2023-11-21 16:11:30 to LastUpdateTime.html.
+2023-11-21 17:30:03,264 Success converting dataframe to sql.
+2023-11-21 17:30:03,265 Process for dataframe to sql took 0.703059196472168 seconds.
+2023-11-21 17:30:03,269 Success writing Update time : 2023-11-21 17:11:25 to LastUpdateTime.html.
+2023-11-21 18:30:03,122 Success converting dataframe to sql.
+2023-11-21 18:30:03,123 Process for dataframe to sql took 0.690096378326416 seconds.
+2023-11-21 18:30:03,124 Success writing Update time : 2023-11-21 18:11:29 to LastUpdateTime.html.
+2023-11-21 19:30:03,003 Success converting dataframe to sql.
+2023-11-21 19:30:03,004 Process for dataframe to sql took 0.6786620616912842 seconds.
+2023-11-21 19:30:03,005 Success writing Update time : 2023-11-21 19:11:26 to LastUpdateTime.html.
+2023-11-21 20:30:02,844 Success converting dataframe to sql.
+2023-11-21 20:30:02,845 Process for dataframe to sql took 0.666663646697998 seconds.
+2023-11-21 20:30:02,847 Success writing Update time : 2023-11-21 20:11:38 to LastUpdateTime.html.
+2023-11-22 07:30:02,747 Success converting dataframe to sql.
+2023-11-22 07:30:02,747 Process for dataframe to sql took 0.7133798599243164 seconds.
+2023-11-22 07:30:02,749 Success writing Update time : 2023-11-22 07:11:43 to LastUpdateTime.html.
+2023-11-22 08:30:02,579 Success converting dataframe to sql.
+2023-11-22 08:30:02,580 Process for dataframe to sql took 0.7310194969177246 seconds.
+2023-11-22 08:30:02,580 Success writing Update time : 2023-11-22 08:11:29 to LastUpdateTime.html.
+2023-11-22 09:30:03,364 Success converting dataframe to sql.
+2023-11-22 09:30:03,365 Process for dataframe to sql took 0.6393387317657471 seconds.
+2023-11-22 09:30:03,366 Success writing Update time : 2023-11-22 09:11:26 to LastUpdateTime.html.
+2023-11-22 10:30:03,177 Success converting dataframe to sql.
+2023-11-22 10:30:03,177 Process for dataframe to sql took 0.6785869598388672 seconds.
+2023-11-22 10:30:03,178 Success writing Update time : 2023-11-22 10:11:26 to LastUpdateTime.html.
+2023-11-22 11:30:03,013 Success converting dataframe to sql.
+2023-11-22 11:30:03,014 Process for dataframe to sql took 0.6768333911895752 seconds.
+2023-11-22 11:30:03,014 Success writing Update time : 2023-11-22 11:11:29 to LastUpdateTime.html.
+2023-11-22 12:30:02,850 Success converting dataframe to sql.
+2023-11-22 12:30:02,851 Process for dataframe to sql took 0.6641900539398193 seconds.
+2023-11-22 12:30:02,851 Success writing Update time : 2023-11-22 12:11:30 to LastUpdateTime.html.
+2023-11-22 13:30:02,769 Success converting dataframe to sql.
+2023-11-22 13:30:02,770 Process for dataframe to sql took 0.7046778202056885 seconds.
+2023-11-22 13:30:02,771 Success writing Update time : 2023-11-22 13:11:32 to LastUpdateTime.html.
+2023-11-22 14:30:02,651 Success converting dataframe to sql.
+2023-11-22 14:30:02,652 Process for dataframe to sql took 0.6834051609039307 seconds.
+2023-11-22 14:30:02,653 Success writing Update time : 2023-11-22 14:11:29 to LastUpdateTime.html.
+2023-11-22 15:30:02,497 Success converting dataframe to sql.
+2023-11-22 15:30:02,497 Process for dataframe to sql took 0.6844334602355957 seconds.
+2023-11-22 15:30:02,499 Success writing Update time : 2023-11-22 15:11:27 to LastUpdateTime.html.
+2023-11-22 16:30:03,332 Success converting dataframe to sql.
+2023-11-22 16:30:03,333 Process for dataframe to sql took 0.663855791091919 seconds.
+2023-11-22 16:30:03,334 Success writing Update time : 2023-11-22 16:11:35 to LastUpdateTime.html.
+2023-11-22 17:30:03,047 Success converting dataframe to sql.
+2023-11-22 17:30:03,047 Process for dataframe to sql took 0.5788753032684326 seconds.
+2023-11-22 17:30:03,047 Success writing Update time : 2023-11-22 17:11:32 to LastUpdateTime.html.
+2023-11-22 18:30:02,893 Success converting dataframe to sql.
+2023-11-22 18:30:02,893 Process for dataframe to sql took 0.6773159503936768 seconds.
+2023-11-22 18:30:02,893 Success writing Update time : 2023-11-22 18:11:29 to LastUpdateTime.html.
+2023-11-22 19:30:02,729 Success converting dataframe to sql.
+2023-11-22 19:30:02,729 Process for dataframe to sql took 0.6681737899780273 seconds.
+2023-11-22 19:30:02,730 Success writing Update time : 2023-11-22 19:11:27 to LastUpdateTime.html.
+2023-11-22 20:30:02,664 Success converting dataframe to sql.
+2023-11-22 20:30:02,665 Process for dataframe to sql took 0.7041523456573486 seconds.
+2023-11-22 20:30:02,666 Success writing Update time : 2023-11-22 20:11:41 to LastUpdateTime.html.
+2023-11-23 07:30:03,834 Success converting dataframe to sql.
+2023-11-23 07:30:03,837 Process for dataframe to sql took 0.8270292282104492 seconds.
+2023-11-23 07:30:03,838 Success writing Update time : 2023-11-23 07:11:42 to LastUpdateTime.html.
+2023-11-23 08:30:03,370 Success converting dataframe to sql.
+2023-11-23 08:30:03,371 Process for dataframe to sql took 0.6815214157104492 seconds.
+2023-11-23 08:30:03,372 Success writing Update time : 2023-11-23 08:11:28 to LastUpdateTime.html.
+2023-11-23 09:30:03,160 Success converting dataframe to sql.
+2023-11-23 09:30:03,162 Process for dataframe to sql took 0.6394896507263184 seconds.
+2023-11-23 09:30:03,163 Success writing Update time : 2023-11-23 09:11:29 to LastUpdateTime.html.
+2023-11-23 10:30:03,595 Success converting dataframe to sql.
+2023-11-23 10:30:03,597 Process for dataframe to sql took 0.7137513160705566 seconds.
+2023-11-23 10:30:03,599 Success writing Update time : 2023-11-23 10:11:28 to LastUpdateTime.html.
+2023-11-23 11:30:03,435 Success converting dataframe to sql.
+2023-11-23 11:30:03,436 Process for dataframe to sql took 0.6688380241394043 seconds.
+2023-11-23 11:30:03,440 Success writing Update time : 2023-11-23 11:11:29 to LastUpdateTime.html.
+2023-11-23 12:30:03,348 Success converting dataframe to sql.
+2023-11-23 12:30:03,349 Process for dataframe to sql took 0.685697078704834 seconds.
+2023-11-23 12:30:03,350 Success writing Update time : 2023-11-23 12:11:30 to LastUpdateTime.html.
+2023-11-23 13:30:03,292 Success converting dataframe to sql.
+2023-11-23 13:30:03,292 Process for dataframe to sql took 0.7217535972595215 seconds.
+2023-11-23 13:30:03,294 Success writing Update time : 2023-11-23 13:11:29 to LastUpdateTime.html.
+2023-11-23 14:30:03,172 Success converting dataframe to sql.
+2023-11-23 14:30:03,172 Process for dataframe to sql took 0.69765305519104 seconds.
+2023-11-23 14:30:03,173 Success writing Update time : 2023-11-23 14:11:29 to LastUpdateTime.html.
+2023-11-23 15:30:03,022 Success converting dataframe to sql.
+2023-11-23 15:30:03,022 Process for dataframe to sql took 0.6499550342559814 seconds.
+2023-11-23 15:30:03,023 Success writing Update time : 2023-11-23 15:11:25 to LastUpdateTime.html.
+2023-11-23 16:30:02,885 Success converting dataframe to sql.
+2023-11-23 16:30:02,885 Process for dataframe to sql took 0.6804375648498535 seconds.
+2023-11-23 16:30:02,886 Success writing Update time : 2023-11-23 16:11:32 to LastUpdateTime.html.
+2023-11-23 17:30:02,746 Success converting dataframe to sql.
+2023-11-23 17:30:02,747 Process for dataframe to sql took 0.6678636074066162 seconds.
+2023-11-23 17:30:02,749 Success writing Update time : 2023-11-23 17:11:29 to LastUpdateTime.html.
+2023-11-23 18:30:02,571 Success converting dataframe to sql.
+2023-11-23 18:30:02,572 Process for dataframe to sql took 0.6460771560668945 seconds.
+2023-11-23 18:30:02,573 Success writing Update time : 2023-11-23 18:11:32 to LastUpdateTime.html.
+2023-11-23 19:30:03,502 Success converting dataframe to sql.
+2023-11-23 19:30:03,503 Process for dataframe to sql took 0.7261538505554199 seconds.
+2023-11-23 19:30:03,504 Success writing Update time : 2023-11-23 19:11:28 to LastUpdateTime.html.
+2023-11-23 20:30:03,383 Success converting dataframe to sql.
+2023-11-23 20:30:03,383 Process for dataframe to sql took 0.7055094242095947 seconds.
+2023-11-23 20:30:03,384 Success writing Update time : 2023-11-23 20:11:40 to LastUpdateTime.html.
+2023-11-24 07:30:03,363 Success converting dataframe to sql.
+2023-11-24 07:30:03,364 Process for dataframe to sql took 0.7701671123504639 seconds.
+2023-11-24 07:30:03,365 Success writing Update time : 2023-11-24 07:11:43 to LastUpdateTime.html.
+2023-11-24 08:30:03,256 Success converting dataframe to sql.
+2023-11-24 08:30:03,257 Process for dataframe to sql took 0.7638776302337646 seconds.
+2023-11-24 08:30:03,259 Success writing Update time : 2023-11-24 08:11:28 to LastUpdateTime.html.
+2023-11-24 09:30:03,214 Success converting dataframe to sql.
+2023-11-24 09:30:03,214 Process for dataframe to sql took 0.6995196342468262 seconds.
+2023-11-24 09:30:03,215 Success writing Update time : 2023-11-24 09:11:28 to LastUpdateTime.html.
+2023-11-24 10:30:03,063 Success converting dataframe to sql.
+2023-11-24 10:30:03,063 Process for dataframe to sql took 0.6781842708587646 seconds.
+2023-11-24 10:30:03,064 Success writing Update time : 2023-11-24 10:11:30 to LastUpdateTime.html.
+2023-11-24 11:30:02,907 Success converting dataframe to sql.
+2023-11-24 11:30:02,907 Process for dataframe to sql took 0.6719272136688232 seconds.
+2023-11-24 11:30:02,909 Success writing Update time : 2023-11-24 11:11:29 to LastUpdateTime.html.
+2023-11-24 12:30:02,729 Success converting dataframe to sql.
+2023-11-24 12:30:02,730 Process for dataframe to sql took 0.6681504249572754 seconds.
+2023-11-24 12:30:02,732 Success writing Update time : 2023-11-24 12:11:29 to LastUpdateTime.html.
+2023-11-24 13:30:02,584 Success converting dataframe to sql.
+2023-11-24 13:30:02,584 Process for dataframe to sql took 0.6723482608795166 seconds.
+2023-11-24 13:30:02,586 Success writing Update time : 2023-11-24 13:11:28 to LastUpdateTime.html.
+2023-11-24 14:30:03,220 Success converting dataframe to sql.
+2023-11-24 14:30:03,220 Process for dataframe to sql took 0.44228339195251465 seconds.
+2023-11-24 14:30:03,221 Success writing Update time : 2023-11-24 14:11:29 to LastUpdateTime.html.
+2023-11-24 15:30:03,126 Success converting dataframe to sql.
+2023-11-24 15:30:03,126 Process for dataframe to sql took 0.6899442672729492 seconds.
+2023-11-24 15:30:03,127 Success writing Update time : 2023-11-24 15:11:28 to LastUpdateTime.html.
+2023-11-24 16:30:03,011 Success converting dataframe to sql.
+2023-11-24 16:30:03,011 Process for dataframe to sql took 0.6771938800811768 seconds.
+2023-11-24 16:30:03,012 Success writing Update time : 2023-11-24 16:11:30 to LastUpdateTime.html.
+2023-11-24 17:30:02,850 Success converting dataframe to sql.
+2023-11-24 17:30:02,851 Process for dataframe to sql took 0.6481814384460449 seconds.
+2023-11-24 17:30:02,853 Success writing Update time : 2023-11-24 17:11:24 to LastUpdateTime.html.
+2023-11-24 18:30:02,809 Success converting dataframe to sql.
+2023-11-24 18:30:02,810 Process for dataframe to sql took 0.7127768993377686 seconds.
+2023-11-24 18:30:02,810 Success writing Update time : 2023-11-24 18:11:24 to LastUpdateTime.html.
+2023-11-24 19:30:02,651 Success converting dataframe to sql.
+2023-11-24 19:30:02,651 Process for dataframe to sql took 0.6558995246887207 seconds.
+2023-11-24 19:30:02,652 Success writing Update time : 2023-11-24 19:11:30 to LastUpdateTime.html.
+2023-11-24 20:30:02,323 Success converting dataframe to sql.
+2023-11-24 20:30:02,323 Process for dataframe to sql took 0.47319817543029785 seconds.
+2023-11-24 20:30:02,324 Success writing Update time : 2023-11-24 20:11:36 to LastUpdateTime.html.
+2023-11-25 07:30:03,367 Success converting dataframe to sql.
+2023-11-25 07:30:03,369 Process for dataframe to sql took 0.8064098358154297 seconds.
+2023-11-25 07:30:03,370 Success writing Update time : 2023-11-25 07:11:40 to LastUpdateTime.html.
+2023-11-25 08:30:03,425 Success converting dataframe to sql.
+2023-11-25 08:30:03,425 Process for dataframe to sql took 0.6917016506195068 seconds.
+2023-11-25 08:30:03,426 Success writing Update time : 2023-11-25 08:11:37 to LastUpdateTime.html.
+2023-11-25 09:30:03,249 Success converting dataframe to sql.
+2023-11-25 09:30:03,249 Process for dataframe to sql took 0.6678955554962158 seconds.
+2023-11-25 09:30:03,250 Success writing Update time : 2023-11-25 09:11:39 to LastUpdateTime.html.
+2023-11-25 10:30:03,112 Success converting dataframe to sql.
+2023-11-25 10:30:03,113 Process for dataframe to sql took 0.6737146377563477 seconds.
+2023-11-25 10:30:03,113 Success writing Update time : 2023-11-25 10:11:43 to LastUpdateTime.html.
+2023-11-25 11:30:02,990 Success converting dataframe to sql.
+2023-11-25 11:30:02,991 Process for dataframe to sql took 0.6591911315917969 seconds.
+2023-11-25 11:30:02,991 Success writing Update time : 2023-11-25 11:11:42 to LastUpdateTime.html.
+2023-11-25 12:30:02,904 Success converting dataframe to sql.
+2023-11-25 12:30:02,904 Process for dataframe to sql took 0.7282047271728516 seconds.
+2023-11-25 12:30:02,904 Success writing Update time : 2023-11-25 12:11:38 to LastUpdateTime.html.
+2023-11-25 13:30:02,764 Success converting dataframe to sql.
+2023-11-25 13:30:02,765 Process for dataframe to sql took 0.6876530647277832 seconds.
+2023-11-25 13:30:02,766 Success writing Update time : 2023-11-25 13:11:47 to LastUpdateTime.html.
+2023-11-25 14:30:02,608 Success converting dataframe to sql.
+2023-11-25 14:30:02,609 Process for dataframe to sql took 0.6878707408905029 seconds.
+2023-11-25 14:30:02,609 Success writing Update time : 2023-11-25 14:11:40 to LastUpdateTime.html.
+2023-11-25 15:30:02,453 Success converting dataframe to sql.
+2023-11-25 15:30:02,453 Process for dataframe to sql took 0.6545369625091553 seconds.
+2023-11-25 15:30:02,454 Success writing Update time : 2023-11-25 15:11:42 to LastUpdateTime.html.
+2023-11-25 16:30:03,258 Success converting dataframe to sql.
+2023-11-25 16:30:03,258 Process for dataframe to sql took 0.6446146965026855 seconds.
+2023-11-25 16:30:03,259 Success writing Update time : 2023-11-25 16:11:37 to LastUpdateTime.html.
+2023-11-25 17:30:03,126 Success converting dataframe to sql.
+2023-11-25 17:30:03,127 Process for dataframe to sql took 0.7157399654388428 seconds.
+2023-11-25 17:30:03,128 Success writing Update time : 2023-11-25 17:11:38 to LastUpdateTime.html.
+2023-11-25 18:30:02,990 Success converting dataframe to sql.
+2023-11-25 18:30:02,990 Process for dataframe to sql took 0.6684954166412354 seconds.
+2023-11-25 18:30:02,991 Success writing Update time : 2023-11-25 18:11:39 to LastUpdateTime.html.
+2023-11-25 19:30:02,956 Success converting dataframe to sql.
+2023-11-25 19:30:02,957 Process for dataframe to sql took 0.725858211517334 seconds.
+2023-11-25 19:30:02,958 Success writing Update time : 2023-11-25 19:11:46 to LastUpdateTime.html.
+2023-11-25 20:30:02,820 Success converting dataframe to sql.
+2023-11-25 20:30:02,821 Process for dataframe to sql took 0.639427661895752 seconds.
+2023-11-25 20:30:02,821 Success writing Update time : 2023-11-25 20:11:38 to LastUpdateTime.html.
+2023-11-27 07:30:03,450 Success converting dataframe to sql.
+2023-11-27 07:30:03,451 Process for dataframe to sql took 0.7471787929534912 seconds.
+2023-11-27 07:30:03,452 Success writing Update time : 2023-11-27 07:11:36 to LastUpdateTime.html.
+2023-11-27 08:30:02,850 Success converting dataframe to sql.
+2023-11-27 08:30:02,850 Process for dataframe to sql took 0.7272393703460693 seconds.
+2023-11-27 08:30:02,851 Success writing Update time : 2023-11-27 08:11:29 to LastUpdateTime.html.
+2023-11-27 09:30:02,525 Success converting dataframe to sql.
+2023-11-27 09:30:02,525 Process for dataframe to sql took 0.4494471549987793 seconds.
+2023-11-27 09:30:02,525 Success writing Update time : 2023-11-27 09:11:30 to LastUpdateTime.html.
+2023-11-27 10:30:03,391 Success converting dataframe to sql.
+2023-11-27 10:30:03,392 Process for dataframe to sql took 0.6925704479217529 seconds.
+2023-11-27 10:30:03,393 Success writing Update time : 2023-11-27 10:11:28 to LastUpdateTime.html.
+2023-11-27 11:30:03,241 Success converting dataframe to sql.
+2023-11-27 11:30:03,241 Process for dataframe to sql took 0.684441089630127 seconds.
+2023-11-27 11:30:03,242 Success writing Update time : 2023-11-27 11:11:24 to LastUpdateTime.html.
+2023-11-27 12:30:03,071 Success converting dataframe to sql.
+2023-11-27 12:30:03,071 Process for dataframe to sql took 0.6343250274658203 seconds.
+2023-11-27 12:30:03,071 Success writing Update time : 2023-11-27 12:11:29 to LastUpdateTime.html.
+2023-11-27 13:30:02,970 Success converting dataframe to sql.
+2023-11-27 13:30:02,971 Process for dataframe to sql took 0.6835222244262695 seconds.
+2023-11-27 13:30:02,972 Success writing Update time : 2023-11-27 13:10:59 to LastUpdateTime.html.
+2023-11-27 14:30:02,819 Success converting dataframe to sql.
+2023-11-27 14:30:02,819 Process for dataframe to sql took 0.6805458068847656 seconds.
+2023-11-27 14:30:02,820 Success writing Update time : 2023-11-27 14:11:30 to LastUpdateTime.html.
+2023-11-27 15:30:02,796 Success converting dataframe to sql.
+2023-11-27 15:30:02,797 Process for dataframe to sql took 0.744105339050293 seconds.
+2023-11-27 15:30:02,797 Success writing Update time : 2023-11-27 15:11:33 to LastUpdateTime.html.
+2023-11-27 16:30:02,526 Success converting dataframe to sql.
+2023-11-27 16:30:02,526 Process for dataframe to sql took 0.4653043746948242 seconds.
+2023-11-27 16:30:02,526 Success writing Update time : 2023-11-27 16:11:29 to LastUpdateTime.html.
+2023-11-27 17:30:03,390 Success converting dataframe to sql.
+2023-11-27 17:30:03,390 Process for dataframe to sql took 0.6923947334289551 seconds.
+2023-11-27 17:30:03,391 Success writing Update time : 2023-11-27 17:11:26 to LastUpdateTime.html.
+2023-11-27 18:30:03,153 Success converting dataframe to sql.
+2023-11-27 18:30:03,154 Process for dataframe to sql took 0.6010019779205322 seconds.
+2023-11-27 18:30:03,154 Success writing Update time : 2023-11-27 18:11:29 to LastUpdateTime.html.
+2023-11-27 19:30:03,013 Success converting dataframe to sql.
+2023-11-27 19:30:03,014 Process for dataframe to sql took 0.6640279293060303 seconds.
+2023-11-27 19:30:03,014 Success writing Update time : 2023-11-27 19:11:30 to LastUpdateTime.html.
+2023-11-27 20:30:02,895 Success converting dataframe to sql.
+2023-11-27 20:30:02,895 Process for dataframe to sql took 0.6755235195159912 seconds.
+2023-11-27 20:30:02,896 Success writing Update time : 2023-11-27 20:11:38 to LastUpdateTime.html.
+2023-11-28 07:30:02,929 Success converting dataframe to sql.
+2023-11-28 07:30:02,929 Process for dataframe to sql took 0.7506606578826904 seconds.
+2023-11-28 07:30:02,930 Success writing Update time : 2023-11-28 07:11:42 to LastUpdateTime.html.
+2023-11-28 08:30:02,823 Success converting dataframe to sql.
+2023-11-28 08:30:02,823 Process for dataframe to sql took 0.7523086071014404 seconds.
+2023-11-28 08:30:02,824 Success writing Update time : 2023-11-28 08:11:23 to LastUpdateTime.html.
+2023-11-28 09:30:02,739 Success converting dataframe to sql.
+2023-11-28 09:30:02,740 Process for dataframe to sql took 0.6965274810791016 seconds.
+2023-11-28 09:30:02,741 Success writing Update time : 2023-11-28 09:11:26 to LastUpdateTime.html.
+2023-11-28 10:30:02,679 Success converting dataframe to sql.
+2023-11-28 10:30:02,680 Process for dataframe to sql took 0.735997200012207 seconds.
+2023-11-28 10:30:02,680 Success writing Update time : 2023-11-28 10:11:24 to LastUpdateTime.html.
+2023-11-28 11:30:02,520 Success converting dataframe to sql.
+2023-11-28 11:30:02,520 Process for dataframe to sql took 0.6121399402618408 seconds.
+2023-11-28 11:30:02,521 Success writing Update time : 2023-11-28 11:11:27 to LastUpdateTime.html.
+2023-11-28 12:30:03,343 Success converting dataframe to sql.
+2023-11-28 12:30:03,344 Process for dataframe to sql took 0.6601886749267578 seconds.
+2023-11-28 12:30:03,345 Success writing Update time : 2023-11-28 12:11:29 to LastUpdateTime.html.
+2023-11-28 13:30:03,212 Success converting dataframe to sql.
+2023-11-28 13:30:03,212 Process for dataframe to sql took 0.700645923614502 seconds.
+2023-11-28 13:30:03,213 Success writing Update time : 2023-11-28 13:11:29 to LastUpdateTime.html.
+2023-11-28 14:30:03,023 Success converting dataframe to sql.
+2023-11-28 14:30:03,023 Process for dataframe to sql took 0.6469640731811523 seconds.
+2023-11-28 14:30:03,024 Success writing Update time : 2023-11-28 14:11:28 to LastUpdateTime.html.
+2023-11-28 15:30:02,834 Success converting dataframe to sql.
+2023-11-28 15:30:02,834 Process for dataframe to sql took 0.6378755569458008 seconds.
+2023-11-28 15:30:02,835 Success writing Update time : 2023-11-28 15:11:29 to LastUpdateTime.html.
+2023-11-28 16:30:02,743 Success converting dataframe to sql.
+2023-11-28 16:30:02,744 Process for dataframe to sql took 0.7005817890167236 seconds.
+2023-11-28 16:30:02,744 Success writing Update time : 2023-11-28 16:11:28 to LastUpdateTime.html.
+2023-11-28 17:30:02,424 Success converting dataframe to sql.
+2023-11-28 17:30:02,425 Process for dataframe to sql took 0.4902369976043701 seconds.
+2023-11-28 17:30:02,427 Success writing Update time : 2023-11-28 17:11:27 to LastUpdateTime.html.
+2023-11-28 18:30:03,298 Success converting dataframe to sql.
+2023-11-28 18:30:03,298 Process for dataframe to sql took 0.6952590942382812 seconds.
+2023-11-28 18:30:03,298 Success writing Update time : 2023-11-28 18:11:28 to LastUpdateTime.html.
+2023-11-28 19:30:03,164 Success converting dataframe to sql.
+2023-11-28 19:30:03,164 Process for dataframe to sql took 0.6455016136169434 seconds.
+2023-11-28 19:30:03,165 Success writing Update time : 2023-11-28 19:11:28 to LastUpdateTime.html.
+2023-11-28 20:30:03,079 Success converting dataframe to sql.
+2023-11-28 20:30:03,079 Process for dataframe to sql took 0.7248477935791016 seconds.
+2023-11-28 20:30:03,080 Success writing Update time : 2023-11-28 20:11:41 to LastUpdateTime.html.
+2023-11-29 07:30:03,124 Success converting dataframe to sql.
+2023-11-29 07:30:03,124 Process for dataframe to sql took 0.852238655090332 seconds.
+2023-11-29 07:30:03,126 Success writing Update time : 2023-11-29 07:11:42 to LastUpdateTime.html.
+2023-11-29 08:30:03,363 Success converting dataframe to sql.
+2023-11-29 08:30:03,364 Process for dataframe to sql took 0.6989028453826904 seconds.
+2023-11-29 08:30:03,364 Success writing Update time : 2023-11-29 08:11:25 to LastUpdateTime.html.
+2023-11-29 09:30:03,255 Success converting dataframe to sql.
+2023-11-29 09:30:03,255 Process for dataframe to sql took 0.6678078174591064 seconds.
+2023-11-29 09:30:03,256 Success writing Update time : 2023-11-29 09:11:27 to LastUpdateTime.html.
+2023-11-29 10:30:03,158 Success converting dataframe to sql.
+2023-11-29 10:30:03,158 Process for dataframe to sql took 0.7360484600067139 seconds.
+2023-11-29 10:30:03,159 Success writing Update time : 2023-11-29 10:11:26 to LastUpdateTime.html.
+2023-11-29 11:30:03,029 Success converting dataframe to sql.
+2023-11-29 11:30:03,029 Process for dataframe to sql took 0.7024378776550293 seconds.
+2023-11-29 11:30:03,029 Success writing Update time : 2023-11-29 11:11:23 to LastUpdateTime.html.
+2023-11-29 12:30:02,801 Success converting dataframe to sql.
+2023-11-29 12:30:02,802 Process for dataframe to sql took 0.5375447273254395 seconds.
+2023-11-29 12:30:02,802 Success writing Update time : 2023-11-29 12:11:27 to LastUpdateTime.html.
+2023-11-29 13:30:02,665 Success converting dataframe to sql.
+2023-11-29 13:30:02,666 Process for dataframe to sql took 0.6892962455749512 seconds.
+2023-11-29 13:30:02,669 Success writing Update time : 2023-11-29 13:11:28 to LastUpdateTime.html.
+2023-11-29 14:30:02,513 Success converting dataframe to sql.
+2023-11-29 14:30:02,514 Process for dataframe to sql took 0.6835200786590576 seconds.
+2023-11-29 14:30:02,516 Success writing Update time : 2023-11-29 14:11:28 to LastUpdateTime.html.
+2023-11-29 15:30:03,301 Success converting dataframe to sql.
+2023-11-29 15:30:03,301 Process for dataframe to sql took 0.5371346473693848 seconds.
+2023-11-29 15:30:03,302 Success writing Update time : 2023-11-29 15:11:29 to LastUpdateTime.html.
+2023-11-29 16:30:03,250 Success converting dataframe to sql.
+2023-11-29 16:30:03,251 Process for dataframe to sql took 0.737022876739502 seconds.
+2023-11-29 16:30:03,256 Success writing Update time : 2023-11-29 16:11:28 to LastUpdateTime.html.
+2023-11-29 17:30:03,132 Success converting dataframe to sql.
+2023-11-29 17:30:03,133 Process for dataframe to sql took 0.6780235767364502 seconds.
+2023-11-29 17:30:03,136 Success writing Update time : 2023-11-29 17:11:29 to LastUpdateTime.html.
+2023-11-29 18:30:02,994 Success converting dataframe to sql.
+2023-11-29 18:30:02,995 Process for dataframe to sql took 0.689671516418457 seconds.
+2023-11-29 18:30:02,997 Success writing Update time : 2023-11-29 18:11:25 to LastUpdateTime.html.
+2023-11-29 19:30:02,849 Success converting dataframe to sql.
+2023-11-29 19:30:02,850 Process for dataframe to sql took 0.6829319000244141 seconds.
+2023-11-29 19:30:02,852 Success writing Update time : 2023-11-29 19:11:28 to LastUpdateTime.html.
+2023-11-29 20:30:02,811 Success converting dataframe to sql.
+2023-11-29 20:30:02,811 Process for dataframe to sql took 0.7345688343048096 seconds.
+2023-11-29 20:30:02,813 Success writing Update time : 2023-11-29 20:11:40 to LastUpdateTime.html.
+2023-11-30 07:30:02,722 Success converting dataframe to sql.
+2023-11-30 07:30:02,724 Process for dataframe to sql took 0.7046780586242676 seconds.
+2023-11-30 07:30:02,727 Success writing Update time : 2023-11-30 07:11:41 to LastUpdateTime.html.
+2023-11-30 08:30:02,928 Success converting dataframe to sql.
+2023-11-30 08:30:02,929 Process for dataframe to sql took 0.7276744842529297 seconds.
+2023-11-30 08:30:02,930 Success writing Update time : 2023-11-30 08:11:29 to LastUpdateTime.html.
+2023-11-30 09:30:02,784 Success converting dataframe to sql.
+2023-11-30 09:30:02,784 Process for dataframe to sql took 0.6738545894622803 seconds.
+2023-11-30 09:30:02,785 Success writing Update time : 2023-11-30 09:11:24 to LastUpdateTime.html.
+2023-11-30 10:30:02,665 Success converting dataframe to sql.
+2023-11-30 10:30:02,666 Process for dataframe to sql took 0.672011137008667 seconds.
+2023-11-30 10:30:02,668 Success writing Update time : 2023-11-30 10:11:31 to LastUpdateTime.html.
+2023-11-30 11:30:02,551 Success converting dataframe to sql.
+2023-11-30 11:30:02,551 Process for dataframe to sql took 0.6963987350463867 seconds.
+2023-11-30 11:30:02,552 Success writing Update time : 2023-11-30 11:11:28 to LastUpdateTime.html.
+2023-11-30 12:30:03,479 Success converting dataframe to sql.
+2023-11-30 12:30:03,479 Process for dataframe to sql took 0.6999044418334961 seconds.
+2023-11-30 12:30:03,479 Success writing Update time : 2023-11-30 12:11:26 to LastUpdateTime.html.
+2023-11-30 13:30:03,315 Success converting dataframe to sql.
+2023-11-30 13:30:03,316 Process for dataframe to sql took 0.6810660362243652 seconds.
+2023-11-30 13:30:03,317 Success writing Update time : 2023-11-30 13:11:27 to LastUpdateTime.html.
+2023-11-30 14:30:03,203 Success converting dataframe to sql.
+2023-11-30 14:30:03,204 Process for dataframe to sql took 0.6949412822723389 seconds.
+2023-11-30 14:30:03,206 Success writing Update time : 2023-11-30 14:11:28 to LastUpdateTime.html.
+2023-11-30 15:30:03,137 Success converting dataframe to sql.
+2023-11-30 15:30:03,137 Process for dataframe to sql took 0.7344505786895752 seconds.
+2023-11-30 15:30:03,138 Success writing Update time : 2023-11-30 15:11:23 to LastUpdateTime.html.
+2023-11-30 16:30:03,046 Success converting dataframe to sql.
+2023-11-30 16:30:03,047 Process for dataframe to sql took 0.7007107734680176 seconds.
+2023-11-30 16:30:03,049 Success writing Update time : 2023-11-30 16:11:30 to LastUpdateTime.html.
+2023-11-30 17:30:02,960 Success converting dataframe to sql.
+2023-11-30 17:30:02,960 Process for dataframe to sql took 0.6832144260406494 seconds.
+2023-11-30 17:30:02,962 Success writing Update time : 2023-11-30 17:11:28 to LastUpdateTime.html.
+2023-11-30 18:30:02,876 Success converting dataframe to sql.
+2023-11-30 18:30:02,877 Process for dataframe to sql took 0.7187888622283936 seconds.
+2023-11-30 18:30:02,877 Success writing Update time : 2023-11-30 18:11:28 to LastUpdateTime.html.
+2023-11-30 19:30:02,793 Success converting dataframe to sql.
+2023-11-30 19:30:02,795 Process for dataframe to sql took 0.6917245388031006 seconds.
+2023-11-30 19:30:02,797 Success writing Update time : 2023-11-30 19:11:31 to LastUpdateTime.html.
+2023-11-30 20:30:02,606 Success converting dataframe to sql.
+2023-11-30 20:30:02,606 Process for dataframe to sql took 0.6725866794586182 seconds.
+2023-11-30 20:30:02,607 Success writing Update time : 2023-11-30 20:11:40 to LastUpdateTime.html.
+2023-12-01 07:30:03,615 Success converting dataframe to sql.
+2023-12-01 07:30:03,617 Process for dataframe to sql took 0.7616105079650879 seconds.
+2023-12-01 07:30:03,618 Success writing Update time : 2023-12-01 07:11:42 to LastUpdateTime.html.
+2023-12-01 08:30:03,294 Success converting dataframe to sql.
+2023-12-01 08:30:03,295 Process for dataframe to sql took 0.7303886413574219 seconds.
+2023-12-01 08:30:03,296 Success writing Update time : 2023-12-01 08:11:25 to LastUpdateTime.html.
+2023-12-01 09:30:03,220 Success converting dataframe to sql.
+2023-12-01 09:30:03,221 Process for dataframe to sql took 0.6400859355926514 seconds.
+2023-12-01 09:30:03,222 Success writing Update time : 2023-12-01 09:11:26 to LastUpdateTime.html.
+2023-12-01 10:30:03,125 Success converting dataframe to sql.
+2023-12-01 10:30:03,125 Process for dataframe to sql took 0.6734414100646973 seconds.
+2023-12-01 10:30:03,125 Success writing Update time : 2023-12-01 10:11:29 to LastUpdateTime.html.

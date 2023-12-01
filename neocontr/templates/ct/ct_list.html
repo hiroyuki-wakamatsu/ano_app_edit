@@ -1,0 +1,95 @@
+{% extends 'ct/base.html' %}
+
+{% block navbar-content%}
+    <div>
+        <a class="navbar-brand fw-bold text-dark ms-3 fs-3" style="text-align:left; ">契約一覧</a>
+    </div>
+{% endblock navbar-content %}
+
+{% block content %}
+
+<form method="get" action="{%url 'ct-list' %}">
+        {% csrf_token %}
+        <div class="container-fluid form-group col-12 mt-2 fs-6 ">
+            <div class="d-flex justify-content-between ">
+                <input type="submit" value="Search" class="btn btn-primary">
+                {% include "ct/LastUpdateTime.html" %}
+            </div>
+        </div>
+
+<div class="table-responsive mt-2 fs-6">
+ 
+    <table class="table table-sm table-fixed table-striped table-bordered table-hover text-nowrap sticky_table">
+        <thead align="center">
+            <tr class="table-primary">
+                {% for hn in hnl %}
+                    <th>{{ hn }}</th>
+                {% endfor %}
+                    <th>詳細</th>
+            </tr>
+            <tr class="table-primary">
+                {% for field in form %}    
+                    <th> {{field}}</th>
+                {% endfor %}
+                    <th></th>
+            </tr>  
+        </thead>
+</form>    
+{% if ctlist %}
+        <tbody align="center">
+            {% for ct in ctlist %}
+                <tr>
+                    <td align="left" class="table-success"><strong>{{ct.ExtID|default_if_none:""}}</strong></td>
+                    <td align="right">{{ct.OrdDe|date:"Y-n-j"}}</td>
+                    <td>              {{ct.OrdNo|default_if_none:""}}</td>
+                    <td align="right">{{ct.OrdBrNo|default_if_none:""}}</td>
+                    <td align="left">{{ct.CustPoNo|default_if_none:""}}</td>
+                    <td>              {{ct.OurRep|default_if_none:""}}</td>
+                    <td align="left">{{ct.OrdProdName|default_if_none:""}}</td>
+                    <td align="left">{{ct.OrdRemarks|default_if_none:""}}</td>
+                    <td align="left">{{ct.SIdn|default_if_none:""}}</td>
+                    <td align="left">{{ct.MainUnitSN|default_if_none:""}}</td>
+                    <td align="right">{{ct.MainUnitShipDe|date:"Y-n-j"}}</td>
+                    <td align="right">{{ct.MaintStartDe|date:"Y-n-j"}}</td>
+                    <td align="right">{{ct.MaintEndDe|date:"Y-n-j"}}</td>
+                    <td align="left">{{ct.PoNo|default_if_none:""}}</td>
+                    <td align="right">{{ct.PoBranchNo|default_if_none:""}}</td>
+                    <td align="left">{{ct.PoProdNo|default_if_none:""}}</td>
+                    <td align="right">{{ct.ArrivalDe|date:"Y-n-j"}}</td>
+                    <td align="right">{{ct.ShipDe|date:"Y-n-j"}}</td>
+                    <td align="right">{{ct.DelivDe|date:"Y-n-j"}}</td>
+                    <td align="right">{{ct.SalesMonth|date:"Y-n-j"}}</td>
+                    <td align="left">{{ct.OrdCode|default_if_none:""}}</td>
+                    <td align="left">{{ct.OrdCoName|default_if_none:""}}</td>
+                    <td align="left">{{ct.DelDestCode|default_if_none:""}}</td>
+                    <td align="left">{{ct.DelDestCoName|default_if_none:""}}</td>
+                    <td align="left">{{ct.BillDestCode|default_if_none:""}}</td>
+                    <td align="left">{{ct.BillDestCoName|default_if_none:""}}</td>
+                    <td align="left">{{ct.EUCode|default_if_none:""}}</td>
+                    <td align="left">{{ct.EUCoName|default_if_none:""}}</td>
+                    <td align="left">{{ct.ResellerCode|default_if_none:""}}</td>
+                    <td align="left">{{ct.ResellerCoName|default_if_none:""}}</td>
+                    <td align="left">{{ct.InstCode|default_if_none:""}}</td>
+                    <td align="left">{{ct.InstCoName|default_if_none:""}}</td>
+                    <td align="center">{{ct.InstContName|default_if_none:""}}</td>
+                    <td align="left">{{ct.MaintInfoCode|default_if_none:""}}</td>
+                    <td align="left">{{ct.MaintInfoCoName|default_if_none:""}}</td>
+                    <td align="center">{{ct.MaintInfoContName|default_if_none:""}}</td>
+                    <td align="left">{{ct.EstimateNo|default_if_none:""}}</td>
+                    <td align="left">{{ct.MaintRemarks|default_if_none:""}}</td>
+                    <td><a href="{% url 'ct-detail' pk=ct.ExtID %}"class="btn btn-outline-primary">詳細</a> </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        {% else %}
+            <p><font><strong>該当するデータがありません。</strong></font></p>
+        {% endif %}
+</table>
+</div>
+
+{% if is_paginated %} 
+{% include 'op/pagination.html' %}
+{% endif %}
+
+{% endblock content %}
+

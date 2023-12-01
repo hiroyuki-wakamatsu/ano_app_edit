@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block navbar-content%}
+<div>
+  <a class="navbar-brand fw-bold text-dark ms-3 fs-3" style="text-align:left">その他製品見積システム 複製</a>
+</div>
+{% endblock navbar-content %}
+
+{% load widget_tweaks %}
+{% load custom_filters %}
+
+{% block main %}
+<div class="container mt-5 justify-content-center">
+  <div class="card p-4 mx-auto" style="width:50rem;">
+    <h2 class="text-center mb-4"><i class="fa-solid fa-circle-question" style="color:navy;"></i>&nbsp;以下の見積書No.を複製しますか？</h2>
+
+    <!--
+    <ul class="list-group mb-4">
+      <li class="list-group-item text-center" style="font-size: 1.2rem;">{{ object.quotation_id }}</li>
+      # 他のフィールドも必要に応じて表示 
+    </ul>-->
+    
+    <div class="duplnum mb-3">
+      <h2 class="text-center">【{{ object.quotation_id }}】</h2>
+    </div> 
+    <div class="row text-center justify-content-center">
+      <div class="col-2">
+      <form method="post">
+        {% csrf_token %}
+        <input name="yes" type="submit" class="btn btn-danger" value="はい">
+      </form>
+      </div>
+
+      <div class="col-2">
+      <form method="post" class="text-center">
+       {% csrf_token %}
+        <input name="no" type="submit" class="btn btn-secondary" value="キャンセル">
+      </form>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

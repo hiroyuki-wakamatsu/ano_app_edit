@@ -1,0 +1,103 @@
+2023-10-19 20:33:02,687 File is not Updated : /home/tank/znw_contract_list.csv mtime=2023-10-19 06:50:33 , /home/dev1/proj/znwproject/neocontr/templates/ct/LastUpdateTime.html timestamp=2023-10-19 06:50:33
+2023-10-19 20:33:02,687 Please check file updating : /home/tank/znw_contract_list.csv.
+2023-10-19 21:33:54,187 File is not Updated : /home/tank/znw_contract_list.csv mtime=2023-10-19 06:50:33 , /home/dev1/proj/znwproject/neocontr/templates/ct/LastUpdateTime.html timestamp=2023-10-19 06:50:33
+2023-10-19 21:33:54,187 Please check file updating : /home/tank/znw_contract_list.csv.
+2023-10-20 07:36:48,849 Success converting dataframe to sql.
+2023-10-20 07:36:48,850 Process for dataframe to sql took 97.02258133888245 seconds.
+2023-10-20 07:36:48,852 Success writing Update time : 2023-10-20 06:50:40 to LastUpdateTime.html.
+2023-10-21 07:30:01,963 File is not Updated : /home/tank/znw_contract_list.csv mtime=2023-10-20 06:50:40 , /home/dev1/proj/znwproject/neocontr/templates/ct/LastUpdateTime.html timestamp=2023-10-20 06:50:40
+2023-10-21 07:30:01,964 Please check file updating : /home/tank/znw_contract_list.csv.
+2023-10-23 07:30:02,481 File is not Updated : /home/tank/znw_contract_list.csv mtime=2023-10-20 06:50:40 , /home/dev1/proj/znwproject/neocontr/templates/ct/LastUpdateTime.html timestamp=2023-10-20 06:50:40
+2023-10-23 07:30:02,482 Please check file updating : /home/tank/znw_contract_list.csv.
+2023-10-24 07:31:48,586 Success converting dataframe to sql.
+2023-10-24 07:31:48,588 Process for dataframe to sql took 96.058438539505 seconds.
+2023-10-24 07:31:48,593 Success writing Update time : 2023-10-24 06:50:55 to LastUpdateTime.html.
+2023-10-25 07:30:02,763 File is not Updated : /home/tank/znw_contract_list.csv mtime=2023-10-24 06:50:55 , /home/dev1/proj/znwproject/neocontr/templates/ct/LastUpdateTime.html timestamp=2023-10-24 06:50:55
+2023-10-25 07:30:02,765 Please check file updating : /home/tank/znw_contract_list.csv.
+2023-10-26 07:30:02,607 File is not Updated : /home/tank/znw_contract_list.csv mtime=2023-10-24 06:50:55 , /home/dev1/proj/znwproject/neocontr/templates/ct/LastUpdateTime.html timestamp=2023-10-24 06:50:55
+2023-10-26 07:30:02,609 Please check file updating : /home/tank/znw_contract_list.csv.
+2023-10-27 07:31:51,102 Success converting dataframe to sql.
+2023-10-27 07:31:51,103 Process for dataframe to sql took 98.61934518814087 seconds.
+2023-10-27 07:31:51,105 Success writing Update time : 2023-10-27 06:50:34 to LastUpdateTime.html.
+2023-10-28 07:31:50,812 Success converting dataframe to sql.
+2023-10-28 07:31:50,812 Process for dataframe to sql took 98.10104775428772 seconds.
+2023-10-28 07:31:50,813 Success writing Update time : 2023-10-28 06:50:38 to LastUpdateTime.html.
+2023-10-30 07:31:51,198 Success converting dataframe to sql.
+2023-10-30 07:31:51,202 Process for dataframe to sql took 98.7051751613617 seconds.
+2023-10-30 07:31:51,207 Success writing Update time : 2023-10-30 06:50:45 to LastUpdateTime.html.
+2023-10-31 07:31:52,715 Success converting dataframe to sql.
+2023-10-31 07:31:52,717 Process for dataframe to sql took 99.65709114074707 seconds.
+2023-10-31 07:31:52,723 Success writing Update time : 2023-10-31 06:50:54 to LastUpdateTime.html.
+2023-11-01 07:30:02,353 File is not Updated : /home/tank/znw_contract_list.csv mtime=2023-10-31 06:50:54 , /home/dev1/proj/znwproject/neocontr/templates/ct/LastUpdateTime.html timestamp=2023-10-31 06:50:54
+2023-11-01 07:30:02,353 Please check file updating : /home/tank/znw_contract_list.csv.
+2023-11-02 07:31:49,115 Success converting dataframe to sql.
+2023-11-02 07:31:49,115 Process for dataframe to sql took 97.44766449928284 seconds.
+2023-11-02 07:31:49,115 Success writing Update time : 2023-11-02 06:50:39 to LastUpdateTime.html.
+2023-11-03 07:31:51,605 Success converting dataframe to sql.
+2023-11-03 07:31:51,605 Process for dataframe to sql took 99.34168362617493 seconds.
+2023-11-03 07:31:51,606 Success writing Update time : 2023-11-03 06:50:38 to LastUpdateTime.html.
+2023-11-04 07:31:52,434 Success converting dataframe to sql.
+2023-11-04 07:31:52,434 Process for dataframe to sql took 99.7089991569519 seconds.
+2023-11-04 07:31:52,435 Success writing Update time : 2023-11-04 06:50:45 to LastUpdateTime.html.
+2023-11-06 07:31:50,137 Success converting dataframe to sql.
+2023-11-06 07:31:50,137 Process for dataframe to sql took 97.7327823638916 seconds.
+2023-11-06 07:31:50,138 Success writing Update time : 2023-11-05 06:50:48 to LastUpdateTime.html.
+2023-11-07 07:31:44,951 Success converting dataframe to sql.
+2023-11-07 07:31:44,951 Process for dataframe to sql took 92.42052578926086 seconds.
+2023-11-07 07:31:44,952 Success writing Update time : 2023-11-07 06:50:57 to LastUpdateTime.html.
+2023-11-08 07:31:52,394 Success converting dataframe to sql.
+2023-11-08 07:31:52,395 Process for dataframe to sql took 99.59892153739929 seconds.
+2023-11-08 07:31:52,395 Success writing Update time : 2023-11-08 06:50:54 to LastUpdateTime.html.
+2023-11-09 07:31:50,637 Success converting dataframe to sql.
+2023-11-09 07:31:50,637 Process for dataframe to sql took 98.31825375556946 seconds.
+2023-11-09 07:31:50,638 Success writing Update time : 2023-11-09 06:50:38 to LastUpdateTime.html.
+2023-11-10 07:31:48,245 Success converting dataframe to sql.
+2023-11-10 07:31:48,246 Process for dataframe to sql took 95.80218648910522 seconds.
+2023-11-10 07:31:48,246 Success writing Update time : 2023-11-10 06:50:45 to LastUpdateTime.html.
+2023-11-14 07:30:02,559 File is not Updated : /home/tank/znw_contract_list.csv mtime=2023-11-10 06:50:45 , /home/dev1/proj/znwproject/neocontr/templates/ct/LastUpdateTime.html timestamp=2023-11-10 06:50:45
+2023-11-14 07:30:02,559 Please check file updating : /home/tank/znw_contract_list.csv.
+2023-11-15 07:31:48,283 Success converting dataframe to sql.
+2023-11-15 07:31:48,284 Process for dataframe to sql took 96.69390559196472 seconds.
+2023-11-15 07:31:48,285 Success writing Update time : 2023-11-14 09:19:09 to LastUpdateTime.html.
+2023-11-16 07:31:47,311 Success converting dataframe to sql.
+2023-11-16 07:31:47,312 Process for dataframe to sql took 95.37966656684875 seconds.
+2023-11-16 07:31:47,312 Success writing Update time : 2023-11-16 06:51:09 to LastUpdateTime.html.
+2023-11-17 07:31:49,757 Success converting dataframe to sql.
+2023-11-17 07:31:49,757 Process for dataframe to sql took 97.1706326007843 seconds.
+2023-11-17 07:31:49,758 Success writing Update time : 2023-11-17 06:51:08 to LastUpdateTime.html.
+2023-11-18 07:31:51,270 Success converting dataframe to sql.
+2023-11-18 07:31:51,270 Process for dataframe to sql took 99.27999949455261 seconds.
+2023-11-18 07:31:51,271 Success writing Update time : 2023-11-18 06:51:06 to LastUpdateTime.html.
+2023-11-20 07:31:51,296 Success converting dataframe to sql.
+2023-11-20 07:31:51,296 Process for dataframe to sql took 98.9781424999237 seconds.
+2023-11-20 07:31:51,297 Success writing Update time : 2023-11-20 06:51:06 to LastUpdateTime.html.
+2023-11-21 07:31:47,543 Success converting dataframe to sql.
+2023-11-21 07:31:47,544 Process for dataframe to sql took 95.08934187889099 seconds.
+2023-11-21 07:31:47,544 Success writing Update time : 2023-11-21 06:51:03 to LastUpdateTime.html.
+2023-11-22 07:31:49,578 Success converting dataframe to sql.
+2023-11-22 07:31:49,578 Process for dataframe to sql took 97.40495705604553 seconds.
+2023-11-22 07:31:49,578 Success writing Update time : 2023-11-22 06:51:03 to LastUpdateTime.html.
+2023-11-23 07:31:51,427 Success converting dataframe to sql.
+2023-11-23 07:31:51,427 Process for dataframe to sql took 98.26467061042786 seconds.
+2023-11-23 07:31:51,428 Success writing Update time : 2023-11-23 07:06:00 to LastUpdateTime.html.
+2023-11-24 07:31:51,195 Success converting dataframe to sql.
+2023-11-24 07:31:51,196 Process for dataframe to sql took 98.1907012462616 seconds.
+2023-11-24 07:31:51,198 Success writing Update time : 2023-11-24 06:51:01 to LastUpdateTime.html.
+2023-11-25 07:31:52,375 Success converting dataframe to sql.
+2023-11-25 07:31:52,375 Process for dataframe to sql took 99.4556941986084 seconds.
+2023-11-25 07:31:52,377 Success writing Update time : 2023-11-25 06:51:01 to LastUpdateTime.html.
+2023-11-27 07:31:46,813 Success converting dataframe to sql.
+2023-11-27 07:31:46,813 Process for dataframe to sql took 94.06029343605042 seconds.
+2023-11-27 07:31:46,814 Success writing Update time : 2023-11-27 06:51:05 to LastUpdateTime.html.
+2023-11-28 07:31:51,741 Success converting dataframe to sql.
+2023-11-28 07:31:51,742 Process for dataframe to sql took 99.59445142745972 seconds.
+2023-11-28 07:31:51,744 Success writing Update time : 2023-11-28 06:51:02 to LastUpdateTime.html.
+2023-11-29 07:31:47,320 Success converting dataframe to sql.
+2023-11-29 07:31:47,320 Process for dataframe to sql took 95.07443737983704 seconds.
+2023-11-29 07:31:47,321 Success writing Update time : 2023-11-29 06:50:59 to LastUpdateTime.html.
+2023-11-30 07:31:49,939 Success converting dataframe to sql.
+2023-11-30 07:31:49,940 Process for dataframe to sql took 97.9154577255249 seconds.
+2023-11-30 07:31:49,942 Success writing Update time : 2023-11-30 06:51:13 to LastUpdateTime.html.
+2023-12-01 07:31:53,255 Success converting dataframe to sql.
+2023-12-01 07:31:53,256 Process for dataframe to sql took 100.45036268234253 seconds.
+2023-12-01 07:31:53,259 Success writing Update time : 2023-12-01 06:51:09 to LastUpdateTime.html.

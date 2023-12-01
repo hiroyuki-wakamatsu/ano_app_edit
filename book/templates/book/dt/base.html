@@ -1,0 +1,381 @@
+{% comment %} {% load bootstrap5 %} {% endcomment %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+ <!--  <title>{{title}}</title> -->
+    <meta charset="utf-8">
+    <!-- Bootstrap 5 CSS Javascript-->
+    <!--Favicon-->
+    <link href={% static "book/img/favicon.ico" %} rel="shortcut icon">
+    <!-- Logo -->
+    <link href={% static "book/img/logo.ico" %} rel="shortcut icon">
+{% comment %}     <!--Bootstrap5-->
+    {% bootstrap_css %}
+    {% bootstrap_javascript %} {% endcomment %}
+
+    <!--BootStrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <!--FontAwesome CSS--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Static CSS-->
+    <link href={% static "book/css/dtbookstyle.css"%} rel="stylesheet">
+    <!--Datatables CSS-->
+    <link href="https://cdn.datatables.net/v/bs5/jq-3.7.0/jszip-3.10.1/dt-1.13.6/b-2.4.2/b-html5-2.4.2/b-print-2.4.2/datatables.min.css" rel="stylesheet">
+    {% comment %}
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" /> 
+     
+    <!--Datatable Extension CSS-->
+     {% comment %}
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
+    {% endcomment %}
+  <title>BookLists</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="col-sm">
+            <a class="navbar-brand flex-grow-1" style="text-align:center; color:#fff;margin-left: 25px;">
+              {% block navbar-content %}
+              {% endblock navbar-content %}
+            </a>
+          </div>
+          <!-- Input Search Outside -->
+          <div class="d-flex" style="margin-right: 25px;">
+            <div class="input-group input-group-sm">
+              <input class="form-control" type="search" id="search" placeholder="Live search..." aria-label="Search">
+              <a href="{% url 'book-list' %}" class="btn btn-secondary btn-sm"><i class="fas fa-sync-alt"></i></a>
+            </div>
+          </div>
+        </nav>
+      </header>
+    
+      {% block content %}
+      
+      {% endblock content %}
+    </div> <!--END //wrapper-->
+
+    <footer class="bg-dark text-center text-lg-start" id="footer" sytle="color: #fff;">
+      <div class="text-center p-3" style="background-color: rgba(0,0,0,0.2);"> &copy; {% now "Y" %} Copyright:
+{% comment %}         <a class="text-light" href="#" style="text-decoration: none;">
+          <span style="color: greenyellow;">www.myproject.com</span>
+        </a> {% endcomment %}
+      </div>
+    </footer>
+
+
+       <!-- BootStrap JS -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+       <!--JQuery-->
+       <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+      <!-- <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script> -->
+       <!--Datatables JS-->
+      {% comment %}
+       <!-- <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script> -->
+       <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+      <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>    
+
+  
+        <script src="{% static "DataTables/DataTables-1.13.6/js/jquery.dataTables.min.js" %}"></script> 
+        <script src="{% static "DataTables/DataTables-1.13.6/js/dataTables.bootstrap5.min.js" %}"></script> 
+        <!--Datatables Extention -->
+      {% endcomment %}
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script> 
+       <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/jq-3.7.0/jszip-3.10.1/dt-1.13.6/b-2.4.2/b-html5-2.4.2/b-print-2.4.2/datatables.min.js"></script> 
+
+      
+       
+<!--Datatalbes script-->
+<script>
+  $(document).ready(function() {
+    $('#example thead tr')
+      .clone(true)
+      .addClass('filters')
+      .appendTo('#example thead');
+
+    let table = $('#example').DataTable({
+    
+      //Datatables configurations
+      // i18n configuration
+      language: {
+        url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/ja.json',
+      },
+      fixedColumns: {
+        left: 1,
+      },
+      paging: true, // Paginatio
+      pageLength: 10, // Data per page
+      lengthChage: true, // Show entries per page
+      autoWidth: false,  //Control the auto width on columns
+      searching: true,  // Show search
+      bInfo: true,  // Info on footer
+      bSort: true,  // Filter A to Z and Z to A ( and numbers)
+      scrollX: true,
+      scrollY: 400,
+    
+      // Disable colums with specific filter A to Z, Z to A
+      "columnDefs": [{
+      //  //  "targets" : 5,  // 1 column
+          "targets": [5,6],  // More then 1 column
+          "orderable": false
+        },
+       // {target:0,width:"5%"},
+       //  {target:1,width:"30%"},
+       // {target:[2,5,6],width:"10%"},
+       // {target:3,width:"15%"},
+       // {target:4,width:"20%"},
+
+        ],
+      initComplete: function() {
+        let api = this.api();
+
+        // Set the columns  yo with filtering
+        api
+           .columns([0,1,2,3,4,5,6])
+           .eq(0)
+           .each(function(colIdx) {
+              let cell = $('.filters th').eq(
+                $(api.column(colIdx).header()).index()
+              );
+              let  title = $(cell).text();
+              $(cell).html('<input type="text" placeholder="' + title + '"/>');
+
+              $(
+                'input',
+                $('.filters th').eq($(api.column(colIdx).header()).index())
+              )
+           
+              .off('keyip change')
+              .on('keyup change', function(e) {
+                e.stopPropagation();
+
+                $(this).attr('title', $(this).val());
+                let regexr = '({search})';
+
+                let cursorPosition = this.selectionStart;
+
+                api
+                  .column(colIdx)
+                  .search(
+                    this.value != ''
+                      ? regexr.replace('{search}','(((' + this.value + ')))')
+                      : '',
+                    this.value != '',
+                    this.value == ''
+                  )
+                .draw();
+
+              $(this)
+                .focus()[0]
+                .setSelectionRange(cursorPosition, cursorPosition);
+              });
+            });
+          },
+          //BUTTONS
+          dom: 'lBfrtip',
+          buttons: [
+            {
+              //COPY
+              extend: 'copy',
+              text: '<i class="fas fa-clone"></i>',
+              className: 'btn btn-secondary',
+              titleAttr: 'Copy',
+              // Choose the columns you with to copy
+              exportOptions: {
+                columns:[0,1,2,3]
+              },
+            },
+          
+            {
+              //EXCEL
+              extend: 'excel',
+              text: '<i class="fas fa-file-excel"></i>',
+              className: 'btn btn-secondary',
+              titleAttr: 'Excel',
+              // Choose the columns you with to  export to excel
+              exportOptions: {
+                columns:[0,1,2,3]
+              },
+            },
+          
+            {
+              //PRINT
+              extend: 'print',
+              text: '<i class="fas fa-print"></i>',
+              className: 'btn btn-secondary',
+              titleAttr: 'Print',
+              // Choose the columns you with to export to print
+              exportOptions: {
+                columns:[0,1,2,3]
+              },
+              //Font size( when export to print)
+              customize: function( win ) {
+                $(win.document.body).css('font-size','10pt')
+                $(win.document.body).find('table')
+                  .addClass('compact')
+                  .css('font-size','inherit');
+  
+              }  
+            },
+  
+            {
+              //PDF
+              extend: 'pdfHtml5',
+              text: '<i class="fas fa-file-pdf"></i>',
+              className: 'btn btn-secondary',
+              titleAttr: 'PDF',
+              // Choose the columns you with to export pdf
+              exportOptions: {
+                columns:[0,1,2,3]
+              },
+              // Center the table
+              tableHeader: {
+                alignment : 'center'
+              },
+            // Font size and optimization
+              customize: function( doc ) {
+              //  doc.defaultStyle.font='GenShin';
+                doc.styles.tableHeader.alignment = 'center';
+                doc.styles.tableBodyOdd.alignment = 'center';
+                doc.styles.tableBodyEven.alignment = 'center';
+                doc.styles.tableHeader.fontSize = 7;
+                doc.defaultStyle.fontSize = 6;
+              }
+            },
+          ],  
+
+    });
+    // Enable SearchBox Outside
+    let newSearch = $("#example").DataTable();
+    $('#search').keyup(function() {
+      newSearch.search($(this).val()).draw();
+    });   
+
+  });
+ 
+</script>
+
+  </body>
+</html>
+
+{% comment %} 
+  //Datatables 
+  $(document).ready(function() {
+
+    pdfMake.fonts = {
+      GenShin: {
+          normal: 'GenShinGothic-Normal-Sub.ttf',
+          bold: 'GenShinGothic-Normal-Sub.ttf',
+          italics: 'GenShinGothic-Normal-Sub.ttf',
+          bolditalics: 'GenShinGothic-Normal-Sub.ttf'
+      }
+    }
+
+    $("#example").DataTable({
+        language: {
+          url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/ja.json',
+        },
+        paging: true, // Paginatio
+        pageLength: 10, // Data per page
+        lengthChage: true, // Show entries per page
+        autoWidth: true,  //Control the auto width on columns
+        searching: true,  // Show search
+        bInfo: true,  // Info on footer
+        bSort: true,  // Filter A to Z and Z to A ( and numbers)
+    
+        // Disable colums with specific filter A to Z, Z to A
+        "columnDefs": [{
+        //  "targets" : 5,  // 1 column
+          "targets": [5,6],  // More then 1 column
+          "orderable": false
+
+        }],
+      
+      //BUTTONS
+        dom: 'lBfrtip',
+        buttons: [
+          {
+            //COPY
+            extend: 'copy',
+            text: '<i class="fas fa-clone"></i>',
+            className: 'btn btn-secondary',
+            titleAttr: 'Copy',
+            // Choose the columns you with to copy
+            exportOptions: {
+              columns:[0,1,2,3]
+            },
+          },
+        
+          {
+            //EXCEL
+            extend: 'excel',
+            text: '<i class="fas fa-file-excel"></i>',
+            className: 'btn btn-secondary',
+            titleAttr: 'Excel',
+            // Choose the columns you with to  export to excel
+            exportOptions: {
+              columns:[0,1,2,3]
+            },
+          },
+        
+          {
+            //PRINT
+            extend: 'print',
+            text: '<i class="fas fa-print"></i>',
+            className: 'btn btn-secondary',
+            titleAttr: 'Print',
+            // Choose the columns you with to export to print
+            exportOptions: {
+              columns:[0,1,2,3]
+            },
+            //Font size( when export to print)
+            customize: function( win ) {
+              $(win.document.body).css('font-size','10pt')
+              $(win.document.body).find('table')
+                .addClass('compact')
+                .css('font-size','inherit');
+
+            }  
+          },
+
+          {
+            //PDF
+            extend: 'pdfHtml5',
+            text: '<i class="fas fa-file-pdf"></i>',
+            className: 'btn btn-secondary',
+            titleAttr: 'PDF',
+            // Choose the columns you with to export pdf
+            exportOptions: {
+              columns:[0,1,2,3]
+            },
+            // Center the table
+            tableHeader: {
+              alignment : 'center'
+            },
+          // Font size and optimization
+            customize: function( doc ) {
+              doc.defaultStyle.font='GenShin';
+              doc.styles.tableHeader.alignment = 'center';
+              doc.styles.tableBodyOdd.alignment = 'center';
+              doc.styles.tableBodyEven.alignment = 'center';
+              doc.styles.tableHeader.fontSize = 7;
+              doc.defaultStyle.fontSize = 6;
+            }
+          },
+        ],
+
+    });
+
+  // Enable SearchBox Outside
+    let newSearch = $("#example").DataTable();
+
+    $('#search').keyup(function() {
+      newSearch.search($(this).val()).draw();
+    }); 
+  });
+
+{% endcomment %}

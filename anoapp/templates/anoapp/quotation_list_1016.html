@@ -1,0 +1,143 @@
+{% extends 'base.html' %}
+
+{% block navbar-content%}
+<div>
+  <a class="navbar-brand fw-bold text-dark ms-3 fs-3" style="text-align:left">その他製品見積 一覧画面</a>
+</div>
+{% endblock navbar-content %}
+
+{% load static %}
+{% load humanize %}
+<!-- Djangoの最新バージョンによりpaginator が使用できない。どうする？？？-->
+
+<!--メインブロック-->
+{% block main %}
+
+<!-- 見出し -->
+<div class="container-fluid bg-light">
+  <br>
+
+  <!-- 検索フォーム -->
+  <div class="d-flex">
+    <form method="GET" action="{% url 'quotation_list' %}" class="form-inline">
+
+      <div class="input-group">
+        <input style="width: 400px;" type="text" name="query" placeholder="キーワードを入力">
+        <div class="input-group-append">
+          <button class="btn btn-secondary btn-sm" type="submit">検索開始</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <br>
+
+  <!-- 新規登録ボタン -->
+  <a class=" btn btn-primary my-3 ml-3 btn-sm" href="{% url 'header_main_create' %}" role=" button">新規登録</a>
+
+  <!-- 見積テーブル一覧表示 -->
+  <table class="table table-success table-bordered table-striped table-sm table-hover" style="white-space: nowrap">
+    <thead>
+      <tr>
+        <th style="width: 2%">見積No.</th>
+        <th style="width: 8%">見積月日</th>
+        <th style="width: 5%">作成者</th>
+        <th style="width: 15%">顧客名</th>
+        <th style="width: 20%">見積件名</th>
+        <th style="width: 8%">見積有効期間</th>
+        <th style="width: 7%; text-align: right;">見積金額</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!--
+      メモ：
+        ・"object_list"は予約文字。views.pyから渡されるDBオブジェクトのリスト
+        ・views.pyでcontext_object_name = "header_list"で設定した場合、その値がオブジェクトのリスト
+        　になる
+    　-->
+      {% for heaerline in header_list %}
+      <tr class="table table-sm">
+        <!--見積No.-->
+        <!--見積No.カラムをドロップダウンメニューで使用する-->
+        <td>
+          <div class="dropdown d-flex">
+            <button class="btn btn-secondary bg-secondary border-secondary dropdown-toggle btn-sm flex-fill"
+              type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              {{ heaerline.quotation_id }}
+            </button>
+            <ul class="dropdown-menu bg-white" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a class="dropdown-item" href="/anoapp/update/{{ heaerline.id }}">編集</a>
+             </li>
+              <li>
+                <a class="dropdown-item" href="/anoapp/duplicate/{{ heaerline.id }}">複製</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/anoapp/delete/{{ heaerline.id }}">削除</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/anoapp/pdf_preview/{{ heaerline.id }}">PDFプレビュー</a>
+              </li>
+            </ul>
+          </div>
+        </td>
+        <!--見積月日-->
+        <td>{{ heaerline.quotation_date }}</td>
+        <!--作成者-->
+        <td>{{ heaerline.create_user }}</td>
+        <!--顧客名-->
+        <td>{{ heaerline.customer_id }}</td>
+        <!--見積件名-->
+        <td>{{ heaerline.quotation_subject }}</td>
+        <!--見積有効期間-->
+        <td>{{ heaerline.validity_period }}</td>
+        <!--見積金額-->
+        <td align="right">{{ heaerline.quotation_price|intcomma }}円</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+
+<!--
+  ページング機能概要：
+  views.pyのQuotationListViewで定義されたpaginate_byは1ページあたりの件数
+  header_listはListViewのデフォルトコンテキスト変数名
+  モデルAnotherQuotationHeaderのオブジェクトが10件ずつページングされて渡される
+-->
+
+{% for header in header_list %}
+{{ header.name }}
+{% endfor %}
+
+<!-- ページネーションのコンテナ -->
+<nav aria-label="Page navigation">
+
+  <!-- ページネーションのリスト -->
+  <ul class="pagination pagination-sm justify-content-center">
+
+    {% if page_obj.has_previous %}
+    <!-- 前のページへのリンク -->
+    <li class="page-item">
+      <a class="page-link" href="?page={{ page_obj.previous_page_number }}">Prev</a>
+    </li>
+    {% endif %}
+
+    {% for page in page_obj.paginator.page_range %}
+    <!-- ページ番号のリンク -->
+    <li class="page-item {% if page_obj.number == page %}active{% endif %}">
+      <a class="page-link" href="?page={{ page }}">{{ page }}</a>
+    </li>
+    {% endfor %}
+
+    {% if page_obj.has_next %}
+    <!-- 次のページへのリンク -->
+    <li class="page-item">
+      <a class="page-link" href="?page={{ page_obj.next_page_number }}">Next</a>
+    </li>
+    {% endif %}
+
+  </ul>
+</nav>
+
+{% endblock %}

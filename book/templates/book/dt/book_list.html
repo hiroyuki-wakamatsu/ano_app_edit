@@ -1,0 +1,44 @@
+{% extends 'book/dt/base.html' %}
+
+{% block content %}
+
+<!-- Navbar content-->
+{% block navbar-content%}
+<i style="color: yellowgreen;" class="fa-solid fa-list"></i>&nbsp;&nbsp; Booklists
+{% endblock navbar-content %}
+<!-- Page content -->
+<div class="container">
+    <br><br><br>
+    <table class="table table-bordered" id="example" style="text-align: center;">
+        <thead class="table-success">
+            <tr >
+                <th style="width: 5%;">No</th>
+                <th style="width: 30%;">Title</th>
+                <th style="width: 10%;">Category</th>
+                <th style="width: 20%;">Author</th>
+                <th style="width: 15%;">Published_date</th>
+                <th style="width: 10%;">Price</th>
+                <th style="width: 10%;">Stock</th>
+            </tr>
+        </thead>
+        <!--Data From Backend-->
+        {% for book in dtbooks %}
+        <tr>
+            <td>{{ book.No }}</td>
+            <td>{{ book.title }}</td>
+            <td>{{ book.category }}</td>
+            <td>{{ book.author }}</td>
+            <td>{{ book.published_date |date:"Y-n-j"}}</td>
+            <td>{{ book.price }}</td>
+            <td>{{ book.stock }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+</div><!--End //Container-->
+<br><br><br><br>
+
+
+
+{% endblock content %}
+

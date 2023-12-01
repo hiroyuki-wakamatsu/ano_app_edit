@@ -1,0 +1,34 @@
+{% extends 'book/json/base.html' %}
+
+{% block content %}
+
+<!-- Navbar content-->
+{% block navbar-content%}
+<i style="color: yellowgreen;" class="fa-solid fa-list"></i>&nbsp;&nbsp; Booklists
+{% endblock navbar-content %}
+<!-- Page content -->
+<div class="container">
+    <br><br><br>
+    <table class="table table-bordered" id="example" style="text-align: center;">
+        <thead class="table-success">
+            <tr >
+                <th style="width: 5%;">No</th>
+                <th style="width: 30%;">Title</th>
+                <th style="width: 10%;">Category</th>
+                <th style="width: 20%;">Author</th>
+                <th style="width: 15%;">Published_date</th>
+                <th style="width: 10%;">Price</th>
+                <th style="width: 10%;">Stock</th>
+            </tr>
+        </thead>
+        <!--Json (getting data)-->
+
+    </table>
+    
+</div><!--End //Container-->
+<br><br><br><br>
+
+
+
+{% endblock content %}
+

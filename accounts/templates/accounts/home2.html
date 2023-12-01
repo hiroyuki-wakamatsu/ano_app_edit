@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ホーム画面</title>
+  </head>
+  <body>
+    <h1>HOME画面</h1>
+    {% if user.is_authenticated %}
+    <p>{{ user.get_username }}でログイン中</p>
+    <a href="/accounts/logout">ログアウトする</a>
+    {% else %}
+    <p>ログインしていません</p>
+    {% endif %}
+  </body>
+</html>

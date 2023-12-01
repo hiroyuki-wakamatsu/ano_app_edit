@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* header {
+    height:5rem;
+    background-color:#ffffff;
+    position:relative;
+} */
+
+/* .znwlogo {
+    position: absolute;
+    margin-left: 1rem; 
+    margin:auto;
+    top:50%;
+    transform: translate(0,-50%); 
+} */
+
+/*青グラデ背景
+.loginbox {
+    position:relative;
+    height:30rem;
+    background: linear-gradient(to bottom, #00bfff, #ffffff); /*上から下にグラデ
+}*/
+
+/*ZNW製品見積システム*/
+
+.loginbox {
+    display: flex;
+    justify-content: center;
+}
+
+/* .loginbox h3 { 
+    position: absolute;
+    top:2rem;
+    left:15rem;
+    color:#ffffff;
+} */
+
+.loginform {
+    position:absolute;
+    border-radius: 8px; /*角丸く*/
+    width: 40rem;
+    height:20rem;
+    padding:1rem;
+    margin: 0 auto;
+    box-shadow: 0 0 5px gray;
+}
+
+.loginform input[type="text"],
+.loginform input[type="password"] {
+    width:50%;
+    height:3rem;
+}
+
+
+.form-group button {
+    width:8rem;
+    height:50px;
+    align-items: center; 
+    justify-content: center;
+}

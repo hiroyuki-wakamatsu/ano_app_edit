@@ -1,0 +1,396 @@
+{% extends 'base.html' %}
+
+{% block navbar-content%}
+<div>
+  <a class="navbar-brand fw-bold text-dark ms-3 fs-3" style="text-align:left">その他製品見積 新規作成</a>
+</div>
+{% endblock navbar-content %}
+
+{% load widget_tweaks %}
+{% load custom_filters %}
+{% load static %}
+{% load humanize %}
+
+
+<!--メインブロック-->
+{% block main %}
+
+<div class="container-fluid bg-light">
+  <br>
+
+  {% comment %}
+  <!--PDFプレビューボタン-->
+  <form action="{% url 'pdf_preview' object.pk %}" method="POST" style="text-align: left;">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-primary btn-sm">
+      PDFプレビュー
+    </button>
+  </form>
+  {% endcomment %}
+
+  <!-- バリデーションエラーの表示 -->
+  <!-- 上手くいかない。将来的にはどのフォームのどのフィールドでエラーかを表示したい -->
+
+  {% if form.errors %}
+  <div class="alert alert-danger" role="alert">
+    ヘッダーフォームで入力エラーが発生しました。入力値を見直して下さい。
+  </div>
+  {% endif %}
+
+  <!--
+  {% if main_formset.errors %}
+  <div class="alert alert-danger" role="alert">
+    （工事中）製品フォームで入力エラーが発生しました。XXXフィールド入力値を見直して下さい。
+  </div>
+  {% endif %}
+  {% if notes_formset.errors %}
+  <div class="alert alert-danger" role="alert">
+    （工事中）注釈フォームで入力エラーが発生しました。XXXフィールド入力値を見直して下さい。
+  </div>
+  {% endif %}
+  {% if confirm_formset.errors %}
+  <div class="alert alert-danger" role="alert">
+    （工事中）社内確認欄フォームで入力エラーが発生しました。XXXフィールド入力値を見直して下さい。
+  </div>
+  {% endif %}
+  -->
+
+  <form method="post">
+    {% csrf_token %}
+
+    <!--■ヘッダー情報------------------------------------------------------------------------------->
+    <h5>■ヘッダー情報</h5>
+    <!--ヘッダー部分のフォーム-->
+    <!--for文で回したいがif文内が改行されて上手くいかない-->
+    <div class="row bg-light">
+      <div class="col-md-6">
+        <div class="mb-2 row">
+          <label class="col-form-label col-md-3">{{ form.customer_id.label }}</label>
+
+          <div class="col-md-8">
+            {{ form.customer_id|add_class:"form-control" }}
+
+            {% if form.customer_id.errors %}
+            <span class="text-danger">{{ form.customer_id.errors }}</span>
+            {% endif %}
+
+          </div>
+        </div>
+        <div class="mb-2 row">
+          <label class="col-form-label col-md-3">{{ form.quotation_subject.label }}</label>
+          <div class="col-md-8">{{ form.quotation_subject|add_class:"form-control" }}</div>
+        </div>
+        <div class="mb-2 row">
+          <label class="col-form-label col-md-3">{{ form.deadline.label }}</label>
+          <div class="col-md-8">{{ form.deadline|add_class:"form-control" }}</div>
+        </div>
+        <div class="mb-2 row">
+          <label class="col-form-label col-md-3">{{ form.delivery_place.label }}</label>
+          <div class="col-md-8">{{ form.delivery_place|add_class:"form-control" }}</div>
+        </div>
+        <div class="mb-2 row">
+          <label class="col-form-label col-md-3">{{ form.payment_terms.label }}</label>
+          <div class="col-md-8">{{ form.payment_terms|add_class:"form-control" }}</div>
+        </div>
+        <div class="mb-2 row">
+          <label class="col-form-label col-md-3">{{ form.validity_period.label }}</label>
+          <div class="col-md-8">{{ form.validity_period|add_class:"form-control" }}</div>
+        </div>
+        <div class="mb-2 row">
+          <label class="col-form-label col-md-3">{{ form.quotation_price.label }}</label>
+          <div class="col-md-8">
+            {{ form.quotation_price|add_class:"form-control"|attr:"readonly:true" }}
+          </div>
+
+        </div>
+        {{ form.other_field.as_hidden }}
+        <!-- 他のフィールドも同様にas_hiddenで非表示にしてください -->
+      </div>
+      <!--バリデーションチェック-->
+      <div class="col-md-6">
+        <!--見積番号-->
+        <div class="mb-2 row">
+          <label class="col-form-label col-md-3 text-md-end">{{ form.quotation_id.label }}</label>
+          <div class="col-md-3">
+            <input type="text" class="form-control" name="quotation_id" value="{{ form.quotation_id.value }}">
+            {% if form.quotation_id.errors %}
+            <span class="text-danger">{{ form.quotation_id.errors }}</span>
+            {% endif %}
+          </div>
+        </div>
+        <!--作成者-->
+        <div class="mb-2 row">
+          <label class="col-form-label col-md-3 text-md-end">作成者</label>
+          <div class="col-md-3">
+            <input type="text" class="form-control" name="create_user" value="{{ user.get_username }}">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+
+
+    <!--■製品情報------------------------------------------------------------------------------->
+    <h5>■製品情報</h5>
+
+    <!--ご提供価格の合計値が表示されるフィールド-----ここから-------------------------------------------------------------------------->
+    <container style="display: flex; justify-content: flex-end;">
+      <div>
+        <p style="display: inline-block; width: 200px; text-align: right; padding-right: 10px; font-weight: bold;">
+          合計
+        </p>
+
+        <input
+          style="display: inline-block; width: 150px; text-align: right; padding: 4px; border: 1px solid #ccc; border-radius: 4px;font-weight: bold;"
+          type="text" id="totalOfferPrice" disabled>
+      </div>
+    </container>
+    <!--ご提供価格の合計値が表示されるフィールド------ここまで------------------------------------------------------------------------->
+
+    <div class="js-inline-admin-formset inline-group" id="{{ main_formset.prefix }}-group" data-inline-type="tabular"
+      data-inline-formset='{"options": {"deleteText": "削除", "prefix": "{{ main_formset.prefix }}","addText": "(製品行追加 +)"}, "name": "#{{ main_formset.prefix }}"}'>
+      <div class="tabular inline-related table-responsive">
+        {{ main_formset.management_form }}
+
+        <!-- 製品情報テーブル -->
+        <table id="confirmTable" class="table table-secondary table-sm">
+
+          <!-- 1_製品情報テーブルヘッダー定義 -->
+          <!-- カラム：項、品名、型番、数量、標準価格、仕切率、提供単価、提供価格、見積合計、注釈番号、単体原価、原価掛台数、粗利、利益率 -->
+          <thead>
+            <tr>
+              {% for field in main_formset.empty_form.visible_fields %}
+              <th nowrap{% if field.field.required %} class="required" {% endif %}>{{ field.label|capfirst }}</th>
+              {% endfor %}
+            </tr>
+          </thead>
+
+          <!-- 2_製品情報テーブルボディー定義 -->
+          <tbody>
+            {% for field in main_formset %}
+
+            <!-- 製品フォームセットの各フォームをループ -->
+            <tr class="form-row" id="{{ main_formset.prefix }}-{{ forloop.counter0 }}">
+              {% for f in field.visible_fields %}
+              <td class="field-{{ f.name }}">
+
+                <!-- 非表示入力フィールドの出力 -->
+                {% if forloop.first %}
+                {% for hidden in field.hidden_fields %}
+                {{ hidden }}
+                {% endfor %}
+                {% endif %}
+
+                <!-- 読み取り専用なら値を表示 -->
+                {% if f.is_readonly %}
+                <p>{{ f.contents }}</p>
+
+                <!-- そうでないなら入力欄とエラーを表示 -->
+                {% else %}
+                {{ f }}
+                {{ f.errors }}
+                {% endif %}
+              </td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+
+            <!-- 3_新規追加行(製品情報) -->
+            <!--追加ボタン押下時に表示される空行のテンプレート設定-->
+            <!--cssでempty-formを非表示に設定している（another_app.css）-->
+            <tr class="form-row empty-form" id="{{ main_formset.prefix }}-empty">
+              {% for field in main_formset.empty_form.visible_fields %}
+              <td nowrap class="field-{{ field.name }}">
+                {{ field }}
+              </td>
+              {% endfor %}
+            </tr>
+          </tbody>
+        </table>
+      </div><!-- /.tabular -->
+    </div><!-- /.js-inline-admin-formset -->
+    <button id="calculate-button" type="button" class="btn btn-secondary btn-sm" data-toggle="tooltip"
+      title="製品情報を計算します。数量、標準価格、仕切率、原価/台フィールドが全て入力されている場合計算されます">
+      製品情報一括計算
+    </button>
+    <hr>
+
+    <!--■注釈情報------------------------------------------------------------------------------->
+    <h5>■注釈情報</h5>
+    <div class="js-inline-admin-formset inline-group" id="{{ notes_formset.prefix }}-group" data-inline-type="tabular"
+      data-inline-formset='{"options": {"deleteText": "削除", "prefix": "{{ notes_formset.prefix }}","addText": "(注釈行追加 +)"}, "name": "#{{ notes_formset.prefix }}"}'>
+      <div class="tabular inline-related">
+        {{ notes_formset.management_form }}
+
+        <!-- 注釈情報テーブル -->
+        <table id="confirmTable" class="table table-secondary table-sm">
+
+          <!-- 1_注釈情報テーブルヘッダー定義 -->
+          <!-- カラム：注釈NO、注釈内容 -->
+
+          <thead>
+            <tr>
+              {% for field in notes_formset.empty_form.visible_fields %}
+              <th nowrap{% if field.field.required %} class="required" {% endif %}>{{ field.label|capfirst }}
+              </th>
+              {% endfor %}
+            </tr>
+          </thead>
+
+          <!-- 2_注釈情報テーブルボディー定義 -->
+          <tbody>
+            {% for field in notes_formset %}
+
+            <!-- 注釈情報フォームセットの各フォームをループ -->
+            <tr class="form-row" id="{{ notes_formset.prefix }}-{{ forloop.counter0 }}">
+              {% for f in field.visible_fields %}
+              <td class="field-{{ f.name }}">
+
+                <!-- 非表示入力フィールドの出力 -->
+                {% if forloop.first %}
+                {% for hidden in field.hidden_fields %}
+                {{ hidden }}
+                {% endfor %}
+                {% endif %}
+
+                <!-- 読み取り専用なら値を表示 -->
+                {% if f.is_readonly %}
+                <p>{{ f.contents }}</p>
+
+                <!-- そうでないなら入力欄とエラーを表示 -->
+                {% else %}
+                {{ f }}
+                {{ f.errors }}
+                {% endif %}
+              </td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+
+            <!-- 3_新規追加行(注釈情報) -->
+            <!--追加ボタン押下時に表示される空行のテンプレート設定-->
+            <!--cssでempty-formを非表示に設定している（another_app.css）-->
+            <tr class="form-row empty-form" id="{{ notes_formset.prefix }}-empty">
+              {% for field in notes_formset.empty_form.visible_fields %}
+              <td nowrap class="field-{{ field.name }}">
+                {{ field }}
+              </td>
+              {% endfor %}
+            </tr>
+          </tbody>
+        </table>
+      </div><!-- /.tabular -->
+    </div><!-- /.js-inline-admin-formset -->
+    <hr>
+
+
+    <!--■社内確認情報------------------------------------------------------------------------------->
+    <h5>■社内確認情報</h5>
+    <div class="js-inline-admin-formset inline-group" id="{{ confirm_formset.prefix }}-group" data-inline-type="tabular"
+      data-inline-formset='{"options": {"deleteText": "削除", "prefix": "{{ confirm_formset.prefix }}","addText": "(社内確認情報行追加 +)"}, "name": "#{{ confirm_formset.prefix }}"}'>
+      <div class="tabular inline-related">
+        {{ confirm_formset.management_form }}
+
+        <!-- 0_社内確認情報テーブル定義 -->
+        <table id="confirmTable" class="table table-secondary table-sm">
+
+          <!-- 1_社内確認情報テーブル ヘッダー部分 -->
+          <!-- カラム：社内確認欄NO、社内確認欄内容 -->
+
+          <thead>
+            <tr>
+              {% for field in confirm_formset.empty_form.visible_fields %}
+              <th nowrap{% if field.field.required %} class="required" {% endif %}>{{ field.label|capfirst }}
+              </th>
+              {% endfor %}
+            </tr>
+          </thead>
+
+          <!-- 2_社内確認情報テーブル データ部分 -->
+          <tbody>
+            {% for field in confirm_formset %}
+
+            <!-- 社内確認情報フォームセットの各フォームをループ -->
+            <tr class="form-row" id="{{ confirm_formset.prefix }}-{{ forloop.counter0 }}">
+              {% for f in field.visible_fields %}
+              <td class="field-{{ f.name }}">
+
+                <!-- 非表示入力フィールドの出力 -->
+                {% if forloop.first %}
+                {% for hidden in field.hidden_fields %}
+                {{ hidden }}
+                {% endfor %}
+                {% endif %}
+
+                <!-- 読み取り専用なら値を表示 -->
+                {% if f.is_readonly %}
+                <p>{{ f.contents }}</p>
+
+                <!-- そうでないなら入力欄とエラーを表示 -->
+                {% else %}
+                {{ f }}
+                {{ f.errors }}
+                {% endif %}
+              </td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+
+            <!-- 3_新規追加行(社内確認情報) -->
+            <!--追加ボタン押下時に表示される空行のテンプレート設定-->
+            <!--cssでempty-formを非表示に設定している（another_app.css）-->
+            <tr class="form-row empty-form" id="{{ confirm_formset.prefix }}-empty">
+              {% for field in confirm_formset.empty_form.visible_fields %}
+              <td nowrap class="field-{{ field.name }}">
+                {{ field }}
+              </td>
+              {% endfor %}
+            </tr>
+          </tbody>
+        </table>
+      </div><!-- /.tabular -->
+    </div><!-- /.js-inline-admin-formset -->
+</div><!-- /container END -->
+
+<!--各種ボタン-->
+<div style="text-align: right;">
+  <!--戻るボタン-->
+  <a href="{% url 'list-page' %}" class="btn btn-primary btn-lg">戻る</a>
+  <!--保存ボタン-->
+  <button type="submit" class="btn btn-success btn-lg">保存</button>
+</div>
+</form>
+
+<script>
+  // 数値を保持する変数
+  let offerUnitPriceVal;
+
+  const form = document.querySelector('form');
+
+  form.addEventListener('submit', () => {
+    // ここで数値変換処理
+    offerUnitPriceVal = Number(offerUnitPriceClac.replace(/,/g, ''));
+  });
+</script>
+
+<!-- 行追加リンク クリック時にjs実行-->
+<!-- jsでimportを使用するにはtype=" module"が必要-->
+<!-- mainLink、notesLink、confirmLinkが各々クリックされたら、それに対応した表へ空行を追加する -->
+
+
+<script src="{% static 'anoapp/js/calculations.js' %}"></script>
+<!-- フィールド値変更時自動計算スクリプト -->
+<!--
+<script src="{% static 'js/calculations.js' %}"></script>
+-->
+<!--  製品情報再計算ボタンスクリプト -->
+<script src="{% static 'anoapp/js/calculationsButton.js' %}"></script>
+
+
+{% endblock %}
+
+<!--scripts-->
+{% block scripts %}
+
+{% endblock %}
