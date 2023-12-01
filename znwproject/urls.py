@@ -28,8 +28,8 @@ urlpatterns = [
     # for testing joonhak
     path("sfa/", include("opportunity.urls")),  # 登録案件一覧
     path("contr/", include("neocontr.urls")),  # 契約一覧
-    # Minato 
-    path("accounts/", include("accounts.urls")),  
-    # 管理画面
+    # Minato
+    path("accounts/", include("accounts.urls")),
+    # 管理画面_
     path("admin/", admin.site.urls),
 ]
